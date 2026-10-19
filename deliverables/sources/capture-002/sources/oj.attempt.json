@@ -1,0 +1,40 @@
+{
+  "id": "source-oj",
+  "source_name": "OJ",
+  "summary": "Live attempt for OJ; document suitability remains unverified.",
+  "evidence_ids": [
+    "e-interview"
+  ],
+  "source_role": "binding-regulation",
+  "authority": "unknown",
+  "locator": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+  "retrieved_at": "2026-10-19T01:08:50.768650Z",
+  "retrieval_status": "invalid",
+  "content_type": "text/html; charset=UTF-8",
+  "version_metadata": {
+    "etag": null,
+    "last_modified": null,
+    "document_version": null,
+    "effective_date": null,
+    "note": "HTTP validators are not verified document versions"
+  },
+  "content_hash": null,
+  "local_reference": null,
+  "identity_status": "unverified",
+  "review_date_suitability": "unverified",
+  "failure": {
+    "type": "UnsuitableResponse",
+    "reason": "HTTP response is not 200",
+    "next_owner": "Source access operator",
+    "recovery": "Obtain intended document through disclosed route"
+  },
+  "used_for_conclusions": false,
+  "http_status": 202,
+  "final_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+  "observed_identity": {
+    "title": null,
+    "returned_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+    "expected_source": "OJ"
+  },
+  "completed_at": "2026-10-19T01:08:50.875850Z"
+}

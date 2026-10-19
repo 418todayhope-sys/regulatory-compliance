@@ -1,0 +1,37 @@
+{
+  "id": "source-evidence",
+  "source_name": "EVIDENCE",
+  "summary": "Live attempt for EVIDENCE; document suitability remains unverified.",
+  "evidence_ids": [
+    "e-interview"
+  ],
+  "source_role": "operational-record",
+  "authority": "unknown",
+  "locator": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+  "retrieved_at": "2026-10-19T01:07:18.353916Z",
+  "retrieval_status": "unverified",
+  "content_type": "text/html; charset=utf-8",
+  "version_metadata": {
+    "etag": null,
+    "last_modified": null,
+    "document_version": null,
+    "effective_date": null,
+    "note": "HTTP validators are not verified document versions"
+  },
+  "content_hash": "sha256:04b468859215ff674f66667dd8a034838555cc985d528b2c8577eef41a21150d",
+  "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-001/sources/evidence.response",
+  "identity_status": "unverified",
+  "review_date_suitability": "unverified",
+  "failure": null,
+  "used_for_conclusions": false,
+  "http_status": 200,
+  "final_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk/edit",
+  "observed_identity": {
+    "title": "Project B \u2014 Incident and Evidence Register - Google SheetsLoading...",
+    "returned_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk/edit",
+    "expected_source": "EVIDENCE"
+  },
+  "capture_locator": "response bytes 0..233703",
+  "byte_count": 233704,
+  "completed_at": "2026-10-19T01:07:19.280298Z"
+}

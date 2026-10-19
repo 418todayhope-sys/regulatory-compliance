@@ -1,0 +1,246 @@
+test_cli_creates_only_stage06_and_refuses_overwrite (test_actions.ActionsTests.test_cli_creates_only_stage06_and_refuses_overwrite) ... ok
+test_every_approval_pending_unsent_and_without_feedback (test_actions.ActionsTests.test_every_approval_pending_unsent_and_without_feedback) ... ok
+test_existing_calendar_identity_owner_date_requirements_and_version_preserved (test_actions.ActionsTests.test_existing_calendar_identity_owner_date_requirements_and_version_preserved) ... ok
+test_invalid_date_and_changed_calendar_identity_fail_closed (test_actions.ActionsTests.test_invalid_date_and_changed_calendar_identity_fail_closed) ... ok
+test_legal_operations_and_factual_authorities_are_distinct (test_actions.ActionsTests.test_legal_operations_and_factual_authorities_are_distinct) ... ok
+test_material_findings_have_targeted_actions_and_rule_citations (test_actions.ActionsTests.test_material_findings_have_targeted_actions_and_rule_citations) ... ok
+test_modified_findings_and_bad_predecessor_are_rejected (test_actions.ActionsTests.test_modified_findings_and_bad_predecessor_are_rejected) ... ok
+test_nine_additional_actions_stay_undated_and_transition_is_not_a_deadline (test_actions.ActionsTests.test_nine_additional_actions_stay_undated_and_transition_is_not_a_deadline) ... ok
+test_request_subject_run_sources_and_review_basis_are_exact (test_actions.ActionsTests.test_request_subject_run_sources_and_review_basis_are_exact) ... ok
+test_schema_snapshot_linkage_all_references_and_inherited_unresolved (test_actions.ActionsTests.test_schema_snapshot_linkage_all_references_and_inherited_unresolved) ... ok
+test_single_global_act008_is_not_fanned_out (test_actions.ActionsTests.test_single_global_act008_is_not_fanned_out) ... ok
+test_source_status_cannot_approve_and_blank_date_stays_blank (test_actions.ActionsTests.test_source_status_cannot_approve_and_blank_date_stays_blank) ... ok
+test_specific_conflicts_release_and_provenance_work_preserved (test_actions.ActionsTests.test_specific_conflicts_release_and_provenance_work_preserved) ... ok
+test_duplicate_record_failure_retains_diagnostics_and_fresh_retry_links (test_adaptability.ChangedInputWorkflowTests.test_duplicate_record_failure_retains_diagnostics_and_fresh_retry_links) ... ok
+test_eleventh_conflict_changed_facts_recompute_through_stage07_and_preserve_history (test_adaptability.ChangedInputWorkflowTests.test_eleventh_conflict_changed_facts_recompute_through_stage07_and_preserve_history) ... ok
+test_ambiguous_dates_and_missing_policy_are_explicit_review_blockers (test_adaptability.OperatingReviewTests.test_ambiguous_dates_and_missing_policy_are_explicit_review_blockers) ... ok
+test_changed_role_scope_and_invalid_context_date_do_not_abort (test_adaptability.OperatingReviewTests.test_changed_role_scope_and_invalid_context_date_do_not_abort) ... ok
+test_changed_system_use_withholds_only_that_systems_interpretations (test_adaptability.OperatingReviewTests.test_changed_system_use_withholds_only_that_systems_interpretations) ... ok
+test_each_legal_document_is_parsed_once_per_verification_without_persistent_cache (test_adaptability.OperatingReviewTests.test_each_legal_document_is_parsed_once_per_verification_without_persistent_cache) ... ok
+test_invalid_state_and_missing_field_are_not_treated_as_changed_operating_use (test_adaptability.OperatingReviewTests.test_invalid_state_and_missing_field_are_not_treated_as_changed_operating_use) ... ok
+test_market_date_recomputes_transition_and_ambiguous_timing_is_withheld (test_adaptability.OperatingReviewTests.test_market_date_recomputes_transition_and_ambiguous_timing_is_withheld) ... ok
+test_missing_evidence_record_is_visible_not_a_fixed_count_error (test_adaptability.OperatingReviewTests.test_missing_evidence_record_is_visible_not_a_fixed_count_error) ... ok
+test_new_prose_missing_context_and_missing_field_are_review_blockers (test_adaptability.OperatingReviewTests.test_new_prose_missing_context_and_missing_field_are_review_blockers) ... ok
+test_reassigned_record_withholds_both_systems_and_updated_proof_does_not_auto_resolve (test_adaptability.OperatingReviewTests.test_reassigned_record_withholds_both_systems_and_updated_proof_does_not_auto_resolve) ... ok
+test_variable_evidence_count_including_empty_and_unique_ids (test_adaptability.OperatingReviewTests.test_variable_evidence_count_including_empty_and_unique_ids) ... ok
+test_whitespace_names_and_new_versions_are_not_operating_changes (test_adaptability.OperatingReviewTests.test_whitespace_names_and_new_versions_are_not_operating_changes) ... ok
+test_all_citations_reproduce_exact_source_spans_and_hashes (test_authority.AuthorityTests.test_all_citations_reproduce_exact_source_spans_and_hashes) ... ok
+test_authority_versions_and_amendment_relationship (test_authority.AuthorityTests.test_authority_versions_and_amendment_relationship) ... ok
+test_bad_lineage_and_overwrite_rejected (test_authority.AuthorityTests.test_bad_lineage_and_overwrite_rejected) ... ok
+test_changed_faq_timing_is_a_conflict_not_new_law (test_authority.AuthorityTests.test_changed_faq_timing_is_a_conflict_not_new_law) ... ok
+test_corrupt_source_withholds_its_rules (test_authority.AuthorityTests.test_corrupt_source_withholds_its_rules) ... ok
+test_entry_application_and_conditional_transition_separate (test_authority.AuthorityTests.test_entry_application_and_conditional_transition_separate) ... ok
+test_known_faq_error_and_historical_uncertainty_preserved (test_authority.AuthorityTests.test_known_faq_error_and_historical_uncertainty_preserved) ... ok
+test_review_date_cannot_follow_retrieval_date (test_authority.AuthorityTests.test_review_date_cannot_follow_retrieval_date) ... ok
+test_schema_run_and_exact_predecessor (test_authority.AuthorityTests.test_schema_run_and_exact_predecessor) ... ok
+test_wrong_consolidated_version_not_accepted (test_authority.AuthorityTests.test_wrong_consolidated_version_not_accepted) ... ok
+test_exact_routes_and_interview_binding (test_capture.CaptureTests.test_exact_routes_and_interview_binding) ... ok
+test_existing_snapshot_refused_before_network (test_capture.CaptureTests.test_existing_snapshot_refused_before_network) ... ok
+test_failures_do_not_skip_any_source_or_invent_content (test_capture.CaptureTests.test_failures_do_not_skip_any_source_or_invent_content) ... LAW attempt 1: unavailable HTTP None
+OJ attempt 1: unavailable HTTP None
+OJ attempt 2: unavailable HTTP None
+AMEND attempt 1: unavailable HTTP None
+AMEND attempt 2: unavailable HTTP None
+CONSOLIDATED attempt 1: unavailable HTTP None
+CONSOLIDATED attempt 2: unavailable HTTP None
+TIME attempt 1: unavailable HTTP None
+FAQ attempt 1: unavailable HTTP None
+POLICY attempt 1: unavailable HTTP None
+SYSTEMS attempt 1: unavailable HTTP None
+SYSTEMS CSV gid=0: unavailable HTTP None
+EVIDENCE attempt 1: unavailable HTTP None
+EVIDENCE CSV gid=0: unavailable HTTP None
+CALENDAR attempt 1: unavailable HTTP None
+CALENDAR CSV gid=0: unavailable HTTP None
+ok
+test_fallback_original_first_and_preserved_attempts (test_capture.CaptureTests.test_fallback_original_first_and_preserved_attempts) ... LAW attempt 1: invalid HTTP 202
+OJ attempt 1: invalid HTTP 202
+OJ attempt 2: retrieved HTTP 200
+AMEND attempt 1: invalid HTTP 202
+AMEND attempt 2: retrieved HTTP 200
+CONSOLIDATED attempt 1: invalid HTTP 202
+CONSOLIDATED attempt 2: retrieved HTTP 200
+TIME attempt 1: invalid HTTP 202
+FAQ attempt 1: invalid HTTP 202
+POLICY attempt 1: invalid HTTP 202
+SYSTEMS attempt 1: invalid HTTP 202
+SYSTEMS CSV gid=0: invalid HTTP 202
+EVIDENCE attempt 1: invalid HTTP 202
+EVIDENCE CSV gid=0: invalid HTTP 202
+CALENDAR attempt 1: invalid HTTP 202
+CALENDAR CSV gid=0: invalid HTTP 202
+ok
+test_login_error_and_empty_pages_are_not_documents (test_capture.CaptureTests.test_login_error_and_empty_pages_are_not_documents) ... ok
+test_manual_policy_remains_separate_and_does_not_resolve_live_failure (test_capture.CaptureTests.test_manual_policy_remains_separate_and_does_not_resolve_live_failure) ... LAW attempt 1: unavailable HTTP None
+OJ attempt 1: unavailable HTTP None
+OJ attempt 2: unavailable HTTP None
+AMEND attempt 1: unavailable HTTP None
+AMEND attempt 2: unavailable HTTP None
+CONSOLIDATED attempt 1: unavailable HTTP None
+CONSOLIDATED attempt 2: unavailable HTTP None
+TIME attempt 1: unavailable HTTP None
+FAQ attempt 1: unavailable HTTP None
+POLICY attempt 1: unavailable HTTP None
+SYSTEMS attempt 1: unavailable HTTP None
+SYSTEMS CSV gid=0: unavailable HTTP None
+EVIDENCE attempt 1: unavailable HTTP None
+EVIDENCE CSV gid=0: unavailable HTTP None
+CALENDAR attempt 1: unavailable HTTP None
+CALENDAR CSV gid=0: unavailable HTTP None
+ok
+test_navigation_login_icon_does_not_turn_document_into_login_page (test_capture.CaptureTests.test_navigation_login_icon_does_not_turn_document_into_login_page) ... ok
+test_new_destination_makes_fresh_attempts_and_snapshot_id (test_capture.CaptureTests.test_new_destination_makes_fresh_attempts_and_snapshot_id) ... LAW attempt 1: unverified HTTP 200
+OJ attempt 1: unverified HTTP 200
+OJ attempt 2: unverified HTTP 200
+AMEND attempt 1: unverified HTTP 200
+AMEND attempt 2: unverified HTTP 200
+CONSOLIDATED attempt 1: unverified HTTP 200
+CONSOLIDATED attempt 2: unverified HTTP 200
+TIME attempt 1: unverified HTTP 200
+FAQ attempt 1: unverified HTTP 200
+POLICY attempt 1: unverified HTTP 200
+SYSTEMS attempt 1: unverified HTTP 200
+SYSTEMS CSV gid=0: unverified HTTP 200
+EVIDENCE attempt 1: unverified HTTP 200
+EVIDENCE CSV gid=0: unverified HTTP 200
+CALENDAR attempt 1: unverified HTTP 200
+CALENDAR CSV gid=0: unverified HTTP 200
+LAW attempt 1: unverified HTTP 200
+OJ attempt 1: unverified HTTP 200
+OJ attempt 2: unverified HTTP 200
+AMEND attempt 1: unverified HTTP 200
+AMEND attempt 2: unverified HTTP 200
+CONSOLIDATED attempt 1: unverified HTTP 200
+CONSOLIDATED attempt 2: unverified HTTP 200
+TIME attempt 1: unverified HTTP 200
+FAQ attempt 1: unverified HTTP 200
+POLICY attempt 1: unverified HTTP 200
+SYSTEMS attempt 1: unverified HTTP 200
+SYSTEMS CSV gid=0: unverified HTTP 200
+EVIDENCE attempt 1: unverified HTTP 200
+EVIDENCE CSV gid=0: unverified HTTP 200
+CALENDAR attempt 1: unverified HTTP 200
+CALENDAR CSV gid=0: unverified HTTP 200
+ok
+test_provenance_hashes_and_predecessor (test_capture.CaptureTests.test_provenance_hashes_and_predecessor) ... LAW attempt 1: unverified HTTP 200
+OJ attempt 1: unverified HTTP 200
+OJ attempt 2: unverified HTTP 200
+AMEND attempt 1: unverified HTTP 200
+AMEND attempt 2: unverified HTTP 200
+CONSOLIDATED attempt 1: unverified HTTP 200
+CONSOLIDATED attempt 2: unverified HTTP 200
+TIME attempt 1: unverified HTTP 200
+FAQ attempt 1: unverified HTTP 200
+POLICY attempt 1: unverified HTTP 200
+SYSTEMS attempt 1: unverified HTTP 200
+SYSTEMS CSV gid=0: unverified HTTP 200
+EVIDENCE attempt 1: unverified HTTP 200
+EVIDENCE CSV gid=0: unverified HTTP 200
+CALENDAR attempt 1: unverified HTTP 200
+CALENDAR CSV gid=0: unverified HTTP 200
+ok
+test_verified_original_does_not_request_fallback (test_capture.CaptureTests.test_verified_original_does_not_request_fallback) ... LAW attempt 1: unverified HTTP 200
+OJ attempt 1: retrieved HTTP 200
+AMEND attempt 1: retrieved HTTP 200
+CONSOLIDATED attempt 1: retrieved HTTP 200
+TIME attempt 1: unverified HTTP 200
+FAQ attempt 1: unverified HTTP 200
+POLICY attempt 1: unverified HTTP 200
+SYSTEMS attempt 1: unverified HTTP 200
+SYSTEMS CSV gid=0: unverified HTTP 200
+EVIDENCE attempt 1: unverified HTTP 200
+EVIDENCE CSV gid=0: unverified HTTP 200
+CALENDAR attempt 1: unverified HTTP 200
+CALENDAR CSV gid=0: unverified HTTP 200
+ok
+test_wrong_identity_version_origin_and_script_only_are_not_verified (test_capture.CaptureTests.test_wrong_identity_version_origin_and_script_only_are_not_verified) ... ok
+test_ai001_direct_notice_is_separate_from_company_provider_role (test_impact.ImpactTests.test_ai001_direct_notice_is_separate_from_company_provider_role) ... ok
+test_ai008_deepfake_trigger_survives_provider_transition_and_unapproved_exception (test_impact.ImpactTests.test_ai008_deepfake_trigger_survives_provider_transition_and_unapproved_exception) ... ok
+test_all_eight_systems_all_scoped_rules_and_applicability_categories (test_impact.ImpactTests.test_all_eight_systems_all_scoped_rules_and_applicability_categories) ... ok
+test_changed_operating_meaning_is_unresolved_and_missing_legal_basis_fails_closed (test_impact.ImpactTests.test_changed_operating_meaning_is_unresolved_and_missing_legal_basis_fails_closed) ... ok
+test_changed_product_entry_changes_only_conditional_transition_not_deepfake_trigger (test_impact.ImpactTests.test_changed_product_entry_changes_only_conditional_transition_not_deepfake_trigger) ... ok
+test_citations_facts_graph_and_scope_linkage (test_impact.ImpactTests.test_citations_facts_graph_and_scope_linkage) ... ok
+test_cli_output_exclusivity_and_tampered_input (test_impact.ImpactTests.test_cli_output_exclusivity_and_tampered_input) ... ok
+test_illustrations_and_stylized_avatar_not_automatically_deepfakes_or_obvious_ai (test_impact.ImpactTests.test_illustrations_and_stylized_avatar_not_automatically_deepfakes_or_obvious_ai) ... ok
+test_prior_conflicts_policy_distinction_and_no_final_decisions (test_impact.ImpactTests.test_prior_conflicts_policy_distinction_and_no_final_decisions) ... ok
+test_private_text_is_not_public_interest_publication_or_blanket_marking_exemption (test_impact.ImpactTests.test_private_text_is_not_public_interest_publication_or_blanket_marking_exemption) ... ok
+test_pronunciation_not_emotion_inference_and_assessment_uncertainty_remains (test_impact.ImpactTests.test_pronunciation_not_emotion_inference_and_assessment_uncertainty_remains) ... ok
+test_roles_use_operating_facts_not_system_names (test_impact.ImpactTests.test_roles_use_operating_facts_not_system_names) ... ok
+test_transition_uses_product_entry_not_exports_and_is_scoped_to_provider_marking (test_impact.ImpactTests.test_transition_uses_product_entry_not_exports_and_is_scoped_to_provider_marking) ... ok
+test_actual_relocated_bundle_verifies_offline_without_changes (test_portable.PortableTests.test_actual_relocated_bundle_verifies_offline_without_changes) ... ok
+test_invalid_mapping_and_package_are_rejected (test_portable.PortableTests.test_invalid_mapping_and_package_are_rejected) ... ok
+test_mapping_rejects_escape_symlink_and_writes (test_portable.PortableTests.test_mapping_rejects_escape_symlink_and_writes) ... ok
+test_missing_local_bytes_never_fall_back_to_original_workspace (test_portable.PortableTests.test_missing_local_bytes_never_fall_back_to_original_workspace) ... ok
+test_tampered_local_bytes_are_rejected (test_portable.PortableTests.test_tampered_local_bytes_are_rejected) ... ok
+test_all_requests_bind_actual_final_bytes_without_circular_hash (test_publication.PublicationTests.test_all_requests_bind_actual_final_bytes_without_circular_hash) ... ok
+test_binding_or_snapshot_tampering_rejected (test_publication.PublicationTests.test_binding_or_snapshot_tampering_rejected) ... ok
+test_cli_generation_validate_only_and_overwrite_refusal (test_publication.PublicationTests.test_cli_generation_validate_only_and_overwrite_refusal) ... ok
+test_dates_are_never_selected_from_multiple_proposals (test_publication.PublicationTests.test_dates_are_never_selected_from_multiple_proposals) ... ok
+test_draft_output_is_deterministic_and_uid_is_action_stable (test_publication.PublicationTests.test_draft_output_is_deterministic_and_uid_is_action_stable) ... ok
+test_empty_calendar_is_valid_when_no_proposals_dated (test_publication.PublicationTests.test_empty_calendar_is_valid_when_no_proposals_dated) ... ok
+test_evidence_reference_and_csv_contract_regressions (test_publication.PublicationTests.test_evidence_reference_and_csv_contract_regressions) ... ok
+test_exact_csv_contract_all_findings_and_original_states (test_publication.PublicationTests.test_exact_csv_contract_all_findings_and_original_states) ... ok
+test_invalid_calendars_rejected (test_publication.PublicationTests.test_invalid_calendars_rejected) ... ok
+test_modified_stage06_is_not_accepted_as_review_basis (test_publication.PublicationTests.test_modified_stage06_is_not_accepted_as_review_basis) ... ok
+test_octet_folding_escaping_and_date_conventions (test_publication.PublicationTests.test_octet_folding_escaping_and_date_conventions) ... ok
+test_only_eight_dated_actions_and_one_global_event (test_publication.PublicationTests.test_only_eight_dated_actions_and_one_global_event) ... ok
+test_rehashing_a_changed_draft_does_not_silently_rebind_it (test_publication.PublicationTests.test_rehashing_a_changed_draft_does_not_silently_rebind_it) ... ok
+test_tampering_any_draft_fails_without_repair (test_publication.PublicationTests.test_tampering_any_draft_fails_without_repair) ... ok
+test_cli_creates_only_stage04_and_refuses_overwrite (test_reconcile.ReconciliationTests.test_cli_creates_only_stage04_and_refuses_overwrite) ... ok
+test_conflicts_stale_partial_and_exception_survive (test_reconcile.ReconciliationTests.test_conflicts_stale_partial_and_exception_survive) ... ok
+test_coverage_exact_joins_and_global_action (test_reconcile.ReconciliationTests.test_coverage_exact_joins_and_global_action) ... ok
+test_dates_and_approval_requirements_not_promoted_to_decisions (test_reconcile.ReconciliationTests.test_dates_and_approval_requirements_not_promoted_to_decisions) ... ok
+test_evidence_states_are_scoped_and_not_applicable_is_not_no_impact (test_reconcile.ReconciliationTests.test_evidence_states_are_scoped_and_not_applicable_is_not_no_impact) ... ok
+test_fabricated_extraction_with_matching_artifact_hash_rejected (test_reconcile.ReconciliationTests.test_fabricated_extraction_with_matching_artifact_hash_rejected) ... ok
+test_join_validation_and_manual_hash_failure_rejected (test_reconcile.ReconciliationTests.test_join_validation_and_manual_hash_failure_rejected) ... ok
+test_manual_policy_exact_sections_and_provenance_limits (test_reconcile.ReconciliationTests.test_manual_policy_exact_sections_and_provenance_limits) ... ok
+test_raw_hash_mismatch_rejected (test_reconcile.ReconciliationTests.test_raw_hash_mismatch_rejected) ... ok
+test_schema_linkage_references_and_inherited_unresolved (test_reconcile.ReconciliationTests.test_schema_linkage_references_and_inherited_unresolved) ... ok
+test_source_values_versions_and_both_row_provenances_unchanged (test_reconcile.ReconciliationTests.test_source_values_versions_and_both_row_provenances_unchanged) ... ok
+test_tampered_predecessor_rejected (test_reconcile.ReconciliationTests.test_tampered_predecessor_rejected) ... ok
+test_bad_headers_duplicate_ids_and_truncated_count_reported (test_registers.RegisterTests.test_bad_headers_duplicate_ids_and_truncated_count_reported) ... ok
+test_blank_grid_rows_keep_physical_row_locators (test_registers.RegisterTests.test_blank_grid_rows_keep_physical_row_locators) ... ok
+test_capture003_grid_rows_headers_counts_and_interface_exclusion (test_registers.RegisterTests.test_capture003_grid_rows_headers_counts_and_interface_exclusion) ... ok
+test_capture_integration_csv_provenance_artifacts_and_preservation (test_registers.RegisterTests.test_capture_integration_csv_provenance_artifacts_and_preservation) ... LAW attempt 1: unverified HTTP 200
+OJ attempt 1: unverified HTTP 200
+OJ attempt 2: unverified HTTP 200
+AMEND attempt 1: unverified HTTP 200
+AMEND attempt 2: unverified HTTP 200
+CONSOLIDATED attempt 1: unverified HTTP 200
+CONSOLIDATED attempt 2: unverified HTTP 200
+TIME attempt 1: unverified HTTP 200
+FAQ attempt 1: unverified HTTP 200
+POLICY attempt 1: unverified HTTP 200
+SYSTEMS attempt 1: unverified HTTP 200
+SYSTEMS CSV gid=0: unverified HTTP 200
+EVIDENCE attempt 1: unverified HTTP 200
+EVIDENCE CSV gid=0: unverified HTTP 200
+CALENDAR attempt 1: unverified HTTP 200
+CALENDAR CSV gid=0: unverified HTTP 200
+ok
+test_no_grid_shell_and_unconfigured_extra_grid (test_registers.RegisterTests.test_no_grid_shell_and_unconfigured_extra_grid) ... ok
+test_reordered_headers_extra_columns_and_csv_roundtrip (test_registers.RegisterTests.test_reordered_headers_extra_columns_and_csv_roundtrip) ... ok
+test_states_and_unapproved_exception_preserved_exactly (test_registers.RegisterTests.test_states_and_unapproved_exception_preserved_exactly) ... ok
+test_unknown_join_and_changed_csv_are_errors_all_action_is_allowed (test_registers.RegisterTests.test_unknown_join_and_changed_csv_are_errors_all_action_is_allowed) ... ok
+test_cli_creates_only_scope_and_refuses_overwrite (test_scope.ScopeTests.test_cli_creates_only_scope_and_refuses_overwrite) ... ok
+test_fresh_ids (test_scope.ScopeTests.test_fresh_ids) ... ok
+test_missing_inputs_fail (test_scope.ScopeTests.test_missing_inputs_fail) ... ok
+test_schema_rejects_invalid_date_and_first_stage_link (test_scope.ScopeTests.test_schema_rejects_invalid_date_and_first_stage_link) ... ok
+test_valid_scope_preserves_unknowns_and_lineage (test_scope.ScopeTests.test_valid_scope_preserves_unknowns_and_lineage) ... ok
+test_archive_occurrences_and_corruption_never_overwrite_history (test_workflow.WorkflowTests.test_archive_occurrences_and_corruption_never_overwrite_history) ... ok
+test_changed_calendar_bytes_recompute_new_drafts_and_keep_old_versions (test_workflow.WorkflowTests.test_changed_calendar_bytes_recompute_new_drafts_and_keep_old_versions) ... ok
+test_concurrent_operator_is_rejected_before_capture (test_workflow.WorkflowTests.test_concurrent_operator_is_rejected_before_capture) ... ok
+test_failed_capture_never_uses_old_evidence_and_retry_retrieves_again (test_workflow.WorkflowTests.test_failed_capture_never_uses_old_evidence_and_retry_retrieves_again) ... ok
+test_initial_run_complete_fresh_capture_and_relative_hash_chain (test_workflow.WorkflowTests.test_initial_run_complete_fresh_capture_and_relative_hash_chain) ... ok
+test_interrupted_run_can_be_retried_without_resuming_partial_files (test_workflow.WorkflowTests.test_interrupted_run_can_be_retried_without_resuming_partial_files) ... ok
+test_legacy_external_manual_and_interview_input_bytes_are_archived (test_workflow.WorkflowTests.test_legacy_external_manual_and_interview_input_bytes_are_archived) ... ok
+test_legacy_history_copies_actual_bytes_without_rewriting_bindings (test_workflow.WorkflowTests.test_legacy_history_copies_actual_bytes_without_rewriting_bindings) ... ok
+test_missing_and_corrupt_prior_evidence_is_preserved_and_reported (test_workflow.WorkflowTests.test_missing_and_corrupt_prior_evidence_is_preserved_and_reported) ... ok
+test_reason_and_unknown_retry_are_rejected_honestly (test_workflow.WorkflowTests.test_reason_and_unknown_retry_are_rejected_honestly) ... ok
+test_relocation_and_frozen_inputs_survive_new_original_versions (test_workflow.WorkflowTests.test_relocation_and_frozen_inputs_survive_new_original_versions) ... ok
+test_rerun_preserves_all_previous_bytes_and_approval_versions (test_workflow.WorkflowTests.test_rerun_preserves_all_previous_bytes_and_approval_versions) ... ok
+
+----------------------------------------------------------------------
+Ran 116 tests in 148.391s
+
+OK

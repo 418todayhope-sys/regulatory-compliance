@@ -1,0 +1,44 @@
+{
+  "id": "source-systems-02",
+  "source_name": "SYSTEMS",
+  "summary": "Live attempt for SYSTEMS; document suitability remains unverified.",
+  "evidence_ids": [
+    "e-interview"
+  ],
+  "source_role": "operational-record",
+  "authority": "unknown",
+  "locator": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
+  "original_url": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
+  "requested_url": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU/export?format=csv&gid=0",
+  "attempt_number": 2,
+  "route_type": "per-tab-csv-export",
+  "final_url": "https://doc-0k-48-sheets.googleusercontent.com/export/f3kk9gtum31ktuqh54kn7i1e14/6gi8vuci412l237valp1b3hl9o/1792373140000/116538737177717635516/*/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU?format=csv&gid=0",
+  "http_status": 200,
+  "observed_identity": {
+    "title": null,
+    "returned_url": "https://doc-0k-48-sheets.googleusercontent.com/export/f3kk9gtum31ktuqh54kn7i1e14/6gi8vuci412l237valp1b3hl9o/1792373140000/116538737177717635516/*/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU?format=csv&gid=0",
+    "expected_source": "SYSTEMS"
+  },
+  "retrieved_at": "2026-10-19T01:25:44.987540Z",
+  "retrieval_status": "unverified",
+  "content_type": "text/csv; charset=utf-8",
+  "version_metadata": {
+    "etag": null,
+    "last_modified": null,
+    "document_version": null,
+    "effective_date": null,
+    "note": "HTTP validators are not verified document versions"
+  },
+  "content_hash": "sha256:5ccd555dac9dc3af5a77d3206105fb093565865f7283abe43f5339dd46ed8a80",
+  "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/systems-02.response",
+  "identity_status": "unverified",
+  "review_date_suitability": "unverified",
+  "failure": null,
+  "used_for_conclusions": false,
+  "capture_locator": "response bytes 0..1607",
+  "byte_count": 1608,
+  "completed_at": "2026-10-19T01:25:45.405638Z",
+  "workbook_id": "10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
+  "gid": "0",
+  "tab_name": "AI System Register"
+}

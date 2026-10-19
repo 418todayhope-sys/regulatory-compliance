@@ -1,0 +1,50 @@
+{
+  "id": "source-oj-01",
+  "source_name": "OJ",
+  "summary": "OJ document identity/version matched; legal applicability remains unverified.",
+  "evidence_ids": [
+    "e-interview"
+  ],
+  "source_role": "binding-regulation",
+  "authority": "unknown",
+  "locator": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+  "original_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+  "requested_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+  "attempt_number": 1,
+  "route_type": "original",
+  "final_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+  "http_status": 200,
+  "observed_identity": {
+    "title": "Regulation - EU - 2024/1689 - EN - EUR-Lex",
+    "returned_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+    "expected_source": "OJ",
+    "document_id": "32024R1689",
+    "document_version": "original Official Journal publication",
+    "adoption_date": "2024-06-13",
+    "publication_date": "2024-07-12",
+    "effective_date": null
+  },
+  "retrieved_at": "2026-10-19T01:18:27.113438Z",
+  "retrieval_status": "retrieved",
+  "content_type": "text/html; charset=UTF-8",
+  "version_metadata": {
+    "etag": null,
+    "last_modified": null,
+    "document_version": "original Official Journal publication",
+    "effective_date": null,
+    "note": "HTTP validators are not verified document versions",
+    "document_id": "32024R1689",
+    "adoption_date": "2024-06-13",
+    "publication_date": "2024-07-12"
+  },
+  "content_hash": "sha256:c9d04527f9a91faa566957fff8868ba51664a57e7513ff8403bf9247792de7f5",
+  "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-003/sources/oj-01.response",
+  "identity_status": "verified",
+  "review_date_suitability": "unverified",
+  "failure": null,
+  "used_for_conclusions": false,
+  "capture_locator": "response bytes 0..1535181",
+  "byte_count": 1535182,
+  "identity_verification": "Official hostname, visible regulation heading, Article 1 and expected publication/consolidation date",
+  "completed_at": "2026-10-19T01:18:28.613328Z"
+}

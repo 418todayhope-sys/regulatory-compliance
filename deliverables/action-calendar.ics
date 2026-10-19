@@ -1,0 +1,245 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Quillhaven//Regulatory Review DRAFT//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:19b4043e-2818-5ecd-a681-6b597e006281@quillhaven.invalid
+DTSTAMP:20261019T020217Z
+DTSTART;VALUE=DATE:20260904
+SUMMARY:DRAFT UNAPPROVED ACT-001: Add and verify first-interaction AI notic
+ e
+DESCRIPTION:DRAFT\; UNAPPROVED\; approval_status=pending\; action_id=ACT-00
+ 1\; system_ids=AI-004\; owner=Learning Experience\; run=run-fa0eba75-1dbf-
+ 4eac-9d23-830540ca5777\; as-of=2026-08-26\; source_version=calendar-2026-0
+ 8-26\; source_status=planned\; proposed date only\, not an approved operat
+ ional deadline. Action: Add and verify first-interaction AI notice. Accept
+ ance: Document the actual first-interaction notice\, interface and provide
+ r/deployer responsibilities\; prepare any notice change for authorized rev
+ iew\, without changing production. Retain source evidence IDs/versions and
+  report the observed result\; do not claim resolution or approval without 
+ actual matching evidence/decision.\; rule_refs=Article 50(1)\, Article 50(
+ 5)\; evidence_ids=impact-AI-004-product-provider-50-1\,impact-AI-004-compa
+ ny-50-1\,policy-review-AI-004\,policy-supplement-03\,policy-supplement-04\
+ ,policy-supplement-05\,cite-001\,cite-005\,cite-014\,cite-015\,row-systems
+ -AI-004\,row-evidence-REC-004\,transition-AI-004\,row-calendar-ACT-001\; p
+ ending unsent request_ids=REQ-LEGAL-AI-004\,REQ-OPS-ACT-001\,REQ-FACTS-ACT
+ -001
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b2bada6e-a901-51ae-808b-414139042a3c@quillhaven.invalid
+DTSTAMP:20261019T020217Z
+DTSTART;VALUE=DATE:20260903
+SUMMARY:DRAFT UNAPPROVED ACT-002: Resolve disclosure evidence conflict
+DESCRIPTION:DRAFT\; UNAPPROVED\; approval_status=pending\; action_id=ACT-00
+ 2\; system_ids=AI-007\; owner=Marketing\; run=run-fa0eba75-1dbf-4eac-9d23-
+ 830540ca5777\; as-of=2026-08-26\; source_version=calendar-2026-08-26\; sou
+ rce_status=open\; proposed date only\, not an approved operational deadlin
+ e. Action: Resolve disclosure evidence conflict. Acceptance: Compare the o
+ wner banner report with the current capture using matching page/release/ti
+ me\; retain REC-008 until reconciled. Ask Legal about interaction obviousn
+ ess separately from the fictional graphic. Retain source evidence IDs/vers
+ ions and report the observed result\; do not claim resolution or approval 
+ without actual matching evidence/decision.\; rule_refs=Article 50(1)\, Art
+ icle 50(5)\, Article 50(4)\, Article 3(60)\; evidence_ids=impact-AI-007-pr
+ oduct-provider-50-1\,impact-AI-007-deployer-50-4-deepfake\,policy-review-A
+ I-007\,policy-supplement-03\,policy-supplement-04\,policy-supplement-05\,c
+ ite-001\,cite-005\,cite-014\,cite-015\,cite-004\,cite-009\,row-systems-AI-
+ 007\,row-evidence-REC-008\,transition-AI-007\,row-calendar-ACT-002\; pendi
+ ng unsent request_ids=REQ-LEGAL-AI-007\,REQ-OPS-ACT-002\,REQ-FACTS-ACT-002
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:21d69126-4d56-55f7-9dd2-3bc9863053a2@quillhaven.invalid
+DTSTAMP:20261019T020217Z
+DTSTART;VALUE=DATE:20260908
+SUMMARY:DRAFT UNAPPROVED ACT-003: Confirm recipient disclosure practice
+DESCRIPTION:DRAFT\; UNAPPROVED\; approval_status=pending\; action_id=ACT-00
+ 3\; system_ids=AI-002\; owner=Admissions\; run=run-fa0eba75-1dbf-4eac-9d23
+ -830540ca5777\; as-of=2026-08-26\; source_version=calendar-2026-08-26\; so
+ urce_status=open\; proposed date only\, not an approved operational deadli
+ ne. Action: Confirm recipient disclosure practice. Acceptance: Confirm ind
+ ividual human-mediated email and recipient-disclosure practice with eviden
+ ce\; distinguish internal disclosure expectations from the public-interest
+  publication trigger and supplier duties. Retain source evidence IDs/versi
+ ons and report the observed result\; do not claim resolution or approval w
+ ithout actual matching evidence/decision.\; rule_refs=Article 50(4)\, Arti
+ cle 50(5)\, Article 50(1)\, Article 50(2)\; evidence_ids=impact-AI-002-dep
+ loyer-50-4-text\,impact-AI-002-product-provider-50-1\,impact-AI-002-produc
+ t-provider-50-2\,policy-review-AI-002\,policy-supplement-03\,policy-supple
+ ment-04\,policy-supplement-05\,cite-004\,cite-005\,cite-014\,cite-015\,cit
+ e-001\,cite-002\,row-systems-AI-002\,row-evidence-REC-002\,transition-AI-0
+ 02\,row-calendar-ACT-003\; pending unsent request_ids=REQ-LEGAL-AI-002\,RE
+ Q-OPS-ACT-003\,REQ-FACTS-ACT-003
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cdbffdb2-a079-5ddb-a6b5-45d30b6a1183@quillhaven.invalid
+DTSTAMP:20261019T020217Z
+DTSTART;VALUE=DATE:20260910
+SUMMARY:DRAFT UNAPPROVED ACT-004: Verify machine-readable provenance after 
+ publishing
+DESCRIPTION:DRAFT\; UNAPPROVED\; approval_status=pending\; action_id=ACT-00
+ 4\; system_ids=AI-003\; owner=Communications\; run=run-fa0eba75-1dbf-4eac-
+ 9d23-830540ca5777\; as-of=2026-08-26\; source_version=calendar-2026-08-26\
+ ; source_status=open\; proposed date only\, not an approved operational de
+ adline. Action: Verify machine-readable provenance after publishing. Accep
+ tance: Provide original/exported/published-copy metadata checks and explai
+ n REC-003's conflicting reports. A visible label or SYSTEMS complete field
+  must not be used as provenance proof. Retain source evidence IDs/versions
+  and report the observed result\; do not claim resolution or approval with
+ out actual matching evidence/decision.\; rule_refs=Article 50(2)\, Article
+  50(4)\, Article 3(60)\, Article 50(5)\; evidence_ids=impact-AI-003-produc
+ t-provider-50-2\,impact-AI-003-deployer-50-4-deepfake\,policy-review-AI-00
+ 3\,policy-supplement-03\,policy-supplement-04\,policy-supplement-05\,cite-
+ 002\,cite-014\,cite-015\,cite-004\,cite-009\,cite-005\,row-systems-AI-003\
+ ,row-evidence-REC-003\,transition-AI-003\,row-calendar-ACT-004\; pending u
+ nsent request_ids=REQ-LEGAL-AI-003\,REQ-OPS-ACT-004\,REQ-FACTS-ACT-004
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:a28cc1d1-aaac-57d6-b2fe-edfd9f2e0df7@quillhaven.invalid
+DTSTAMP:20261019T020217Z
+DTSTART;VALUE=DATE:20260912
+SUMMARY:DRAFT UNAPPROVED ACT-005: Refresh provider-role and release evidenc
+ e
+DESCRIPTION:DRAFT\; UNAPPROVED\; approval_status=pending\; action_id=ACT-00
+ 5\; system_ids=AI-005\; owner=Assessment Operations\; run=run-fa0eba75-1db
+ f-4eac-9d23-830540ca5777\; as-of=2026-08-26\; source_version=calendar-2026
+ -08-26\; source_status=open\; proposed date only\, not an approved operati
+ onal deadline. Action: Refresh provider-role and release evidence. Accepta
+ nce: Supply current development/commissioning/branding and release records
+ \, biometric emotion/intent/category-use facts\, synthetic-output scope an
+ d product market-entry evidence. Keep REC-005 stale until an actual refres
+ h\; human review does not settle these questions. Retain source evidence I
+ Ds/versions and report the observed result\; do not claim resolution or ap
+ proval without actual matching evidence/decision.\; rule_refs=Article 50(1
+ )\, Article 50(2)\, Article 50(3)\, Article 50(5)\, Article 50(4)\, Articl
+ e 3(60)\; evidence_ids=impact-AI-005-company-50-1\,impact-AI-005-company-5
+ 0-2\,impact-AI-005-deployer-50-3\,impact-AI-005-deployer-50-4-deepfake\,im
+ pact-AI-005-deployer-50-4-text\,impact-AI-005-company-50-5\,impact-AI-005-
+ product-provider-50-1\,impact-AI-005-product-provider-50-2\,policy-review-
+ AI-005\,policy-supplement-03\,policy-supplement-04\,policy-supplement-05\,
+ cite-001\,cite-014\,cite-015\,cite-002\,cite-003\,cite-005\,cite-004\,cite
+ -009\,row-systems-AI-005\,row-evidence-REC-005\,row-evidence-REC-006\,tran
+ sition-AI-005\,row-calendar-ACT-005\; pending unsent request_ids=REQ-LEGAL
+ -AI-005\,REQ-OPS-ACT-005\,REQ-FACTS-ACT-005
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:1688efb0-1b58-5e49-85cf-73778ac68bfa@quillhaven.invalid
+DTSTAMP:20261019T020217Z
+DTSTART;VALUE=DATE:20260909
+SUMMARY:DRAFT UNAPPROVED ACT-006: Complete provenance test
+DESCRIPTION:DRAFT\; UNAPPROVED\; approval_status=pending\; action_id=ACT-00
+ 6\; system_ids=AI-008\; owner=Communications\; run=run-fa0eba75-1dbf-4eac-
+ 9d23-830540ca5777\; as-of=2026-08-26\; source_version=calendar-2026-08-26\
+ ; source_status=open\; proposed date only\, not an approved operational de
+ adline. Action: Complete provenance test. Acceptance: Provide technical ve
+ rification of machine-readable provenance through export/publication\, ret
+ aining REC-009's separate visible-label and unchecked-provenance facets. R
+ etain source evidence IDs/versions and report the observed result\; do not
+  claim resolution or approval without actual matching evidence/decision.\;
+  rule_refs=Article 50(2)\, Article 50(4)\, Article 3(60)\, Article 50(5)\;
+  evidence_ids=impact-AI-008-product-provider-50-2\,impact-AI-008-deployer-
+ 50-4-deepfake\,policy-review-AI-008\,policy-supplement-03\,policy-suppleme
+ nt-04\,policy-supplement-05\,cite-002\,cite-014\,cite-015\,cite-004\,cite-
+ 009\,cite-005\,row-systems-AI-008\,row-evidence-REC-009\,row-evidence-REC-
+ 010\,transition-AI-008\,row-calendar-ACT-006\; pending unsent request_ids=
+ REQ-LEGAL-AI-008\,REQ-OPS-ACT-006\,REQ-FACTS-ACT-006
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:991e1498-4d9e-59be-a00b-43b2d95d8274@quillhaven.invalid
+DTSTAMP:20261019T020217Z
+DTSTART;VALUE=DATE:20260915
+SUMMARY:DRAFT UNAPPROVED ACT-007: Review exception request
+DESCRIPTION:DRAFT\; UNAPPROVED\; approval_status=pending\; action_id=ACT-00
+ 7\; system_ids=AI-008\; owner=Legal\; run=run-fa0eba75-1dbf-4eac-9d23-8305
+ 40ca5777\; as-of=2026-08-26\; source_version=calendar-2026-08-26\; source_
+ status=blocked\; proposed date only\, not an approved operational deadline
+ . Action: Review exception request. Acceptance: Legal must review the exce
+ ption request's owner\, rationale\, absent expiry and absent approval\; di
+ stinguish an internal-policy exception from any actual statutory qualifica
+ tion. Keep REC-010 unapproved until matching authorized feedback exists. R
+ etain source evidence IDs/versions and report the observed result\; do not
+  claim resolution or approval without actual matching evidence/decision.\;
+  rule_refs=Article 50(4)\, Article 3(60)\, Article 50(5)\; evidence_ids=im
+ pact-AI-008-deployer-50-4-deepfake\,impact-AI-008-company-50-5\,policy-rev
+ iew-AI-008\,policy-supplement-03\,policy-supplement-04\,policy-supplement-
+ 05\,cite-004\,cite-009\,cite-005\,cite-014\,cite-015\,row-systems-AI-008\,
+ row-evidence-REC-009\,row-evidence-REC-010\,transition-AI-008\,row-calenda
+ r-ACT-007\; pending unsent request_ids=REQ-LEGAL-AI-008\,REQ-LEGAL-EXCEPTI
+ ON-AI-008\,REQ-OPS-ACT-007
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:232fd8e2-494c-513c-b10c-bc60a65d961f@quillhaven.invalid
+DTSTAMP:20261019T020217Z
+DTSTART;VALUE=DATE:20261002
+SUMMARY:DRAFT UNAPPROVED ACT-008: Quarterly AI register evidence review
+DESCRIPTION:DRAFT\; UNAPPROVED\; approval_status=pending\; action_id=ACT-00
+ 8\; system_ids=AI-001\,AI-002\,AI-003\,AI-004\,AI-005\,AI-006\,AI-007\,AI-
+ 008\; owner=Operations\; run=run-fa0eba75-1dbf-4eac-9d23-830540ca5777\; as
+ -of=2026-08-26\; source_version=calendar-2026-08-26\; source_status=schedu
+ led\; proposed date only\, not an approved operational deadline. Action: Q
+ uarterly AI register evidence review. Acceptance: Coordinate one global ev
+ idence-register review across the eight systems\; retain open conflicts an
+ d source states\, request owner updates\, and route interpretation/dates/a
+ ctivation to the authorized roles. Retain source evidence IDs/versions and
+  report the observed result\; do not claim resolution or approval without 
+ actual matching evidence/decision.\; rule_refs=Article 50(1)\, Article 50(
+ 2)\, Article 50(3)\, Article 50(5)\, Article 50(4)\, Article 3(60)\; evide
+ nce_ids=impact-AI-001-company-50-1\,impact-AI-001-company-50-2\,impact-AI-
+ 001-deployer-50-3\,impact-AI-001-deployer-50-4-deepfake\,impact-AI-001-dep
+ loyer-50-4-text\,impact-AI-001-company-50-5\,impact-AI-001-product-provide
+ r-50-1\,impact-AI-001-product-provider-50-2\,impact-AI-002-company-50-1\,i
+ mpact-AI-002-company-50-2\,impact-AI-002-deployer-50-3\,impact-AI-002-depl
+ oyer-50-4-deepfake\,impact-AI-002-deployer-50-4-text\,impact-AI-002-compan
+ y-50-5\,impact-AI-002-product-provider-50-1\,impact-AI-002-product-provide
+ r-50-2\,impact-AI-003-company-50-1\,impact-AI-003-company-50-2\,impact-AI-
+ 003-deployer-50-3\,impact-AI-003-deployer-50-4-deepfake\,impact-AI-003-dep
+ loyer-50-4-text\,impact-AI-003-company-50-5\,impact-AI-003-product-provide
+ r-50-1\,impact-AI-003-product-provider-50-2\,impact-AI-004-company-50-1\,i
+ mpact-AI-004-company-50-2\,impact-AI-004-deployer-50-3\,impact-AI-004-depl
+ oyer-50-4-deepfake\,impact-AI-004-deployer-50-4-text\,impact-AI-004-compan
+ y-50-5\,impact-AI-004-product-provider-50-1\,impact-AI-004-product-provide
+ r-50-2\,impact-AI-005-company-50-1\,impact-AI-005-company-50-2\,impact-AI-
+ 005-deployer-50-3\,impact-AI-005-deployer-50-4-deepfake\,impact-AI-005-dep
+ loyer-50-4-text\,impact-AI-005-company-50-5\,impact-AI-005-product-provide
+ r-50-1\,impact-AI-005-product-provider-50-2\,impact-AI-006-company-50-1\,i
+ mpact-AI-006-company-50-2\,impact-AI-006-deployer-50-3\,impact-AI-006-depl
+ oyer-50-4-deepfake\,impact-AI-006-deployer-50-4-text\,impact-AI-006-compan
+ y-50-5\,impact-AI-006-product-provider-50-1\,impact-AI-006-product-provide
+ r-50-2\,impact-AI-007-company-50-1\,impact-AI-007-company-50-2\,impact-AI-
+ 007-deployer-50-3\,impact-AI-007-deployer-50-4-deepfake\,impact-AI-007-dep
+ loyer-50-4-text\,impact-AI-007-company-50-5\,impact-AI-007-product-provide
+ r-50-1\,impact-AI-007-product-provider-50-2\,impact-AI-008-company-50-1\,i
+ mpact-AI-008-company-50-2\,impact-AI-008-deployer-50-3\,impact-AI-008-depl
+ oyer-50-4-deepfake\,impact-AI-008-deployer-50-4-text\,impact-AI-008-compan
+ y-50-5\,impact-AI-008-product-provider-50-1\,impact-AI-008-product-provide
+ r-50-2\,policy-review-AI-001\,policy-review-AI-002\,policy-review-AI-003\,
+ policy-review-AI-004\,policy-review-AI-005\,policy-review-AI-006\,policy-r
+ eview-AI-007\,policy-review-AI-008\,policy-supplement-03\,policy-supplemen
+ t-04\,policy-supplement-05\,cite-001\,cite-014\,cite-015\,cite-002\,cite-0
+ 03\,cite-005\,cite-004\,cite-009\,row-systems-AI-001\,row-systems-AI-002\,
+ row-systems-AI-003\,row-systems-AI-004\,row-systems-AI-005\,row-systems-AI
+ -006\,row-systems-AI-007\,row-systems-AI-008\,row-evidence-REC-001\,row-ev
+ idence-REC-002\,row-evidence-REC-003\,row-evidence-REC-004\,row-evidence-R
+ EC-005\,row-evidence-REC-006\,row-evidence-REC-007\,row-evidence-REC-008\,
+ row-evidence-REC-009\,row-evidence-REC-010\,transition-AI-001\,transition-
+ AI-002\,transition-AI-003\,transition-AI-004\,transition-AI-005\,transitio
+ n-AI-006\,transition-AI-007\,transition-AI-008\,row-calendar-ACT-008\; pen
+ ding unsent request_ids=REQ-LEGAL-AUTHORITY\,REQ-OPS-ACT-008\,REQ-FACTS-AC
+ T-008
+STATUS:TENTATIVE
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

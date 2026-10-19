@@ -1,0 +1,197 @@
+{
+  "format": "google-grid-claim-extract/1",
+  "source_id": "source-evidence",
+  "source_name": "EVIDENCE",
+  "original_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+  "requested_url": null,
+  "retrieval_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk/edit",
+  "retrieved_at": "2026-10-19T01:08:52.962471Z",
+  "completed_at": "2026-10-19T01:08:53.827201Z",
+  "retrieval_status": "unverified",
+  "original_sha256": "sha256:991c3ad883263765ccaf4083805b4ef1a695f121c0b4c8ae6d781bb68b61afd7",
+  "workbook_id": "19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+  "discovered_tabs": [
+    {
+      "gid": "0",
+      "name": "Incident Evidence Register"
+    }
+  ],
+  "tables": [
+    {
+      "headers": [
+        "record_id",
+        "system_id",
+        "record_type",
+        "reported_at",
+        "owner",
+        "status",
+        "evidence_ref",
+        "evidence_state",
+        "notes"
+      ],
+      "records": [
+        {
+          "row_number": 2,
+          "values": {
+            "record_id": "REC-001",
+            "system_id": "AI-001",
+            "record_type": "evidence",
+            "reported_at": "2026-08-20",
+            "owner": "Learner Operations",
+            "status": "closed",
+            "evidence_ref": "notice-screen-v3",
+            "evidence_state": "complete",
+            "notes": "Notice screenshot and release record agree"
+          }
+        },
+        {
+          "row_number": 3,
+          "values": {
+            "record_id": "REC-002",
+            "system_id": "AI-002",
+            "record_type": "evidence_gap",
+            "reported_at": "2026-08-23",
+            "owner": "Admissions",
+            "status": "open",
+            "evidence_ref": "applicant-email-sample",
+            "evidence_state": "missing",
+            "notes": "No evidence that recipients are told when generated text is used"
+          }
+        },
+        {
+          "row_number": 4,
+          "values": {
+            "record_id": "REC-003",
+            "system_id": "AI-003",
+            "record_type": "incident",
+            "reported_at": "2026-08-24",
+            "owner": "Communications",
+            "status": "open",
+            "evidence_ref": "social-post-884",
+            "evidence_state": "conflicting",
+            "notes": "Visible label exists but exported platform copy may have lost metadata"
+          }
+        },
+        {
+          "row_number": 5,
+          "values": {
+            "record_id": "REC-004",
+            "system_id": "AI-004",
+            "record_type": "incident",
+            "reported_at": "2026-08-18",
+            "owner": "Learning Experience",
+            "status": "open",
+            "evidence_ref": "coach-onboarding-v2",
+            "evidence_state": "complete",
+            "notes": "First interaction contains no AI notice"
+          }
+        },
+        {
+          "row_number": 6,
+          "values": {
+            "record_id": "REC-005",
+            "system_id": "AI-005",
+            "record_type": "evidence_gap",
+            "reported_at": "2026-08-25",
+            "owner": "Assessment Operations",
+            "status": "open",
+            "evidence_ref": "provider-role-questionnaire",
+            "evidence_state": "stale",
+            "notes": "Provider role questionnaire predates the current release"
+          }
+        },
+        {
+          "row_number": 7,
+          "values": {
+            "record_id": "REC-006",
+            "system_id": "AI-005",
+            "record_type": "evidence",
+            "reported_at": "2026-08-25",
+            "owner": "Assessment Operations",
+            "status": "open",
+            "evidence_ref": "human-review-sop-v4",
+            "evidence_state": "complete",
+            "notes": "Flag never makes the final assessment decision"
+          }
+        },
+        {
+          "row_number": 8,
+          "values": {
+            "record_id": "REC-007",
+            "system_id": "AI-006",
+            "record_type": "evidence",
+            "reported_at": "2026-08-14",
+            "owner": "People Operations",
+            "status": "closed",
+            "evidence_ref": "internal-use-review",
+            "evidence_state": "complete",
+            "notes": "Tool is restricted to staff workspace"
+          }
+        },
+        {
+          "row_number": 9,
+          "values": {
+            "record_id": "REC-008",
+            "system_id": "AI-007",
+            "record_type": "incident",
+            "reported_at": "2026-08-21",
+            "owner": "Marketing",
+            "status": "open",
+            "evidence_ref": "avatar-page-capture",
+            "evidence_state": "conflicting",
+            "notes": "Owner says a banner exists but the current capture shows none"
+          }
+        },
+        {
+          "row_number": 10,
+          "values": {
+            "record_id": "REC-009",
+            "system_id": "AI-008",
+            "record_type": "evidence",
+            "reported_at": "2026-08-19",
+            "owner": "Communications",
+            "status": "open",
+            "evidence_ref": "localisation-export-test",
+            "evidence_state": "partial",
+            "notes": "Visible label verified but machine-readable provenance not checked"
+          }
+        },
+        {
+          "row_number": 11,
+          "values": {
+            "record_id": "REC-010",
+            "system_id": "AI-008",
+            "record_type": "exception_request",
+            "reported_at": "2026-08-26",
+            "owner": "Communications",
+            "status": "draft",
+            "evidence_ref": "exception-draft-008",
+            "evidence_state": "missing",
+            "notes": "No Legal approval or expiry date recorded"
+          }
+        }
+      ],
+      "record_ids": [
+        "REC-001",
+        "REC-002",
+        "REC-003",
+        "REC-004",
+        "REC-005",
+        "REC-006",
+        "REC-007",
+        "REC-008",
+        "REC-009",
+        "REC-010"
+      ],
+      "record_count": 10,
+      "gid": "0",
+      "tab_name": "Incident Evidence Register",
+      "valid": true,
+      "errors": []
+    }
+  ],
+  "limitations": "Original HTML bytes unavailable in this public view: their recorded hashes are provenance commitments, not recomputed verification. Retained extracts are source-reported claims, not independent corroboration or approval. Hidden tabs and original response completeness cannot be established from these extracts.",
+  "original_html_byte_verification": "unavailable",
+  "independently_corroborated": false,
+  "approval_verified": false
+}

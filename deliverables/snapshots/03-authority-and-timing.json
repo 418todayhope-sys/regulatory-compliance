@@ -1,0 +1,1231 @@
+{
+  "schema_version": "regulatory-compliance-stage-snapshot/2",
+  "snapshot_id": "snapshot-b027ecea-2b2e-4bdf-869e-774224402f0f",
+  "run_id": "run-fa0eba75-1dbf-4eac-9d23-830540ca5777",
+  "stage": "authority-and-timing",
+  "sequence": 3,
+  "created_at": "2026-10-19T01:32:41.598404Z",
+  "status": "blocked",
+  "predecessor": {
+    "snapshot_id": "snapshot-fdb3b091-5365-42cc-a5c3-20099e1e3b9e",
+    "path": "/home/maxg/regulatory-compliance/deliverables/snapshots/02-source-capture-attempt-004.json",
+    "sha256": "sha256:b1eaee7b4ae53f82bd358838323968563cf2774d8c475b3fd32c93e4e10a1fbc"
+  },
+  "consumed_record_ids": [
+    "source-law-01",
+    "source-oj-01",
+    "source-amend-01",
+    "source-consolidated-01",
+    "source-time-01",
+    "source-faq-01",
+    "source-policy-01",
+    "source-systems-01",
+    "source-systems-02",
+    "source-evidence-01",
+    "source-evidence-02",
+    "source-calendar-01",
+    "source-calendar-02",
+    "table-source-systems-01-0",
+    "table-source-systems-02-0",
+    "table-source-evidence-01-0",
+    "table-source-evidence-02-0",
+    "table-source-calendar-01-0",
+    "table-source-calendar-02-0",
+    "manual-policy-reference",
+    "u-access-policy",
+    "u-capture-authority",
+    "d-capture-status",
+    "u-register-verification"
+  ],
+  "produced_record_ids": [
+    "cite-001",
+    "cite-002",
+    "cite-003",
+    "cite-004",
+    "cite-005",
+    "cite-006",
+    "cite-007",
+    "cite-008",
+    "cite-009",
+    "cite-010",
+    "cite-011",
+    "cite-012",
+    "cite-013",
+    "cite-014",
+    "cite-015",
+    "cite-016",
+    "cite-017",
+    "cite-018",
+    "cite-019",
+    "cite-020",
+    "cite-021",
+    "cite-022",
+    "cite-023",
+    "cite-024",
+    "cite-025",
+    "cite-026",
+    "rule-50-1",
+    "rule-50-2",
+    "rule-50-3",
+    "rule-50-4",
+    "rule-50-5",
+    "rule-50-6",
+    "definition-3-3",
+    "definition-3-4",
+    "definition-3-60",
+    "rule-50-7-amended",
+    "timing-general",
+    "timing-original-entry",
+    "timing-amendment-entry",
+    "timing-50-2-transition",
+    "timing-highrisk-separate",
+    "context-law",
+    "context-timeline",
+    "context-faq",
+    "u-faq-cross-reference",
+    "u-system-applicability",
+    "u-historical-guidance",
+    "u-policy-and-approval",
+    "relationship-2026-amendment",
+    "interpretation-no-blanket-delay",
+    "d-authority-hierarchy"
+  ],
+  "state": {
+    "as_of": "2026-08-26T00:00:00Z",
+    "as_of_convention": "UTC calendar-date anchor; not an observed operational timestamp",
+    "source_documents": {
+      "LAW": {
+        "source_id": "source-law-01",
+        "kind": "official-explorer",
+        "identity": {
+          "document_version": null,
+          "effective_date": null
+        },
+        "title": "Article 50: Transparency obligations for providers and deployers of certain AI systems | AI Act Service Desk",
+        "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/law-01.response",
+        "sha256": "sha256:32abb414364ebc82c830f6c23913668805ae572544146f74e95eb974aea36adf",
+        "retrieved_at": "2026-10-19T01:25:37.992662Z",
+        "normalized_text_sha256": "sha256:777d6c8aa5f3aa5506b03d87401563f28d7d9ee8d012738db47796bcab3d9451",
+        "authority": "advisory"
+      },
+      "OJ": {
+        "source_id": "source-oj-01",
+        "kind": "enacted-original",
+        "identity": {
+          "document_id": "32024R1689",
+          "document_version": "original Official Journal publication",
+          "adoption_date": "2024-06-13",
+          "publication_date": "2024-07-12",
+          "effective_date": null
+        },
+        "title": "Regulation - EU - 2024/1689 - EN - EUR-Lex",
+        "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/oj-01.response",
+        "sha256": "sha256:459fca1abece1cd47dddf91cefed1136b5491261434f6e7dd69e7056188d891b",
+        "retrieved_at": "2026-10-19T01:25:38.929663Z",
+        "normalized_text_sha256": "sha256:4e44e91d95783efc6ebb5cc5ac251070e106077abad7dcb6a583bc962fdf39ed",
+        "authority": "binding"
+      },
+      "AMEND": {
+        "source_id": "source-amend-01",
+        "kind": "enacted-amendment",
+        "identity": {
+          "document_id": "32026R1744",
+          "document_version": "original Official Journal publication",
+          "adoption_date": "2026-07-08",
+          "publication_date": "2026-07-24",
+          "effective_date": null
+        },
+        "title": "Regulation - EU - 2026/1744 - EN - EUR-Lex",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/amend-01.response",
+        "sha256": "sha256:9984204db53ec4649f5e5dc1c8db91a1a1515b030a0d4faa64cc37cadefdd6f6",
+        "retrieved_at": "2026-10-19T01:25:40.138003Z",
+        "normalized_text_sha256": "sha256:3e119b2ffc51c347e4602d3fff48bf1e4cb15b6eabe4ab1023e10aa679a18182",
+        "authority": "binding"
+      },
+      "CONSOLIDATED": {
+        "source_id": "source-consolidated-01",
+        "kind": "consolidated-reference",
+        "identity": {
+          "document_id": "02024R1689-20260727",
+          "document_version": "02024R1689 — EN — 27.07.2026 — 001.001",
+          "consolidation_date": "2026-07-27",
+          "effective_date": null
+        },
+        "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/consolidated-01.response",
+        "sha256": "sha256:60f2abdb9bb170ad129f8247b3eadbf3aa7156e0a56383aa1b6188c24dc4c89a",
+        "retrieved_at": "2026-10-19T01:25:41.139949Z",
+        "normalized_text_sha256": "sha256:ae03378af79fef97b2e225177cb7751c646c0bbbc0f2cb89538ef736f8e63d0d",
+        "authority": "reference-only"
+      },
+      "TIME": {
+        "source_id": "source-time-01",
+        "kind": "implementation-guidance",
+        "identity": {
+          "document_version": null,
+          "effective_date": null
+        },
+        "title": "Timeline for the Implementation of the EU AI Act | AI Act Service Desk",
+        "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/time-01.response",
+        "sha256": "sha256:51d70d77f227f4cc37d43d5eda9836c7b0d40cc5ca0db7758eab577f79ef98e8",
+        "retrieved_at": "2026-10-19T01:25:42.372486Z",
+        "normalized_text_sha256": "sha256:37650e7b06563b57ec914be389d015871e733715de7e3e53f5af4c4668926ee6",
+        "authority": "advisory"
+      },
+      "FAQ": {
+        "source_id": "source-faq-01",
+        "kind": "faq-explanation",
+        "identity": {
+          "document_version": null,
+          "effective_date": null
+        },
+        "title": "Transparency obligations under Article 50 of the AI Act | Shaping Europe’s digital future",
+        "url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/faq-01.response",
+        "sha256": "sha256:1645486bab850cdee45e9068c5358a21dc9a8389257bb35628a9feabee5c993d",
+        "retrieved_at": "2026-10-19T01:25:42.839718Z",
+        "normalized_text_sha256": "sha256:e6c425faec618833933325a566c947b3285b816b8f6ee40b1f8002260dd57bc1",
+        "authority": "advisory"
+      }
+    },
+    "citations": [
+      {
+        "id": "cite-001",
+        "summary": "OJ: Article 50(1)",
+        "evidence_ids": [
+          "source-oj-01"
+        ],
+        "source_name": "OJ",
+        "category": "source-statement",
+        "source_id": "source-oj-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/oj-01.response",
+        "raw_sha256": "sha256:459fca1abece1cd47dddf91cefed1136b5491261434f6e7dd69e7056188d891b",
+        "section": "Article 50(1)",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 377248,
+          "end": 377950,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "1. Providers shall ensure that AI systems intended to interact directly with natural persons are designed and developed in such a way that the natural persons concerned are informed that they are interacting with an AI system, unless this is obvious from the point of view of a natural person who is reasonably well-informed, observant and circumspect, taking into account the circumstances and the context of use. This obligation shall not apply to AI systems authorised by law to detect, prevent, investigate or prosecute criminal offences, subject to appropriate safeguards for the rights and freedoms of third parties, unless those systems are available for the public to report a criminal offence.",
+        "excerpt_sha256": "sha256:bff7aabe84832bb9735caab00d96ec1b4a64515080a7d633f8cf11cfe56702c5"
+      },
+      {
+        "id": "cite-002",
+        "summary": "OJ: Article 50(2)",
+        "evidence_ids": [
+          "source-oj-01"
+        ],
+        "source_name": "OJ",
+        "category": "source-statement",
+        "source_id": "source-oj-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/oj-01.response",
+        "raw_sha256": "sha256:459fca1abece1cd47dddf91cefed1136b5491261434f6e7dd69e7056188d891b",
+        "section": "Article 50(2)",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 377951,
+          "end": 378869,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "2. Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content, shall ensure that the outputs of the AI system are marked in a machine-readable format and detectable as artificially generated or manipulated. Providers shall ensure their technical solutions are effective, interoperable, robust and reliable as far as this is technically feasible, taking into account the specificities and limitations of various types of content, the costs of implementation and the generally acknowledged state of the art, as may be reflected in relevant technical standards. This obligation shall not apply to the extent the AI systems perform an assistive function for standard editing or do not substantially alter the input data provided by the deployer or the semantics thereof, or where authorised by law to detect, prevent, investigate or prosecute criminal offences.",
+        "excerpt_sha256": "sha256:8ccbcc4fd1ad4f3fd91be65631f8199521cd16336db9d3435bee4245ee6876d0"
+      },
+      {
+        "id": "cite-003",
+        "summary": "OJ: Article 50(3)",
+        "evidence_ids": [
+          "source-oj-01"
+        ],
+        "source_name": "OJ",
+        "category": "source-statement",
+        "source_id": "source-oj-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/oj-01.response",
+        "raw_sha256": "sha256:459fca1abece1cd47dddf91cefed1136b5491261434f6e7dd69e7056188d891b",
+        "section": "Article 50(3)",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 378870,
+          "end": 379476,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "3. Deployers of an emotion recognition system or a biometric categorisation system shall inform the natural persons exposed thereto of the operation of the system, and shall process the personal data in accordance with Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680, as applicable. This obligation shall not apply to AI systems used for biometric categorisation and emotion recognition, which are permitted by law to detect, prevent or investigate criminal offences, subject to appropriate safeguards for the rights and freedoms of third parties, and in accordance with Union law.",
+        "excerpt_sha256": "sha256:2b791d524de7ca1511504264e9e58d09cbd44024f99a2de56e907a5bf4db6002"
+      },
+      {
+        "id": "cite-004",
+        "summary": "OJ: Article 50(4)",
+        "evidence_ids": [
+          "source-oj-01"
+        ],
+        "source_name": "OJ",
+        "category": "source-statement",
+        "source_id": "source-oj-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/oj-01.response",
+        "raw_sha256": "sha256:459fca1abece1cd47dddf91cefed1136b5491261434f6e7dd69e7056188d891b",
+        "section": "Article 50(4)",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 379477,
+          "end": 380698,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "4. Deployers of an AI system that generates or manipulates image, audio or video content constituting a deep fake, shall disclose that the content has been artificially generated or manipulated. This obligation shall not apply where the use is authorised by law to detect, prevent, investigate or prosecute criminal offence. Where the content forms part of an evidently artistic, creative, satirical, fictional or analogous work or programme, the transparency obligations set out in this paragraph are limited to disclosure of the existence of such generated or manipulated content in an appropriate manner that does not hamper the display or enjoyment of the work. Deployers of an AI system that generates or manipulates text which is published with the purpose of informing the public on matters of public interest shall disclose that the text has been artificially generated or manipulated. This obligation shall not apply where the use is authorised by law to detect, prevent, investigate or prosecute criminal offences or where the AI-generated content has undergone a process of human review or editorial control and where a natural or legal person holds editorial responsibility for the publication of the content.",
+        "excerpt_sha256": "sha256:24e75b91b844ddf00777e57e82390af77550be0adf1e5d400ecaf6096a7b9e0a"
+      },
+      {
+        "id": "cite-005",
+        "summary": "OJ: Article 50(5)",
+        "evidence_ids": [
+          "source-oj-01"
+        ],
+        "source_name": "OJ",
+        "category": "source-statement",
+        "source_id": "source-oj-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/oj-01.response",
+        "raw_sha256": "sha256:459fca1abece1cd47dddf91cefed1136b5491261434f6e7dd69e7056188d891b",
+        "section": "Article 50(5)",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 380699,
+          "end": 380979,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "5. The information referred to in paragraphs 1 to 4 shall be provided to the natural persons concerned in a clear and distinguishable manner at the latest at the time of the first interaction or exposure. The information shall conform to the applicable accessibility requirements.",
+        "excerpt_sha256": "sha256:65fdb9d5b649190565c447f420ae1a011967f8534e993c54e9461308635b2441"
+      },
+      {
+        "id": "cite-006",
+        "summary": "OJ: Article 50(6)",
+        "evidence_ids": [
+          "source-oj-01"
+        ],
+        "source_name": "OJ",
+        "category": "source-statement",
+        "source_id": "source-oj-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/oj-01.response",
+        "raw_sha256": "sha256:459fca1abece1cd47dddf91cefed1136b5491261434f6e7dd69e7056188d891b",
+        "section": "Article 50(6)",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 380980,
+          "end": 381203,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "6. Paragraphs 1 to 4 shall not affect the requirements and obligations set out in Chapter III, and shall be without prejudice to other transparency obligations laid down in Union or national law for deployers of AI systems.",
+        "excerpt_sha256": "sha256:4bd20e069dc7cbb19ece9acfe110c63521aa4255b9c6a6d079793bea90789555"
+      },
+      {
+        "id": "cite-007",
+        "summary": "OJ: Article 3(3)",
+        "evidence_ids": [
+          "source-oj-01"
+        ],
+        "source_name": "OJ",
+        "category": "source-statement",
+        "source_id": "source-oj-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/oj-01.response",
+        "raw_sha256": "sha256:459fca1abece1cd47dddf91cefed1136b5491261434f6e7dd69e7056188d891b",
+        "section": "Article 3(3)",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 241143,
+          "end": 241487,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "(3) ‘provider’ means a natural or legal person, public authority, agency or other body that develops an AI system or a general-purpose AI model or that has an AI system or a general-purpose AI model developed and places it on the market or puts the AI system into service under its own name or trademark, whether for payment or free of charge; ",
+        "excerpt_sha256": "sha256:d695ad986b95d85fdafe470a0dc4b415e19c77c839fc37bdf5f62f895e5fa990"
+      },
+      {
+        "id": "cite-008",
+        "summary": "OJ: Article 3(4)",
+        "evidence_ids": [
+          "source-oj-01"
+        ],
+        "source_name": "OJ",
+        "category": "source-statement",
+        "source_id": "source-oj-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/oj-01.response",
+        "raw_sha256": "sha256:459fca1abece1cd47dddf91cefed1136b5491261434f6e7dd69e7056188d891b",
+        "section": "Article 3(4)",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 241487,
+          "end": 241703,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "(4) ‘deployer’ means a natural or legal person, public authority, agency or other body using an AI system under its authority except where the AI system is used in the course of a personal non-professional activity; ",
+        "excerpt_sha256": "sha256:2489d83b609d1aff3df7c8423b2b1de50ccda24cbce1f75cece3f3820418cc12"
+      },
+      {
+        "id": "cite-009",
+        "summary": "OJ: Article 3(60)",
+        "evidence_ids": [
+          "source-oj-01"
+        ],
+        "source_name": "OJ",
+        "category": "source-statement",
+        "source_id": "source-oj-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/oj-01.response",
+        "raw_sha256": "sha256:459fca1abece1cd47dddf91cefed1136b5491261434f6e7dd69e7056188d891b",
+        "section": "Article 3(60)",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 254682,
+          "end": 254898,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "(60) ‘deep fake’ means AI-generated or manipulated image, audio or video content that resembles existing persons, objects, places, entities or events and would falsely appear to a person to be authentic or truthful; ",
+        "excerpt_sha256": "sha256:fe8d2453c4c6c5b1ba2ebcf18bedda46281abdbaabc6ff5c4606527bf76836a5"
+      },
+      {
+        "id": "cite-010",
+        "summary": "AMEND: Article 1(20), replacing Article 50(7)",
+        "evidence_ids": [
+          "source-amend-01"
+        ],
+        "source_name": "AMEND",
+        "category": "source-statement",
+        "source_id": "source-amend-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/amend-01.response",
+        "raw_sha256": "sha256:9984204db53ec4649f5e5dc1c8db91a1a1515b030a0d4faa64cc37cadefdd6f6",
+        "section": "Article 1(20), replacing Article 50(7)",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 93849,
+          "end": 94700,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "(20) in Article 50, paragraph 7 is replaced by the following: ‘7. The Commission shall encourage and facilitate the drawing up of codes of practice at Union level to facilitate the effective implementation of the obligations regarding the detection, marking and labelling of artificially generated or manipulated content. The Commission, taking utmost account of the opinion of the Board, shall assess whether adherence to those codes of practice is adequate to ensure compliance with the obligations laid down in paragraphs 2 and 4 of this Article, in accordance with the procedure laid down in Article 56(6). If it deems the code of practice to be inadequate, the Commission may adopt an implementing act specifying common rules for the implementation of those obligations in accordance with the examination procedure laid down in Article 98(2).’ ; ",
+        "excerpt_sha256": "sha256:7e196e3091a86752fef228e742fc66f7127242e9688457326e92007dd16923ba"
+      },
+      {
+        "id": "cite-011",
+        "summary": "OJ: Original Article 50(7), superseded",
+        "evidence_ids": [
+          "source-oj-01"
+        ],
+        "source_name": "OJ",
+        "category": "source-statement",
+        "source_id": "source-oj-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/oj-01.response",
+        "raw_sha256": "sha256:459fca1abece1cd47dddf91cefed1136b5491261434f6e7dd69e7056188d891b",
+        "section": "Original Article 50(7), superseded",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 381204,
+          "end": 381817,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "7. The AI Office shall encourage and facilitate the drawing up of codes of practice at Union level to facilitate the effective implementation of the obligations regarding the detection and labelling of artificially generated or manipulated content. The Commission may adopt implementing acts to approve those codes of practice in accordance with the procedure laid down in Article 56 (6). If it deems the code is not adequate, the Commission may adopt an implementing act specifying common rules for the implementation of those obligations in accordance with the examination procedure laid down in Article 98(2). ",
+        "excerpt_sha256": "sha256:8df1648976d3d1aaf91ceb25a1e0eaf42ee8783155205ec0f454a3296ad1871a"
+      },
+      {
+        "id": "cite-012",
+        "summary": "CONSOLIDATED: Consolidated Article 50(7)",
+        "evidence_ids": [
+          "source-consolidated-01"
+        ],
+        "source_name": "CONSOLIDATED",
+        "category": "source-statement",
+        "source_id": "source-consolidated-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/consolidated-01.response",
+        "raw_sha256": "sha256:60f2abdb9bb170ad129f8247b3eadbf3aa7156e0a56383aa1b6188c24dc4c89a",
+        "section": "Consolidated Article 50(7)",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 167195,
+          "end": 167983,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "7. The Commission shall encourage and facilitate the drawing up of codes of practice at Union level to facilitate the effective implementation of the obligations regarding the detection, marking and labelling of artificially generated or manipulated content. The Commission, taking utmost account of the opinion of the Board, shall assess whether adherence to those codes of practice is adequate to ensure compliance with the obligations laid down in paragraphs 2 and 4 of this Article, in accordance with the procedure laid down in Article 56(6). If it deems the code of practice to be inadequate, the Commission may adopt an implementing act specifying common rules for the implementation of those obligations in accordance with the examination procedure laid down in Article 98(2). ▼B ",
+        "excerpt_sha256": "sha256:6af76881d3a3e4a246338865afed59bd672b896afcef33449a3d56d077b5dda9"
+      },
+      {
+        "id": "cite-013",
+        "summary": "CONSOLIDATED: Version header and amending-act table",
+        "evidence_ids": [
+          "source-consolidated-01"
+        ],
+        "source_name": "CONSOLIDATED",
+        "category": "source-statement",
+        "source_id": "source-consolidated-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/consolidated-01.response",
+        "raw_sha256": "sha256:60f2abdb9bb170ad129f8247b3eadbf3aa7156e0a56383aa1b6188c24dc4c89a",
+        "section": "Version header and amending-act table",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 6169,
+          "end": 7598,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "02024R1689 — EN — 27.07.2026 — 001.001 This text is meant purely as a documentation tool and has no legal effect. The Union's institutions do not assume any liability for its contents. The authentic versions of the relevant acts, including their preambles, are those published in the Official Journal of the European Union and available in EUR-Lex. Those official texts are directly accessible through the links embedded in this document ►B REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 13 June 2024 laying down harmonised rules on artificial intelligence and amending Regulations (EC) No 300/2008, (EU) No 167/2013, (EU) No 168/2013, (EU) 2018/858, (EU) 2018/1139 and (EU) 2019/2144 and Directives 2014/90/EU, (EU) 2016/797 and (EU) 2020/1828 (Artificial Intelligence Act) (Text with EEA relevance) (OJ L 1689 12.7.2024, p. 1) Amended by: Official Journal No page date ►M1 REGULATION (EU) 2026/1744 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 8 July 2026 L 1744 1 24.7.2026 ▼B REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 13 June 2024 laying down harmonised rules on artificial intelligence and amending Regulations (EC) No 300/2008, (EU) No 167/2013, (EU) No 168/2013, (EU) 2018/858, (EU) 2018/1139 and (EU) 2019/2144 and Directives 2014/90/EU, (EU) 2016/797 and (EU) 2020/1828 (Artificial Intelligence Act) (Text with EEA relevance) CHAPTER I GENERAL PROVISIONS ",
+        "excerpt_sha256": "sha256:db5c6404565b14ddd28888405cbf0da66632ea5726a50ab51abb2444383658cc"
+      },
+      {
+        "id": "cite-014",
+        "summary": "OJ: Article 113, general application",
+        "evidence_ids": [
+          "source-oj-01"
+        ],
+        "source_name": "OJ",
+        "category": "source-statement",
+        "source_id": "source-oj-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/oj-01.response",
+        "raw_sha256": "sha256:459fca1abece1cd47dddf91cefed1136b5491261434f6e7dd69e7056188d891b",
+        "section": "Article 113, general application",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 527721,
+          "end": 527755,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "It shall apply from 2 August 2026.",
+        "excerpt_sha256": "sha256:d84de11a084926a49c435b80c07c303e11fbbcb6114fcbc53ac9b55f8fe1ad8a"
+      },
+      {
+        "id": "cite-015",
+        "summary": "CONSOLIDATED: Article 113, unchanged general application date",
+        "evidence_ids": [
+          "source-consolidated-01"
+        ],
+        "source_name": "CONSOLIDATED",
+        "category": "source-statement",
+        "source_id": "source-consolidated-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/consolidated-01.response",
+        "raw_sha256": "sha256:60f2abdb9bb170ad129f8247b3eadbf3aa7156e0a56383aa1b6188c24dc4c89a",
+        "section": "Article 113, unchanged general application date",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 342053,
+          "end": 342087,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "It shall apply from 2 August 2026.",
+        "excerpt_sha256": "sha256:d84de11a084926a49c435b80c07c303e11fbbcb6114fcbc53ac9b55f8fe1ad8a"
+      },
+      {
+        "id": "cite-016",
+        "summary": "OJ: Article 113, entry into force",
+        "evidence_ids": [
+          "source-oj-01"
+        ],
+        "source_name": "OJ",
+        "category": "source-statement",
+        "source_id": "source-oj-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/oj-01.response",
+        "raw_sha256": "sha256:459fca1abece1cd47dddf91cefed1136b5491261434f6e7dd69e7056188d891b",
+        "section": "Article 113, entry into force",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 527579,
+          "end": 527719,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union ",
+        "excerpt_sha256": "sha256:a31d3a2eab10162c01bdfaea31607d62a7d39b13f58f358215119d6b2a5258db"
+      },
+      {
+        "id": "cite-017",
+        "summary": "AMEND: Article 4, entry into force",
+        "evidence_ids": [
+          "source-amend-01"
+        ],
+        "source_name": "AMEND",
+        "category": "source-statement",
+        "source_id": "source-amend-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/amend-01.response",
+        "raw_sha256": "sha256:9984204db53ec4649f5e5dc1c8db91a1a1515b030a0d4faa64cc37cadefdd6f6",
+        "section": "Article 4, entry into force",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 147447,
+          "end": 147628,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "Article 4 Entry into force and application This Regulation shall enter into force on the third day following that of its publication in the Official Journal of the European Union . ",
+        "excerpt_sha256": "sha256:074c259a6916b0bc1c4c6169c83fea3ecbd80164ee6fba0981c7ca7c306e2803"
+      },
+      {
+        "id": "cite-018",
+        "summary": "AMEND: Article 1(39)(b), adding Article 111(4)",
+        "evidence_ids": [
+          "source-amend-01"
+        ],
+        "source_name": "AMEND",
+        "category": "source-statement",
+        "source_id": "source-amend-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/amend-01.response",
+        "raw_sha256": "sha256:9984204db53ec4649f5e5dc1c8db91a1a1515b030a0d4faa64cc37cadefdd6f6",
+        "section": "Article 1(39)(b), adding Article 111(4)",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 135966,
+          "end": 136232,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content, that have been placed on the market before 2 August 2026 shall take the necessary steps in order to comply with Article 50(2) by 2 December 2026.",
+        "excerpt_sha256": "sha256:dff26af8b44e80fff350e4a6471f2ea11f44ad90d346abd31c5f76137538c2da"
+      },
+      {
+        "id": "cite-019",
+        "summary": "CONSOLIDATED: Article 111(4)",
+        "evidence_ids": [
+          "source-consolidated-01"
+        ],
+        "source_name": "CONSOLIDATED",
+        "category": "source-statement",
+        "source_id": "source-consolidated-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/consolidated-01.response",
+        "raw_sha256": "sha256:60f2abdb9bb170ad129f8247b3eadbf3aa7156e0a56383aa1b6188c24dc4c89a",
+        "section": "Article 111(4)",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 335967,
+          "end": 336233,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "Providers of AI systems, including general-purpose AI systems, generating synthetic audio, image, video or text content, that have been placed on the market before 2 August 2026 shall take the necessary steps in order to comply with Article 50(2) by 2 December 2026.",
+        "excerpt_sha256": "sha256:dff26af8b44e80fff350e4a6471f2ea11f44ad90d346abd31c5f76137538c2da"
+      },
+      {
+        "id": "cite-020",
+        "summary": "AMEND: Article 1(40)(b), replacing Article 113 third paragraph (c)",
+        "evidence_ids": [
+          "source-amend-01"
+        ],
+        "source_name": "AMEND",
+        "category": "source-statement",
+        "source_id": "source-amend-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/amend-01.response",
+        "raw_sha256": "sha256:9984204db53ec4649f5e5dc1c8db91a1a1515b030a0d4faa64cc37cadefdd6f6",
+        "section": "Article 1(40)(b), replacing Article 113 third paragraph (c)",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 136598,
+          "end": 136898,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "Chapter III, Sections 1, 2, and 3, with the exception of Article 6(5), shall apply from: (i) 2 December 2027 as regards AI systems classified as high-risk pursuant to Article 6(2) and Annex III; and (ii) 2 August 2028 as regards AI systems classified as high-risk pursuant to Article 6(1) and Annex I",
+        "excerpt_sha256": "sha256:b6e1226644571e2af5391fcc9141a854035fa568e554e69578808a1f80fe7723"
+      },
+      {
+        "id": "cite-021",
+        "summary": "LAW: About this text",
+        "evidence_ids": [
+          "source-law-01"
+        ],
+        "source_name": "LAW",
+        "category": "source-statement",
+        "source_id": "source-law-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/law-01.response",
+        "raw_sha256": "sha256:32abb414364ebc82c830f6c23913668805ae572544146f74e95eb974aea36adf",
+        "section": "About this text",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 9763,
+          "end": 9864,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "The text displayed here is based on the EUR-Lex consolidated version of the AI Act as at 27 July 2026",
+        "excerpt_sha256": "sha256:95846fe30818097d925be0c7ed91b7d2746ef83ac7716eba2246f1382b5d7c53"
+      },
+      {
+        "id": "cite-022",
+        "summary": "TIME: 2 August and 2 December 2026 milestones",
+        "evidence_ids": [
+          "source-time-01"
+        ],
+        "source_name": "TIME",
+        "category": "source-statement",
+        "source_id": "source-time-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/time-01.response",
+        "raw_sha256": "sha256:51d70d77f227f4cc37d43d5eda9836c7b0d40cc5ca0db7758eab577f79ef98e8",
+        "section": "2 August and 2 December 2026 milestones",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 1278,
+          "end": 2015,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "02 Aug 2026 The majority of rules of the AI Act come into force and enforcement starts for applicable rules Transparency rules (Article 50) start to apply. Measures in support of innovation start apply. Enforcement of the AI Act starts at national and EU-level concerning general-purpose AI models, prohibitions, transparency rules and AI literacy. 02 Dec 2026 New prohibitions + Article 50(2) transition apply ** Prohibitions, for AI systems generating non-consensual sexual deepfakes and child sexual abuse material, start to apply. Transitional deadline for certain providers of AI systems, including GPAI systems, generating synthetic content, that were already placed on the market before 02 Aug 2026, to comply with Article 50(2). ",
+        "excerpt_sha256": "sha256:46cadc3bbbb96323c11a7edfc92e39152d1a1e9cc47875db8a9262c0b739c94a"
+      },
+      {
+        "id": "cite-023",
+        "summary": "FAQ: When does Article 50 ... start to apply and is there a grace period?",
+        "evidence_ids": [
+          "source-faq-01"
+        ],
+        "source_name": "FAQ",
+        "category": "source-statement",
+        "source_id": "source-faq-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/faq-01.response",
+        "raw_sha256": "sha256:1645486bab850cdee45e9068c5358a21dc9a8389257bb35628a9feabee5c993d",
+        "section": "When does Article 50 ... start to apply and is there a grace period?",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 15845,
+          "end": 16659,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "When does Article 50 of the AI Act start to apply and is there a grace period? Article 50 of the AI Act applies as from 2 August 2026. From that date onwards, providers and deployers of AI systems must comply with the transparency obligations laid down in that provision. A limited grace period is envisaged only for AI systems placed on the market before 2 August 2026 and only as regards the marking and detection obligation for AI-generated content (Article 50(2) of the AI Act). Providers of such systems must comply with those obligations only as from 2 December 2026. Content generated prior to 2 August 2026 does not need to be labelled retroactively. Nonetheless, the Commission encourages relevant deployers to do so, where possible, since it contributes to the goals pursued by Article 50 of the AI Act. ",
+        "excerpt_sha256": "sha256:9f1231092984b49bcb7e013d8eb89c68c899036e58d5d877bb263441631dd6ef"
+      },
+      {
+        "id": "cite-024",
+        "summary": "FAQ: Displayed last update",
+        "evidence_ids": [
+          "source-faq-01"
+        ],
+        "source_name": "FAQ",
+        "category": "source-statement",
+        "source_id": "source-faq-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/faq-01.response",
+        "raw_sha256": "sha256:1645486bab850cdee45e9068c5358a21dc9a8389257bb35628a9feabee5c993d",
+        "section": "Displayed last update",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 17595,
+          "end": 17619,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "Last update 24 July 2026",
+        "excerpt_sha256": "sha256:7d5875df4a9254380bb39beede6cd8b032e57e089a08173498c4aed229eccc2b"
+      },
+      {
+        "id": "cite-025",
+        "summary": "FAQ: General Article 50 application sentence",
+        "evidence_ids": [
+          "source-faq-01"
+        ],
+        "source_name": "FAQ",
+        "category": "source-statement",
+        "source_id": "source-faq-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/faq-01.response",
+        "raw_sha256": "sha256:1645486bab850cdee45e9068c5358a21dc9a8389257bb35628a9feabee5c993d",
+        "section": "General Article 50 application sentence",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 15924,
+          "end": 15978,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "Article 50 of the AI Act applies as from 2 August 2026",
+        "excerpt_sha256": "sha256:39ef6c00e77b6440c77d5eda15c188b564992554d4c59c4fe0c6f4eaec5cd38a"
+      },
+      {
+        "id": "cite-026",
+        "summary": "FAQ: Provider-answer paragraph citing Article 50(2) for direct interaction",
+        "evidence_ids": [
+          "source-faq-01"
+        ],
+        "source_name": "FAQ",
+        "category": "source-statement",
+        "source_id": "source-faq-01",
+        "path": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/faq-01.response",
+        "raw_sha256": "sha256:1645486bab850cdee45e9068c5358a21dc9a8389257bb35628a9feabee5c993d",
+        "section": "Provider-answer paragraph citing Article 50(2) for direct interaction",
+        "locator": {
+          "algorithm": "normalized-visible-text-v1",
+          "start": 1725,
+          "end": 2025,
+          "units": "Unicode characters; start inclusive, end exclusive"
+        },
+        "excerpt": "According to Article 50(2) of the AI Act, providers must design and develop AI systems that interact directly with natural persons — such as chatbots, AI agents, and avatars — to ensure that people are informed they are interacting with AI. Providers must also ensure that the outputs of their genera",
+        "excerpt_sha256": "sha256:91bd44cc8eef71f9ad2223d87a28d6b97bb67864d0cc8095b43df0b31a50a109"
+      }
+    ],
+    "binding_rules": [
+      {
+        "id": "rule-50-1",
+        "summary": "Provider direct-interaction disclosure, with the obviousness and law-enforcement qualifications in the text.",
+        "evidence_ids": [
+          "cite-001"
+        ],
+        "category": "source-statement",
+        "legal_approval": "pending",
+        "rule_ref": "Article 50(1)",
+        "authority": "binding",
+        "system_applicability": "unresolved"
+      },
+      {
+        "id": "rule-50-2",
+        "summary": "Provider machine-readable marking/detectability for synthetic content; technical-feasibility and specified editing/law-enforcement qualifications apply.",
+        "evidence_ids": [
+          "cite-002"
+        ],
+        "category": "source-statement",
+        "legal_approval": "pending",
+        "rule_ref": "Article 50(2)",
+        "authority": "binding",
+        "system_applicability": "unresolved"
+      },
+      {
+        "id": "rule-50-3",
+        "summary": "Deployer information duties for emotion recognition/biometric categorisation; data-protection and specified law-enforcement qualifications remain.",
+        "evidence_ids": [
+          "cite-003"
+        ],
+        "category": "source-statement",
+        "legal_approval": "pending",
+        "rule_ref": "Article 50(3)",
+        "authority": "binding",
+        "system_applicability": "unresolved"
+      },
+      {
+        "id": "rule-50-4",
+        "summary": "Deployer deepfake disclosure and public-interest text disclosure have distinct triggers and exceptions; artistic works and human/editorial review qualifications are limited as stated.",
+        "evidence_ids": [
+          "cite-004"
+        ],
+        "category": "source-statement",
+        "legal_approval": "pending",
+        "rule_ref": "Article 50(4)",
+        "authority": "binding",
+        "system_applicability": "unresolved"
+      },
+      {
+        "id": "rule-50-5",
+        "summary": "Information under paragraphs 1–4 must be clear, distinguishable, accessible and provided no later than first interaction/exposure.",
+        "evidence_ids": [
+          "cite-005"
+        ],
+        "category": "source-statement",
+        "legal_approval": "pending",
+        "rule_ref": "Article 50(5)",
+        "authority": "binding",
+        "system_applicability": "unresolved"
+      },
+      {
+        "id": "rule-50-6",
+        "summary": "Article 50 does not displace Chapter III or other Union/national transparency duties.",
+        "evidence_ids": [
+          "cite-006"
+        ],
+        "category": "source-statement",
+        "legal_approval": "pending",
+        "rule_ref": "Article 50(6)",
+        "authority": "binding",
+        "system_applicability": "unresolved"
+      },
+      {
+        "id": "definition-3-3",
+        "summary": "Provider definition includes development/commissioning and placing on the market or putting into service under one's own name or trademark.",
+        "evidence_ids": [
+          "cite-007"
+        ],
+        "category": "source-statement",
+        "legal_approval": "pending",
+        "rule_ref": "Article 3(3)",
+        "authority": "binding"
+      },
+      {
+        "id": "definition-3-4",
+        "summary": "Deployer definition concerns use under one's authority, excluding personal non-professional activity.",
+        "evidence_ids": [
+          "cite-008"
+        ],
+        "category": "source-statement",
+        "legal_approval": "pending",
+        "rule_ref": "Article 3(4)",
+        "authority": "binding"
+      },
+      {
+        "id": "definition-3-60",
+        "summary": "Deep fake definition concerns generated/manipulated image, audio or video resembling existing subjects and falsely appearing authentic or truthful.",
+        "evidence_ids": [
+          "cite-009"
+        ],
+        "category": "source-statement",
+        "legal_approval": "pending",
+        "rule_ref": "Article 3(60)",
+        "authority": "binding"
+      },
+      {
+        "id": "rule-50-7-amended",
+        "summary": "Amended Article 50(7) concerns codes of practice and Commission assessment/common rules.",
+        "evidence_ids": [
+          "cite-010"
+        ],
+        "category": "source-statement",
+        "legal_approval": "pending",
+        "rule_ref": "Article 50(7), as amended",
+        "authority": "binding"
+      }
+    ],
+    "timing_rules": [
+      {
+        "id": "timing-general",
+        "summary": "Article 113 states the general application date as 2 August 2026.",
+        "evidence_ids": [
+          "cite-014",
+          "cite-015"
+        ],
+        "category": "source-statement",
+        "legal_approval": "pending",
+        "date": "2026-08-02",
+        "date_type": "general-application"
+      },
+      {
+        "id": "timing-original-entry",
+        "summary": "Entry into force calculated from the original publication plus twenty days; distinct from application.",
+        "evidence_ids": [
+          "cite-016"
+        ],
+        "category": "supported-interpretation",
+        "legal_approval": "pending",
+        "date": "2024-08-01",
+        "publication_date": "2024-07-12",
+        "date_type": "entry-into-force"
+      },
+      {
+        "id": "timing-amendment-entry",
+        "summary": "Amendment entry into force calculated as the third day following its publication, before the assigned review date.",
+        "evidence_ids": [
+          "cite-017"
+        ],
+        "category": "supported-interpretation",
+        "legal_approval": "pending",
+        "date": "2026-07-27",
+        "publication_date": "2026-07-24",
+        "date_type": "entry-into-force"
+      },
+      {
+        "id": "timing-50-2-transition",
+        "summary": "Limited provider transition for Article 50(2): qualifying synthetic-content systems placed on the market before 2 August 2026 must comply by 2 December 2026.",
+        "evidence_ids": [
+          "cite-018",
+          "cite-019"
+        ],
+        "category": "source-statement",
+        "legal_approval": "pending",
+        "date": "2026-12-02",
+        "date_type": "conditional-statutory-transition",
+        "conditions": {
+          "role": "provider",
+          "obligation": "Article 50(2)",
+          "system_placed_on_market_before": "2026-08-02"
+        },
+        "system_eligibility": "unresolved"
+      },
+      {
+        "id": "timing-highrisk-separate",
+        "summary": "Amendment provides separate Chapter III application dates; these do not constitute a general Article 50 postponement.",
+        "evidence_ids": [
+          "cite-020",
+          "cite-014"
+        ],
+        "category": "supported-interpretation",
+        "legal_approval": "pending",
+        "date_type": "other-chapter-conditional-application",
+        "dates": {
+          "Article 6(2)/Annex III": "2027-12-02",
+          "Article 6(1)/Annex I": "2028-08-02"
+        },
+        "system_eligibility": "unresolved"
+      }
+    ],
+    "authority_hierarchy": {
+      "enacted-original-and-amendment": "Binding text; reconcile amendments chronologically",
+      "consolidated-reference": "Documentation aid, not an independently authentic enactment",
+      "official-explorer-and-guidance-and-faq": "Advisory explanations; cannot amend enacted duties",
+      "internal-policy": "Separate internal-control basis, not statutory text or Legal approval"
+    },
+    "guidance_context": [
+      {
+        "id": "context-law",
+        "summary": "LAW is an official explorer based on the 27 July consolidation; its explanations do not supersede enacted text.",
+        "evidence_ids": [
+          "cite-021"
+        ],
+        "category": "source-statement",
+        "legal_approval": "pending",
+        "authority": "advisory",
+        "reported_version": "2026-07-27"
+      },
+      {
+        "id": "context-timeline",
+        "summary": "Timeline states the Article 50 general start and limited Article 50(2) transition; its broad heading 'come into force' must not collapse entry into force and application.",
+        "evidence_ids": [
+          "cite-022",
+          "cite-014",
+          "cite-018"
+        ],
+        "category": "source-statement",
+        "legal_approval": "pending",
+        "authority": "advisory",
+        "published_version": null
+      },
+      {
+        "id": "context-faq",
+        "summary": "FAQ discusses the general start and limited grace period; its retroactive-labelling explanation is advisory, not a separate enacted exemption established here. Any timing discrepancy is retained separately.",
+        "evidence_ids": [
+          "cite-023",
+          "cite-024",
+          "cite-025"
+        ],
+        "category": "source-statement",
+        "legal_approval": "pending",
+        "authority": "advisory",
+        "displayed_update": "2026-07-24"
+      }
+    ],
+    "authority_blockers": [
+      {
+        "id": "u-faq-cross-reference",
+        "summary": "FAQ cites Article 50(2) for direct-interaction disclosure; enacted Article 50(1) is the corresponding provision. Preserve this numbering discrepancy, not a new duty.",
+        "evidence_ids": [
+          "cite-026",
+          "cite-001"
+        ],
+        "owner": "Legal",
+        "category": "unresolved-applicability",
+        "resolution_need": "Legal to confirm treatment of the FAQ cross-reference; use enacted provision numbering."
+      },
+      {
+        "id": "u-system-applicability",
+        "summary": "No system-level role, scope, exception, transition eligibility or compliance determination is made in Stage 03.",
+        "evidence_ids": [
+          "rule-50-1",
+          "rule-50-2",
+          "rule-50-3",
+          "rule-50-4",
+          "rule-50-5",
+          "rule-50-6",
+          "definition-3-3",
+          "definition-3-4",
+          "definition-3-60",
+          "rule-50-7-amended",
+          "timing-general",
+          "timing-original-entry",
+          "timing-amendment-entry",
+          "timing-50-2-transition",
+          "timing-highrisk-separate"
+        ],
+        "owner": "Legal",
+        "category": "unresolved-applicability",
+        "resolution_need": "Legal and system owners must establish the relevant facts and apply the supported rule bases in later authorized stages."
+      },
+      {
+        "id": "u-historical-guidance",
+        "summary": "Guidance was retrieved after the review date; HTTP timestamps do not prove the precise guidance content available on 26 August 2026.",
+        "evidence_ids": [
+          "cite-021",
+          "cite-022",
+          "cite-024"
+        ],
+        "owner": "Legal",
+        "category": "unresolved-applicability",
+        "resolution_need": "Legal to assess historical suitability; retain displayed versions separately from retrieval times."
+      },
+      {
+        "id": "u-policy-and-approval",
+        "summary": "Internal policy is a separate internal-control basis; live POLICY access remains unresolved and no Legal approval has been supplied.",
+        "evidence_ids": [
+          "manual-policy-reference"
+        ],
+        "owner": "Legal",
+        "category": "unresolved-applicability",
+        "resolution_need": "Obtain legitimate policy provenance/access and actual version-bound Legal feedback; manual text is not enacted law or approval."
+      }
+    ],
+    "version_relationships": [
+      {
+        "id": "relationship-2026-amendment",
+        "summary": "Original 2024/1689 text is amended by 2026/1744; the 27 July 2026 consolidation integrates the amendment. Original Article 50(7) is not the current paragraph.",
+        "evidence_ids": [
+          "cite-011",
+          "cite-010",
+          "cite-012",
+          "cite-013"
+        ],
+        "category": "supported-interpretation",
+        "legal_approval": "pending"
+      }
+    ],
+    "supported_interpretations": [
+      {
+        "id": "interpretation-no-blanket-delay",
+        "summary": "At 26 August 2026 the general start date has passed, while the specific Article 50(2) transition date is future. Neither establishes a blanket deferral for other Article 50 duties or any company's eligibility.",
+        "evidence_ids": [
+          "cite-014",
+          "cite-018",
+          "cite-019"
+        ],
+        "category": "supported-interpretation",
+        "legal_approval": "pending",
+        "as_of": "2026-08-26",
+        "legal_approval_status": "pending"
+      }
+    ],
+    "legal_approval": "pending",
+    "system_findings": [],
+    "timing_conflicts": [],
+    "timing_uncertainty": "Conditional eligibility and historical guidance remain unresolved; no blanket grace period or operational deadline is inferred."
+  },
+  "unresolved": [
+    {
+      "id": "u-system-inventory",
+      "summary": "Eight systems expected; actual IDs and facts await SYSTEMS verification.",
+      "evidence_ids": [
+        "e-interview"
+      ],
+      "owner": "System owners",
+      "resolution_need": "Read SYSTEMS through its disclosed route and verify identities and date-appropriate facts."
+    },
+    {
+      "id": "u-authority",
+      "summary": "Applicable legal versions and source suitability have not been verified.",
+      "evidence_ids": [
+        "e-assignment",
+        "e-interview"
+      ],
+      "owner": "Legal",
+      "resolution_need": "Retrieve and reconcile required official sources in later authorized stages."
+    },
+    {
+      "id": "u-approval",
+      "summary": "No version-bound human approval has been supplied or applied.",
+      "evidence_ids": [
+        "e-assignment",
+        "e-interview"
+      ],
+      "owner": "Legal and Operations",
+      "resolution_need": "Retain pending review until actual authorized, version-matched feedback exists."
+    },
+    {
+      "id": "u-export",
+      "summary": "Local interview export completeness has not been independently certified.",
+      "evidence_ids": [
+        "e-interview",
+        "e-readme"
+      ],
+      "owner": "Learner / facilitator",
+      "resolution_need": "Verify original export and assessed-work prerequisites with facilitator."
+    },
+    {
+      "id": "u-capture-authority",
+      "summary": "Document identity checks do not establish applicable legal authority or review-date suitability; dependent conclusions remain blocked.",
+      "evidence_ids": [
+        "source-law-01",
+        "source-oj-01",
+        "source-amend-01",
+        "source-consolidated-01",
+        "source-time-01",
+        "source-faq-01"
+      ],
+      "owner": "Legal / source access operator",
+      "resolution_need": "Verify captured documents and date-appropriate legal basis before dependent conclusions."
+    },
+    {
+      "id": "u-register-verification",
+      "summary": "Downloaded register values are source-reported, not independently corroborated or proof of approval; tab completeness remains unverified.",
+      "evidence_ids": [
+        "table-source-systems-01-0",
+        "table-source-systems-02-0",
+        "table-source-evidence-01-0",
+        "table-source-evidence-02-0",
+        "table-source-calendar-01-0",
+        "table-source-calendar-02-0"
+      ],
+      "owner": "System owners / Operations",
+      "resolution_need": "Review reported evidence gaps, tab inventory and any register validation errors; obtain underlying evidence separately.",
+      "validation_errors": []
+    },
+    {
+      "id": "u-access-policy",
+      "summary": "POLICY: live document access/identity remains unresolved; manual references do not resolve access.",
+      "evidence_ids": [
+        "source-policy-01"
+      ],
+      "owner": "Operations / source access operator",
+      "resolution_need": "Obtain and verify the live document through its legitimate route."
+    },
+    {
+      "id": "u-faq-cross-reference",
+      "summary": "FAQ cites Article 50(2) for direct-interaction disclosure; enacted Article 50(1) is the corresponding provision. Preserve this numbering discrepancy, not a new duty.",
+      "evidence_ids": [
+        "cite-026",
+        "cite-001"
+      ],
+      "owner": "Legal",
+      "category": "unresolved-applicability",
+      "resolution_need": "Legal to confirm treatment of the FAQ cross-reference; use enacted provision numbering."
+    },
+    {
+      "id": "u-system-applicability",
+      "summary": "No system-level role, scope, exception, transition eligibility or compliance determination is made in Stage 03.",
+      "evidence_ids": [
+        "rule-50-1",
+        "rule-50-2",
+        "rule-50-3",
+        "rule-50-4",
+        "rule-50-5",
+        "rule-50-6",
+        "definition-3-3",
+        "definition-3-4",
+        "definition-3-60",
+        "rule-50-7-amended",
+        "timing-general",
+        "timing-original-entry",
+        "timing-amendment-entry",
+        "timing-50-2-transition",
+        "timing-highrisk-separate"
+      ],
+      "owner": "Legal",
+      "category": "unresolved-applicability",
+      "resolution_need": "Legal and system owners must establish the relevant facts and apply the supported rule bases in later authorized stages."
+    },
+    {
+      "id": "u-historical-guidance",
+      "summary": "Guidance was retrieved after the review date; HTTP timestamps do not prove the precise guidance content available on 26 August 2026.",
+      "evidence_ids": [
+        "cite-021",
+        "cite-022",
+        "cite-024"
+      ],
+      "owner": "Legal",
+      "category": "unresolved-applicability",
+      "resolution_need": "Legal to assess historical suitability; retain displayed versions separately from retrieval times."
+    },
+    {
+      "id": "u-policy-and-approval",
+      "summary": "Internal policy is a separate internal-control basis; live POLICY access remains unresolved and no Legal approval has been supplied.",
+      "evidence_ids": [
+        "manual-policy-reference"
+      ],
+      "owner": "Legal",
+      "category": "unresolved-applicability",
+      "resolution_need": "Obtain legitimate policy provenance/access and actual version-bound Legal feedback; manual text is not enacted law or approval."
+    }
+  ],
+  "decisions": [
+    {
+      "id": "d-authority-hierarchy",
+      "summary": "Use enacted original plus amendments for legal authority, consolidation for cross-checking, guidance for explanation only.",
+      "evidence_ids": [
+        "cite-013",
+        "cite-010",
+        "cite-014",
+        "cite-018"
+      ],
+      "concern": "Keep authority, source statements, interpretation and approval distinct.",
+      "options": [
+        "Reconcile enacted acts with a dated consolidation",
+        "Treat current web explanations as binding and approved"
+      ],
+      "chosen_behavior": "Preserve dated source statements and conditional draft interpretations; withhold system findings and approvals.",
+      "rationale": "The consolidation disclaims legal effect and the assignment reserves final interpretation to Legal.",
+      "tradeoffs": [
+        "An explicit unresolved chain remains even where document-level timing is supported."
+      ],
+      "downstream_effect": "Later stages must resolve facts and Legal questions before relying on system-specific conclusions."
+    }
+  ]
+}

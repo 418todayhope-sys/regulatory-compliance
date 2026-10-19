@@ -1,0 +1,48 @@
+{
+  "id": "source-consolidated-01",
+  "source_name": "CONSOLIDATED",
+  "summary": "CONSOLIDATED document identity/version matched; legal applicability remains unverified.",
+  "evidence_ids": [
+    "e-interview"
+  ],
+  "source_role": "binding-regulation",
+  "authority": "unknown",
+  "locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+  "original_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+  "requested_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+  "attempt_number": 1,
+  "route_type": "original",
+  "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+  "http_status": 200,
+  "observed_identity": {
+    "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+    "returned_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+    "expected_source": "CONSOLIDATED",
+    "document_id": "02024R1689-20260727",
+    "document_version": "02024R1689 \u2014 EN \u2014 27.07.2026 \u2014 001.001",
+    "consolidation_date": "2026-07-27",
+    "effective_date": null
+  },
+  "retrieved_at": "2026-10-19T01:18:29.628115Z",
+  "retrieval_status": "retrieved",
+  "content_type": "text/html; charset=UTF-8",
+  "version_metadata": {
+    "etag": null,
+    "last_modified": null,
+    "document_version": "02024R1689 \u2014 EN \u2014 27.07.2026 \u2014 001.001",
+    "effective_date": null,
+    "note": "HTTP validators are not verified document versions",
+    "document_id": "02024R1689-20260727",
+    "consolidation_date": "2026-07-27"
+  },
+  "content_hash": "sha256:38c765df497e0f0d213989ea8944632fad7fa2f319eba990809ccb6b895e9956",
+  "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-003/sources/consolidated-01.response",
+  "identity_status": "verified",
+  "review_date_suitability": "unverified",
+  "failure": null,
+  "used_for_conclusions": false,
+  "capture_locator": "response bytes 0..1104655",
+  "byte_count": 1104656,
+  "identity_verification": "Official hostname, visible regulation heading, Article 1 and expected publication/consolidation date",
+  "completed_at": "2026-10-19T01:18:31.016000Z"
+}

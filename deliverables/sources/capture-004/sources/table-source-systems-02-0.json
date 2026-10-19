@@ -1,0 +1,196 @@
+{
+  "headers": [
+    "system_id",
+    "system_name",
+    "use_case",
+    "owner",
+    "provider_role",
+    "deployer_role",
+    "exposed_group",
+    "output_type",
+    "current_notice",
+    "human_review",
+    "evidence_status",
+    "evidence_updated_at",
+    "record_version"
+  ],
+  "records": [
+    {
+      "row_number": 2,
+      "values": {
+        "system_id": "AI-001",
+        "system_name": "Learner Support Chat",
+        "use_case": "Answers routine learner questions",
+        "owner": "Learner Operations",
+        "provider_role": "no",
+        "deployer_role": "yes",
+        "exposed_group": "learners",
+        "output_type": "direct_interaction",
+        "current_notice": "yes",
+        "human_review": "staff escalation",
+        "evidence_status": "complete",
+        "evidence_updated_at": "2026-08-20",
+        "record_version": "register-2026-08-26"
+      }
+    },
+    {
+      "row_number": 3,
+      "values": {
+        "system_id": "AI-002",
+        "system_name": "Admissions Draft Assistant",
+        "use_case": "Drafts applicant email replies",
+        "owner": "Admissions",
+        "provider_role": "no",
+        "deployer_role": "yes",
+        "exposed_group": "applicants",
+        "output_type": "text",
+        "current_notice": "unknown",
+        "human_review": "advisor approval",
+        "evidence_status": "partial",
+        "evidence_updated_at": "2026-07-01",
+        "record_version": "register-2026-08-26"
+      }
+    },
+    {
+      "row_number": 4,
+      "values": {
+        "system_id": "AI-003",
+        "system_name": "Campaign Image Studio",
+        "use_case": "Creates public campaign images",
+        "owner": "Communications",
+        "provider_role": "no",
+        "deployer_role": "yes",
+        "exposed_group": "public",
+        "output_type": "synthetic_image",
+        "current_notice": "visible_label",
+        "human_review": "communications approval",
+        "evidence_status": "complete",
+        "evidence_updated_at": "2026-08-22",
+        "record_version": "register-2026-08-26"
+      }
+    },
+    {
+      "row_number": 5,
+      "values": {
+        "system_id": "AI-004",
+        "system_name": "Pronunciation Coach",
+        "use_case": "Provides spoken practice feedback",
+        "owner": "Learning Experience",
+        "provider_role": "no",
+        "deployer_role": "yes",
+        "exposed_group": "learners",
+        "output_type": "direct_interaction",
+        "current_notice": "no",
+        "human_review": "instructor escalation",
+        "evidence_status": "complete",
+        "evidence_updated_at": "2026-08-18",
+        "record_version": "register-2026-08-26"
+      }
+    },
+    {
+      "row_number": 6,
+      "values": {
+        "system_id": "AI-005",
+        "system_name": "Remote Proctor Signal",
+        "use_case": "Flags assessment sessions for review",
+        "owner": "Assessment Operations",
+        "provider_role": "unknown",
+        "deployer_role": "yes",
+        "exposed_group": "learners",
+        "output_type": "classification",
+        "current_notice": "yes",
+        "human_review": "human adjudication",
+        "evidence_status": "stale",
+        "evidence_updated_at": "2026-04-15",
+        "record_version": "register-2026-08-26"
+      }
+    },
+    {
+      "row_number": 7,
+      "values": {
+        "system_id": "AI-006",
+        "system_name": "Staff Summary Assistant",
+        "use_case": "Summarizes internal meeting notes",
+        "owner": "People Operations",
+        "provider_role": "no",
+        "deployer_role": "yes",
+        "exposed_group": "staff",
+        "output_type": "text",
+        "current_notice": "not_applicable",
+        "human_review": "author review",
+        "evidence_status": "complete",
+        "evidence_updated_at": "2026-08-14",
+        "record_version": "register-2026-08-26"
+      }
+    },
+    {
+      "row_number": 8,
+      "values": {
+        "system_id": "AI-007",
+        "system_name": "Website Guide Avatar",
+        "use_case": "Answers public programme questions",
+        "owner": "Marketing",
+        "provider_role": "no",
+        "deployer_role": "yes",
+        "exposed_group": "public",
+        "output_type": "direct_interaction",
+        "current_notice": "no",
+        "human_review": "marketing escalation",
+        "evidence_status": "conflicting",
+        "evidence_updated_at": "2026-08-21",
+        "record_version": "register-2026-08-26"
+      }
+    },
+    {
+      "row_number": 9,
+      "values": {
+        "system_id": "AI-008",
+        "system_name": "Video Localisation Tool",
+        "use_case": "Generates dubbed public programme videos",
+        "owner": "Communications",
+        "provider_role": "no",
+        "deployer_role": "yes",
+        "exposed_group": "public",
+        "output_type": "synthetic_audio_video",
+        "current_notice": "visible_label",
+        "human_review": "communications approval",
+        "evidence_status": "partial",
+        "evidence_updated_at": "2026-08-19",
+        "record_version": "register-2026-08-26"
+      }
+    }
+  ],
+  "record_ids": [
+    "AI-001",
+    "AI-002",
+    "AI-003",
+    "AI-004",
+    "AI-005",
+    "AI-006",
+    "AI-007",
+    "AI-008"
+  ],
+  "record_count": 8,
+  "gid": "0",
+  "tab_name": "AI System Register",
+  "valid": true,
+  "errors": [],
+  "id": "table-source-systems-02-0",
+  "summary": "SYSTEMS source-reported register rows; no independent corroboration or approval.",
+  "evidence_ids": [
+    "source-systems-02"
+  ],
+  "source_name": "SYSTEMS",
+  "workbook_id": "10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
+  "original_url": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
+  "requested_url": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU/export?format=csv&gid=0",
+  "retrieval_url": "https://doc-0k-48-sheets.googleusercontent.com/export/f3kk9gtum31ktuqh54kn7i1e14/6gi8vuci412l237valp1b3hl9o/1792373140000/116538737177717635516/*/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU?format=csv&gid=0",
+  "retrieved_at": "2026-10-19T01:25:44.987540Z",
+  "raw_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/systems-02.response",
+  "raw_sha256": "sha256:5ccd555dac9dc3af5a77d3206105fb093565865f7283abe43f5339dd46ed8a80",
+  "discovered_tabs": [],
+  "tab_discovery_limitation": "Only exposed HTML grids/tab captions and explicitly configured gids are inspected; hidden/unexposed tabs and workbook completeness are not established.",
+  "independently_corroborated": false,
+  "approval_verified": false,
+  "format": "csv"
+}
