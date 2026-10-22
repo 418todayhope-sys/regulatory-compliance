@@ -1,0 +1,37 @@
+{
+  "id": "source-calendar",
+  "source_name": "CALENDAR",
+  "summary": "Live attempt for CALENDAR; document suitability remains unverified.",
+  "evidence_ids": [
+    "e-interview"
+  ],
+  "source_role": "operational-record",
+  "authority": "unknown",
+  "locator": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+  "retrieved_at": "2026-10-19T01:07:19.280497Z",
+  "retrieval_status": "unverified",
+  "content_type": "text/html; charset=utf-8",
+  "version_metadata": {
+    "etag": null,
+    "last_modified": null,
+    "document_version": null,
+    "effective_date": null,
+    "note": "HTTP validators are not verified document versions"
+  },
+  "content_hash": "sha256:da2b82f2baab2d12fb042e008b51fa97ffc59b31ee3c7911ad6aae4c30a5c306",
+  "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-001/sources/calendar.response",
+  "identity_status": "unverified",
+  "review_date_suitability": "unverified",
+  "failure": null,
+  "used_for_conclusions": false,
+  "http_status": 200,
+  "final_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA/edit",
+  "observed_identity": {
+    "title": "Project B \u2014 Compliance Calendar - Google SheetsLoading...",
+    "returned_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA/edit",
+    "expected_source": "CALENDAR"
+  },
+  "capture_locator": "response bytes 0..235908",
+  "byte_count": 235909,
+  "completed_at": "2026-10-19T01:07:19.937324Z"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "source-evidence-01",
+  "source_name": "EVIDENCE",
+  "summary": "Live attempt for EVIDENCE; document suitability remains unverified.",
+  "evidence_ids": [
+    "e-interview"
+  ],
+  "source_role": "operational-record",
+  "authority": "unknown",
+  "locator": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+  "original_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+  "requested_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+  "attempt_number": 1,
+  "route_type": "original",
+  "final_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk/edit",
+  "http_status": 200,
+  "observed_identity": {
+    "title": "Project B \u2014 Incident and Evidence Register - Google Sheets",
+    "returned_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk/edit",
+    "expected_source": "EVIDENCE"
+  },
+  "retrieved_at": "2026-10-19T01:25:45.406602Z",
+  "retrieval_status": "unverified",
+  "content_type": "text/html; charset=utf-8",
+  "version_metadata": {
+    "etag": null,
+    "last_modified": null,
+    "document_version": null,
+    "effective_date": null,
+    "note": "HTTP validators are not verified document versions"
+  },
+  "content_hash": "sha256:16caf43c7a99f284909e357164515a0a681c73f576402226c4bf7c491a67e70c",
+  "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/evidence-01.response",
+  "identity_status": "unverified",
+  "review_date_suitability": "unverified",
+  "failure": null,
+  "used_for_conclusions": false,
+  "capture_locator": "response bytes 0..232666",
+  "byte_count": 232667,
+  "completed_at": "2026-10-19T01:25:46.299305Z"
+}

@@ -1,0 +1,147 @@
+[
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "regulatory-change-impact-brief/tests",
+      "-p",
+      "test_portable.py",
+      "-v"
+    ],
+    "environment": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "cwd": "repository root",
+    "started_at": "2026-10-19T03:02:16.512527+00:00",
+    "finished_at": "2026-10-19T03:02:19.585304+00:00",
+    "exit_code": 0,
+    "log": "targeted.log",
+    "limits": "Offline actual-package temporary copies; no live retrieval."
+  },
+  {
+    "command": [
+      "python3",
+      "regulatory-change-impact-brief/scripts/portable.py",
+      "--original-root",
+      "/home/maxg/regulatory-compliance"
+    ],
+    "environment": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "cwd": "/tmp/project-b-cli-review-xkv_4wr2/relocated checkout",
+    "started_at": "2026-10-19T03:02:48.533223+00:00",
+    "finished_at": "2026-10-19T03:02:49.853698+00:00",
+    "exit_code": 1,
+    "log": "relocated-cli.log"
+  },
+  {
+    "command": [
+      "python3",
+      "/home/maxg/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+      "regulatory-change-impact-brief"
+    ],
+    "environment": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "cwd": "repository root",
+    "started_at": "2026-10-19T03:02:49.857741+00:00",
+    "finished_at": "2026-10-19T03:02:49.919111+00:00",
+    "exit_code": 0,
+    "log": "skill.log"
+  },
+  {
+    "command": [
+      "python3",
+      "-c",
+      "from pathlib import Path\nimport json,hashlib,subprocess\nfrom jsonschema import Draft202012Validator,FormatChecker\nr=Path.cwd();v=Draft202012Validator(json.loads((r/'snapshot.schema.json').read_bytes()),format_checker=FormatChecker())\nfiles=sorted((r/'deliverables/snapshots').glob('*.json'))\nfor p in files:v.validate(json.loads(p.read_bytes()))\nassert subprocess.check_output(['git','show','HEAD:snapshot.schema.json'])==(r/'snapshot.schema.json').read_bytes()\nbase=json.loads((r/'review-evidence/portable-review/preservation-before.json').read_bytes())['files']\nfor name,h in base.items():assert hashlib.sha256((r/name).read_bytes()).hexdigest()==h,name\nprint(str(len(files))+' snapshots schema-valid; supplied schema equals HEAD; '+str(len(base))+' protected files unchanged.')\n"
+    ],
+    "environment": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "cwd": "repository root",
+    "started_at": "2026-10-19T03:02:49.919643+00:00",
+    "finished_at": "2026-10-19T03:02:50.220587+00:00",
+    "exit_code": 0,
+    "log": "schema.log"
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "regulatory-change-impact-brief/tests",
+      "-p",
+      "test_portable.py",
+      "-v"
+    ],
+    "environment": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "cwd": "repository root",
+    "started_at": "2026-10-19T03:03:22.309078+00:00",
+    "finished_at": "2026-10-19T03:03:28.402150+00:00",
+    "exit_code": 0,
+    "log": "targeted-final.log"
+  },
+  {
+    "command": [
+      "python3",
+      "regulatory-change-impact-brief/scripts/portable.py",
+      "--original-root",
+      "/home/maxg/regulatory-compliance"
+    ],
+    "environment": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "cwd": "/tmp/project-b-cli-review-oy13m6nx/relocated checkout",
+    "started_at": "2026-10-19T03:03:28.439648+00:00",
+    "finished_at": "2026-10-19T03:03:30.155514+00:00",
+    "exit_code": 0,
+    "log": "relocated-cli-final.log"
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "regulatory-change-impact-brief/tests",
+      "-v"
+    ],
+    "environment": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "cwd": "repository root",
+    "started_at": "2026-10-19T03:02:46.499858+00:00",
+    "finished_at": "2026-10-19T03:05:14.757943+00:00",
+    "exit_code": 0,
+    "log": "regression.log",
+    "limits": "Controlled fixture transports and temporary copies; no live retrieval."
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "regulatory-change-impact-brief/tests",
+      "-v"
+    ],
+    "environment": {
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "cwd": "repository root",
+    "started_at": "2026-10-19T03:04:05.523377+00:00",
+    "finished_at": "2026-10-19T03:06:34.251809+00:00",
+    "exit_code": 0,
+    "log": "regression-final.log",
+    "limits": "Final code; controlled fixture transports and temporary copies; no live retrieval."
+  }
+]

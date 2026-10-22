@@ -1,0 +1,26 @@
+{
+  "interview": "interviews/project-b-regulatory-compliance-20261018-1952.md",
+  "manual_policy_reference": "references/manual/policy-manual-reference.md",
+  "register_tabs": {
+    "SYSTEMS": [{"gid": "0", "name": "AI System Register"}],
+    "EVIDENCE": [{"gid": "0", "name": "Incident Evidence Register"}],
+    "CALENDAR": [{"gid": "0", "name": "Compliance Calendar"}]
+  },
+  "official_html_fallbacks": {
+    "OJ": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202401689",
+    "AMEND": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202601744",
+    "CONSOLIDATED": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02024R1689-20260727"
+  },
+  "sources": {
+    "LAW": "official-guidance",
+    "OJ": "binding-regulation",
+    "AMEND": "binding-regulation",
+    "CONSOLIDATED": "binding-regulation",
+    "TIME": "official-guidance",
+    "FAQ": "official-guidance",
+    "POLICY": "internal-policy",
+    "SYSTEMS": "operational-record",
+    "EVIDENCE": "operational-record",
+    "CALENDAR": "operational-record"
+  }
+}

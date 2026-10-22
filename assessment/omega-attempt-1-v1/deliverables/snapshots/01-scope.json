@@ -1,0 +1,156 @@
+{
+  "schema_version": "regulatory-compliance-stage-snapshot/2",
+  "snapshot_id": "snapshot-9fe0f6dd-47d6-4ca4-be7b-8366eb9aa247",
+  "run_id": "run-fa0eba75-1dbf-4eac-9d23-830540ca5777",
+  "stage": "scope",
+  "sequence": 1,
+  "created_at": "2026-10-19T01:02:10.347419Z",
+  "status": "partial",
+  "predecessor": null,
+  "consumed_record_ids": [],
+  "produced_record_ids": [
+    "e-assignment",
+    "e-interview",
+    "e-readme",
+    "u-system-inventory",
+    "u-authority",
+    "u-approval",
+    "u-export",
+    "d-date",
+    "d-unknown-ids"
+  ],
+  "state": {
+    "as_of": "2026-08-26T00:00:00Z",
+    "as_of_convention": "UTC calendar-date anchor; not an observed operational timestamp",
+    "review_type": "Draft EU AI Act Article 50 impact review",
+    "team": "EU programme team",
+    "location": "Dublin, Ireland",
+    "systems_in_scope": [
+      "Eight expected EU programme AI systems; identities unverified pending SYSTEMS"
+    ],
+    "expected_system_count": 8,
+    "system_ids": [],
+    "system_ids_status": "unverified",
+    "audiences": [
+      "Legal",
+      "Operations"
+    ],
+    "approval_gates": [
+      "Legal: final legal interpretation and exception review",
+      "Operations: policy activation, approved dates and incident closure"
+    ],
+    "approval_status": "pending",
+    "scope_basis": "Assignment and interview; live sources not read",
+    "evidence_records": [
+      {
+        "id": "e-assignment",
+        "summary": "Assigned review date, audiences and draft-only mandate.",
+        "evidence_ids": [],
+        "path": "Project_B_Learner_Assignment_Codex.md",
+        "sha256": "sha256:23fc7f184e44eb2bcfb1630a9befda6d44e26e01fabfee6b6f701af854946014",
+        "locator": "Scenario; Your task",
+        "evidence_type": "local-project-document"
+      },
+      {
+        "id": "e-interview",
+        "summary": "Stakeholder-disclosed scope and responsibilities; not source-verified.",
+        "evidence_ids": [],
+        "path": "interviews/project-b-regulatory-compliance-20261018-1952.md",
+        "sha256": "sha256:ea35018646971a9c545bb76d9bc86a247a67ffd3d46a70bf6bcc80eefd1e2642",
+        "locator": "03:21–03:23 PM scope/date; 03:30 PM roles; 03:40 PM join key",
+        "evidence_type": "local-project-document"
+      },
+      {
+        "id": "e-readme",
+        "summary": "Preserve schema, original interview and read-only source access.",
+        "evidence_ids": [],
+        "path": "README.md",
+        "sha256": "sha256:1d72d3849dae49bdbbaeaebb1cc20c19f5a14e592094a0d8e4a506be425488b9",
+        "locator": "Before you work; Supplied files",
+        "evidence_type": "local-project-document"
+      }
+    ],
+    "supersedes_run_id": null
+  },
+  "unresolved": [
+    {
+      "id": "u-system-inventory",
+      "summary": "Eight systems expected; actual IDs and facts await SYSTEMS verification.",
+      "evidence_ids": [
+        "e-interview"
+      ],
+      "owner": "System owners",
+      "resolution_need": "Read SYSTEMS through its disclosed route and verify identities and date-appropriate facts."
+    },
+    {
+      "id": "u-authority",
+      "summary": "Applicable legal versions and source suitability have not been verified.",
+      "evidence_ids": [
+        "e-assignment",
+        "e-interview"
+      ],
+      "owner": "Legal",
+      "resolution_need": "Retrieve and reconcile required official sources in later authorized stages."
+    },
+    {
+      "id": "u-approval",
+      "summary": "No version-bound human approval has been supplied or applied.",
+      "evidence_ids": [
+        "e-assignment",
+        "e-interview"
+      ],
+      "owner": "Legal and Operations",
+      "resolution_need": "Retain pending review until actual authorized, version-matched feedback exists."
+    },
+    {
+      "id": "u-export",
+      "summary": "Local interview export completeness has not been independently certified.",
+      "evidence_ids": [
+        "e-interview",
+        "e-readme"
+      ],
+      "owner": "Learner / facilitator",
+      "resolution_need": "Verify original export and assessed-work prerequisites with facilitator."
+    }
+  ],
+  "decisions": [
+    {
+      "id": "d-date",
+      "summary": "Keep the assigned review date fixed using a documented UTC date anchor.",
+      "evidence_ids": [
+        "e-assignment",
+        "e-interview"
+      ],
+      "concern": "Separate review date from execution time.",
+      "options": [
+        "Document a UTC calendar-date anchor",
+        "Infer an unprovided local observation time"
+      ],
+      "chosen_behavior": "Use 2026-08-26T00:00:00Z; timestamp generation separately.",
+      "rationale": "The assignment fixes the date while the schema requires date-time.",
+      "tradeoffs": [
+        "UTC midnight satisfies date-time syntax but does not establish an observation instant."
+      ],
+      "downstream_effect": "Later evidence must be assessed against 26 August 2026."
+    },
+    {
+      "id": "d-unknown-ids",
+      "summary": "Record descriptive scope while leaving all system IDs unknown.",
+      "evidence_ids": [
+        "e-assignment",
+        "e-interview"
+      ],
+      "concern": "Schema requires nonempty scope before SYSTEMS has been read.",
+      "options": [
+        "Describe expected inventory and retain empty IDs",
+        "Invent eight system IDs"
+      ],
+      "chosen_behavior": "Keep system_ids empty and inventory verification pending.",
+      "rationale": "Interview establishes an expected count, not a verified inventory.",
+      "tradeoffs": [
+        "Scope is schema-valid but cannot yet support system-level joins or conclusions."
+      ],
+      "downstream_effect": "SYSTEMS verification must establish actual IDs before analysis."
+    }
+  ]
+}

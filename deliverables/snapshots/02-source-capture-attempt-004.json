@@ -1,0 +1,1908 @@
+{
+  "schema_version": "regulatory-compliance-stage-snapshot/2",
+  "snapshot_id": "snapshot-fdb3b091-5365-42cc-a5c3-20099e1e3b9e",
+  "run_id": "run-fa0eba75-1dbf-4eac-9d23-830540ca5777",
+  "stage": "source-capture",
+  "sequence": 2,
+  "created_at": "2026-10-19T01:25:51.267760Z",
+  "status": "blocked",
+  "predecessor": {
+    "snapshot_id": "snapshot-9fe0f6dd-47d6-4ca4-be7b-8366eb9aa247",
+    "path": "/home/maxg/regulatory-compliance/deliverables/snapshots/01-scope.json",
+    "sha256": "sha256:2b7c968a24400a0ce00997c93aa01ff52950413b77662fdd967df1c25c64e3c1"
+  },
+  "consumed_record_ids": [
+    "e-assignment",
+    "e-interview",
+    "e-readme",
+    "u-system-inventory",
+    "u-authority",
+    "u-approval",
+    "u-export",
+    "d-date",
+    "d-unknown-ids"
+  ],
+  "produced_record_ids": [
+    "source-law-01",
+    "source-oj-01",
+    "source-amend-01",
+    "source-consolidated-01",
+    "source-time-01",
+    "source-faq-01",
+    "source-policy-01",
+    "source-systems-01",
+    "source-systems-02",
+    "source-evidence-01",
+    "source-evidence-02",
+    "source-calendar-01",
+    "source-calendar-02",
+    "table-source-systems-01-0",
+    "table-source-systems-02-0",
+    "table-source-evidence-01-0",
+    "table-source-evidence-02-0",
+    "table-source-calendar-01-0",
+    "table-source-calendar-02-0",
+    "manual-policy-reference",
+    "u-access-policy",
+    "u-capture-authority",
+    "d-capture-status",
+    "u-register-verification"
+  ],
+  "state": {
+    "sources": [
+      {
+        "id": "source-law-01",
+        "source_name": "LAW",
+        "summary": "Live attempt for LAW; document suitability remains unverified.",
+        "evidence_ids": [
+          "e-interview"
+        ],
+        "source_role": "official-guidance",
+        "authority": "unknown",
+        "locator": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+        "original_url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+        "requested_url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+        "attempt_number": 1,
+        "route_type": "original",
+        "final_url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+        "http_status": 200,
+        "observed_identity": {
+          "title": "Article 50: Transparency obligations for providers and deployers of certain AI systems | AI Act Service Desk",
+          "returned_url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+          "expected_source": "LAW"
+        },
+        "retrieved_at": "2026-10-19T01:25:37.992662Z",
+        "retrieval_status": "unverified",
+        "content_type": "text/html; charset=utf-8",
+        "version_metadata": {
+          "etag": "W/\"1791905737-gzip\"",
+          "last_modified": "Tue, 13 Oct 2026 15:35:37 GMT",
+          "document_version": null,
+          "effective_date": null,
+          "note": "HTTP validators are not verified document versions"
+        },
+        "content_hash": "sha256:32abb414364ebc82c830f6c23913668805ae572544146f74e95eb974aea36adf",
+        "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/law-01.response",
+        "identity_status": "unverified",
+        "review_date_suitability": "unverified",
+        "failure": null,
+        "used_for_conclusions": false,
+        "capture_locator": "response bytes 0..89451",
+        "byte_count": 89452,
+        "completed_at": "2026-10-19T01:25:38.929234Z"
+      },
+      {
+        "id": "source-oj-01",
+        "source_name": "OJ",
+        "summary": "OJ document identity/version matched; legal applicability remains unverified.",
+        "evidence_ids": [
+          "e-interview"
+        ],
+        "source_role": "binding-regulation",
+        "authority": "unknown",
+        "locator": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+        "original_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+        "requested_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+        "attempt_number": 1,
+        "route_type": "original",
+        "final_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+        "http_status": 200,
+        "observed_identity": {
+          "title": "Regulation - EU - 2024/1689 - EN - EUR-Lex",
+          "returned_url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+          "expected_source": "OJ",
+          "document_id": "32024R1689",
+          "document_version": "original Official Journal publication",
+          "adoption_date": "2024-06-13",
+          "publication_date": "2024-07-12",
+          "effective_date": null
+        },
+        "retrieved_at": "2026-10-19T01:25:38.929663Z",
+        "retrieval_status": "retrieved",
+        "content_type": "text/html; charset=UTF-8",
+        "version_metadata": {
+          "etag": null,
+          "last_modified": null,
+          "document_version": "original Official Journal publication",
+          "effective_date": null,
+          "note": "HTTP validators are not verified document versions",
+          "document_id": "32024R1689",
+          "adoption_date": "2024-06-13",
+          "publication_date": "2024-07-12"
+        },
+        "content_hash": "sha256:459fca1abece1cd47dddf91cefed1136b5491261434f6e7dd69e7056188d891b",
+        "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/oj-01.response",
+        "identity_status": "verified",
+        "review_date_suitability": "unverified",
+        "failure": null,
+        "used_for_conclusions": false,
+        "capture_locator": "response bytes 0..1535220",
+        "byte_count": 1535221,
+        "identity_verification": "Official hostname, visible regulation heading, Article 1 and expected publication/consolidation date",
+        "completed_at": "2026-10-19T01:25:40.137029Z"
+      },
+      {
+        "id": "source-amend-01",
+        "source_name": "AMEND",
+        "summary": "AMEND document identity/version matched; legal applicability remains unverified.",
+        "evidence_ids": [
+          "e-interview"
+        ],
+        "source_role": "binding-regulation",
+        "authority": "unknown",
+        "locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+        "original_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+        "requested_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+        "attempt_number": 1,
+        "route_type": "original",
+        "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+        "http_status": 200,
+        "observed_identity": {
+          "title": "Regulation - EU - 2026/1744 - EN - EUR-Lex",
+          "returned_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+          "expected_source": "AMEND",
+          "document_id": "32026R1744",
+          "document_version": "original Official Journal publication",
+          "adoption_date": "2026-07-08",
+          "publication_date": "2026-07-24",
+          "effective_date": null
+        },
+        "retrieved_at": "2026-10-19T01:25:40.138003Z",
+        "retrieval_status": "retrieved",
+        "content_type": "text/html; charset=UTF-8",
+        "version_metadata": {
+          "etag": null,
+          "last_modified": null,
+          "document_version": "original Official Journal publication",
+          "effective_date": null,
+          "note": "HTTP validators are not verified document versions",
+          "document_id": "32026R1744",
+          "adoption_date": "2026-07-08",
+          "publication_date": "2026-07-24"
+        },
+        "content_hash": "sha256:9984204db53ec4649f5e5dc1c8db91a1a1515b030a0d4faa64cc37cadefdd6f6",
+        "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/amend-01.response",
+        "identity_status": "verified",
+        "review_date_suitability": "unverified",
+        "failure": null,
+        "used_for_conclusions": false,
+        "capture_locator": "response bytes 0..609293",
+        "byte_count": 609294,
+        "identity_verification": "Official hostname, visible regulation heading, Article 1 and expected publication/consolidation date",
+        "completed_at": "2026-10-19T01:25:41.139407Z"
+      },
+      {
+        "id": "source-consolidated-01",
+        "source_name": "CONSOLIDATED",
+        "summary": "CONSOLIDATED document identity/version matched; legal applicability remains unverified.",
+        "evidence_ids": [
+          "e-interview"
+        ],
+        "source_role": "binding-regulation",
+        "authority": "unknown",
+        "locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+        "original_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+        "requested_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+        "attempt_number": 1,
+        "route_type": "original",
+        "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+        "http_status": 200,
+        "observed_identity": {
+          "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-Lex",
+          "returned_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+          "expected_source": "CONSOLIDATED",
+          "document_id": "02024R1689-20260727",
+          "document_version": "02024R1689 — EN — 27.07.2026 — 001.001",
+          "consolidation_date": "2026-07-27",
+          "effective_date": null
+        },
+        "retrieved_at": "2026-10-19T01:25:41.139949Z",
+        "retrieval_status": "retrieved",
+        "content_type": "text/html; charset=UTF-8",
+        "version_metadata": {
+          "etag": null,
+          "last_modified": null,
+          "document_version": "02024R1689 — EN — 27.07.2026 — 001.001",
+          "effective_date": null,
+          "note": "HTTP validators are not verified document versions",
+          "document_id": "02024R1689-20260727",
+          "consolidation_date": "2026-07-27"
+        },
+        "content_hash": "sha256:60f2abdb9bb170ad129f8247b3eadbf3aa7156e0a56383aa1b6188c24dc4c89a",
+        "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/consolidated-01.response",
+        "identity_status": "verified",
+        "review_date_suitability": "unverified",
+        "failure": null,
+        "used_for_conclusions": false,
+        "capture_locator": "response bytes 0..1104655",
+        "byte_count": 1104656,
+        "identity_verification": "Official hostname, visible regulation heading, Article 1 and expected publication/consolidation date",
+        "completed_at": "2026-10-19T01:25:42.371396Z"
+      },
+      {
+        "id": "source-time-01",
+        "source_name": "TIME",
+        "summary": "Live attempt for TIME; document suitability remains unverified.",
+        "evidence_ids": [
+          "e-interview"
+        ],
+        "source_role": "official-guidance",
+        "authority": "unknown",
+        "locator": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline",
+        "original_url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline",
+        "requested_url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline",
+        "attempt_number": 1,
+        "route_type": "original",
+        "final_url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline",
+        "http_status": 200,
+        "observed_identity": {
+          "title": "Timeline for the Implementation of the EU AI Act | AI Act Service Desk",
+          "returned_url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline",
+          "expected_source": "TIME"
+        },
+        "retrieved_at": "2026-10-19T01:25:42.372486Z",
+        "retrieval_status": "unverified",
+        "content_type": "text/html; charset=utf-8",
+        "version_metadata": {
+          "etag": "W/\"1792339504-gzip\"",
+          "last_modified": "Sun, 18 Oct 2026 16:05:04 GMT",
+          "document_version": null,
+          "effective_date": null,
+          "note": "HTTP validators are not verified document versions"
+        },
+        "content_hash": "sha256:51d70d77f227f4cc37d43d5eda9836c7b0d40cc5ca0db7758eab577f79ef98e8",
+        "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/time-01.response",
+        "identity_status": "unverified",
+        "review_date_suitability": "unverified",
+        "failure": null,
+        "used_for_conclusions": false,
+        "capture_locator": "response bytes 0..36209",
+        "byte_count": 36210,
+        "completed_at": "2026-10-19T01:25:42.839365Z"
+      },
+      {
+        "id": "source-faq-01",
+        "source_name": "FAQ",
+        "summary": "Live attempt for FAQ; document suitability remains unverified.",
+        "evidence_ids": [
+          "e-interview"
+        ],
+        "source_role": "official-guidance",
+        "authority": "unknown",
+        "locator": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+        "original_url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+        "requested_url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+        "attempt_number": 1,
+        "route_type": "original",
+        "final_url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+        "http_status": 200,
+        "observed_identity": {
+          "title": "Transparency obligations under Article 50 of the AI Act | Shaping Europe’s digital future",
+          "returned_url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+          "expected_source": "FAQ"
+        },
+        "retrieved_at": "2026-10-19T01:25:42.839718Z",
+        "retrieval_status": "unverified",
+        "content_type": "text/html; charset=UTF-8",
+        "version_metadata": {
+          "etag": "W/\"1792371626-gzip\"",
+          "last_modified": "Mon, 19 Oct 2026 01:00:26 GMT",
+          "document_version": null,
+          "effective_date": null,
+          "note": "HTTP validators are not verified document versions"
+        },
+        "content_hash": "sha256:1645486bab850cdee45e9068c5358a21dc9a8389257bb35628a9feabee5c993d",
+        "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/faq-01.response",
+        "identity_status": "unverified",
+        "review_date_suitability": "unverified",
+        "failure": null,
+        "used_for_conclusions": false,
+        "capture_locator": "response bytes 0..76033",
+        "byte_count": 76034,
+        "completed_at": "2026-10-19T01:25:43.300303Z"
+      },
+      {
+        "id": "source-policy-01",
+        "source_name": "POLICY",
+        "summary": "Live attempt for POLICY; document suitability remains unverified.",
+        "evidence_ids": [
+          "e-interview"
+        ],
+        "source_role": "internal-policy",
+        "authority": "unknown",
+        "locator": "https://private-pecorino-70e.notion.site/Project-2-Regulatory-Compliance-Current-Internal-Policies-3ba0b700541e81f09998d48f3b1c2856",
+        "original_url": "https://private-pecorino-70e.notion.site/Project-2-Regulatory-Compliance-Current-Internal-Policies-3ba0b700541e81f09998d48f3b1c2856",
+        "requested_url": "https://private-pecorino-70e.notion.site/Project-2-Regulatory-Compliance-Current-Internal-Policies-3ba0b700541e81f09998d48f3b1c2856",
+        "attempt_number": 1,
+        "route_type": "original",
+        "final_url": "https://private-pecorino-70e.notion.site/Project-2-Regulatory-Compliance-Current-Internal-Policies-3ba0b700541e81f09998d48f3b1c2856",
+        "http_status": 200,
+        "observed_identity": {
+          "title": "Notion",
+          "returned_url": "https://private-pecorino-70e.notion.site/Project-2-Regulatory-Compliance-Current-Internal-Policies-3ba0b700541e81f09998d48f3b1c2856",
+          "expected_source": "POLICY"
+        },
+        "retrieved_at": "2026-10-19T01:25:43.300591Z",
+        "retrieval_status": "invalid",
+        "content_type": "text/html; charset=utf-8",
+        "version_metadata": {
+          "etag": "W/\"38c6b48065b0657e7244c8013d253e95\"",
+          "last_modified": "Mon, 19 Oct 2026 00:14:17 GMT",
+          "document_version": null,
+          "effective_date": null,
+          "note": "HTTP validators are not verified document versions"
+        },
+        "content_hash": "sha256:b6cec499c853dc3f4faad5ee91525fca62351bb5fd17ce04358161035fd33f62",
+        "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/policy-01.response",
+        "identity_status": "unverified",
+        "review_date_suitability": "unverified",
+        "failure": {
+          "type": "UnsuitableResponse",
+          "reason": "Login/access/challenge or landing page",
+          "next_owner": "Source access operator",
+          "recovery": "Obtain intended document through disclosed route"
+        },
+        "used_for_conclusions": false,
+        "capture_locator": "response bytes 0..19923",
+        "byte_count": 19924,
+        "completed_at": "2026-10-19T01:25:43.755282Z"
+      },
+      {
+        "id": "source-systems-01",
+        "source_name": "SYSTEMS",
+        "summary": "Live attempt for SYSTEMS; document suitability remains unverified.",
+        "evidence_ids": [
+          "e-interview"
+        ],
+        "source_role": "operational-record",
+        "authority": "unknown",
+        "locator": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
+        "original_url": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
+        "requested_url": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
+        "attempt_number": 1,
+        "route_type": "original",
+        "final_url": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU/edit",
+        "http_status": 200,
+        "observed_identity": {
+          "title": "Project B — AI System Register - Google Sheets",
+          "returned_url": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU/edit",
+          "expected_source": "SYSTEMS"
+        },
+        "retrieved_at": "2026-10-19T01:25:43.755520Z",
+        "retrieval_status": "unverified",
+        "content_type": "text/html; charset=utf-8",
+        "version_metadata": {
+          "etag": null,
+          "last_modified": null,
+          "document_version": null,
+          "effective_date": null,
+          "note": "HTTP validators are not verified document versions"
+        },
+        "content_hash": "sha256:43a8843b85d50287df6e7b6fb5c9d3eb19c61a72a8da90e8388774e191589a50",
+        "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/systems-01.response",
+        "identity_status": "unverified",
+        "review_date_suitability": "unverified",
+        "failure": null,
+        "used_for_conclusions": false,
+        "capture_locator": "response bytes 0..239004",
+        "byte_count": 239005,
+        "completed_at": "2026-10-19T01:25:44.936822Z"
+      },
+      {
+        "id": "source-systems-02",
+        "source_name": "SYSTEMS",
+        "summary": "Live attempt for SYSTEMS; document suitability remains unverified.",
+        "evidence_ids": [
+          "e-interview"
+        ],
+        "source_role": "operational-record",
+        "authority": "unknown",
+        "locator": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
+        "original_url": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
+        "requested_url": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU/export?format=csv&gid=0",
+        "attempt_number": 2,
+        "route_type": "per-tab-csv-export",
+        "final_url": "https://doc-0k-48-sheets.googleusercontent.com/export/f3kk9gtum31ktuqh54kn7i1e14/6gi8vuci412l237valp1b3hl9o/1792373140000/116538737177717635516/*/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU?format=csv&gid=0",
+        "http_status": 200,
+        "observed_identity": {
+          "title": null,
+          "returned_url": "https://doc-0k-48-sheets.googleusercontent.com/export/f3kk9gtum31ktuqh54kn7i1e14/6gi8vuci412l237valp1b3hl9o/1792373140000/116538737177717635516/*/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU?format=csv&gid=0",
+          "expected_source": "SYSTEMS"
+        },
+        "retrieved_at": "2026-10-19T01:25:44.987540Z",
+        "retrieval_status": "unverified",
+        "content_type": "text/csv; charset=utf-8",
+        "version_metadata": {
+          "etag": null,
+          "last_modified": null,
+          "document_version": null,
+          "effective_date": null,
+          "note": "HTTP validators are not verified document versions"
+        },
+        "content_hash": "sha256:5ccd555dac9dc3af5a77d3206105fb093565865f7283abe43f5339dd46ed8a80",
+        "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/systems-02.response",
+        "identity_status": "unverified",
+        "review_date_suitability": "unverified",
+        "failure": null,
+        "used_for_conclusions": false,
+        "capture_locator": "response bytes 0..1607",
+        "byte_count": 1608,
+        "completed_at": "2026-10-19T01:25:45.405638Z",
+        "workbook_id": "10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
+        "gid": "0",
+        "tab_name": "AI System Register"
+      },
+      {
+        "id": "source-evidence-01",
+        "source_name": "EVIDENCE",
+        "summary": "Live attempt for EVIDENCE; document suitability remains unverified.",
+        "evidence_ids": [
+          "e-interview"
+        ],
+        "source_role": "operational-record",
+        "authority": "unknown",
+        "locator": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+        "original_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+        "requested_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+        "attempt_number": 1,
+        "route_type": "original",
+        "final_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk/edit",
+        "http_status": 200,
+        "observed_identity": {
+          "title": "Project B — Incident and Evidence Register - Google Sheets",
+          "returned_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk/edit",
+          "expected_source": "EVIDENCE"
+        },
+        "retrieved_at": "2026-10-19T01:25:45.406602Z",
+        "retrieval_status": "unverified",
+        "content_type": "text/html; charset=utf-8",
+        "version_metadata": {
+          "etag": null,
+          "last_modified": null,
+          "document_version": null,
+          "effective_date": null,
+          "note": "HTTP validators are not verified document versions"
+        },
+        "content_hash": "sha256:16caf43c7a99f284909e357164515a0a681c73f576402226c4bf7c491a67e70c",
+        "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/evidence-01.response",
+        "identity_status": "unverified",
+        "review_date_suitability": "unverified",
+        "failure": null,
+        "used_for_conclusions": false,
+        "capture_locator": "response bytes 0..232666",
+        "byte_count": 232667,
+        "completed_at": "2026-10-19T01:25:46.299305Z"
+      },
+      {
+        "id": "source-evidence-02",
+        "source_name": "EVIDENCE",
+        "summary": "Live attempt for EVIDENCE; document suitability remains unverified.",
+        "evidence_ids": [
+          "e-interview"
+        ],
+        "source_role": "operational-record",
+        "authority": "unknown",
+        "locator": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+        "original_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+        "requested_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk/export?format=csv&gid=0",
+        "attempt_number": 2,
+        "route_type": "per-tab-csv-export",
+        "final_url": "https://doc-10-48-sheets.googleusercontent.com/export/f3kk9gtum31ktuqh54kn7i1e14/4g9mr4e81nsah9p838j9as6kpc/1792373145000/116538737177717635516/*/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk?format=csv&gid=0",
+        "http_status": 200,
+        "observed_identity": {
+          "title": null,
+          "returned_url": "https://doc-10-48-sheets.googleusercontent.com/export/f3kk9gtum31ktuqh54kn7i1e14/4g9mr4e81nsah9p838j9as6kpc/1792373145000/116538737177717635516/*/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk?format=csv&gid=0",
+          "expected_source": "EVIDENCE"
+        },
+        "retrieved_at": "2026-10-19T01:25:46.333250Z",
+        "retrieval_status": "unverified",
+        "content_type": "text/csv",
+        "version_metadata": {
+          "etag": null,
+          "last_modified": null,
+          "document_version": null,
+          "effective_date": null,
+          "note": "HTTP validators are not verified document versions"
+        },
+        "content_hash": "sha256:3dacdd595cbbdb17749bc879b01f197d2c5691ab5e2385aacef797ebdea7295b",
+        "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/evidence-02.response",
+        "identity_status": "unverified",
+        "review_date_suitability": "unverified",
+        "failure": null,
+        "used_for_conclusions": false,
+        "capture_locator": "response bytes 0..1519",
+        "byte_count": 1520,
+        "completed_at": "2026-10-19T01:25:46.697018Z",
+        "workbook_id": "19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+        "gid": "0",
+        "tab_name": "Incident Evidence Register"
+      },
+      {
+        "id": "source-calendar-01",
+        "source_name": "CALENDAR",
+        "summary": "Live attempt for CALENDAR; document suitability remains unverified.",
+        "evidence_ids": [
+          "e-interview"
+        ],
+        "source_role": "operational-record",
+        "authority": "unknown",
+        "locator": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+        "original_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+        "requested_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+        "attempt_number": 1,
+        "route_type": "original",
+        "final_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA/edit",
+        "http_status": 200,
+        "observed_identity": {
+          "title": "Project B — Compliance Calendar - Google Sheets",
+          "returned_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA/edit",
+          "expected_source": "CALENDAR"
+        },
+        "retrieved_at": "2026-10-19T01:25:46.700290Z",
+        "retrieval_status": "unverified",
+        "content_type": "text/html; charset=utf-8",
+        "version_metadata": {
+          "etag": null,
+          "last_modified": null,
+          "document_version": null,
+          "effective_date": null,
+          "note": "HTTP validators are not verified document versions"
+        },
+        "content_hash": "sha256:47fda4a48ad1c2529913caae4be0da135b7f8883caa53d15effea8d9d7ea8544",
+        "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/calendar-01.response",
+        "identity_status": "unverified",
+        "review_date_suitability": "unverified",
+        "failure": null,
+        "used_for_conclusions": false,
+        "capture_locator": "response bytes 0..236374",
+        "byte_count": 236375,
+        "completed_at": "2026-10-19T01:25:50.871990Z"
+      },
+      {
+        "id": "source-calendar-02",
+        "source_name": "CALENDAR",
+        "summary": "Live attempt for CALENDAR; document suitability remains unverified.",
+        "evidence_ids": [
+          "e-interview"
+        ],
+        "source_role": "operational-record",
+        "authority": "unknown",
+        "locator": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+        "original_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+        "requested_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA/export?format=csv&gid=0",
+        "attempt_number": 2,
+        "route_type": "per-tab-csv-export",
+        "final_url": "https://doc-0o-48-sheets.googleusercontent.com/export/f3kk9gtum31ktuqh54kn7i1e14/n6e1qrelevc7pa5vuh3t44uj58/1792373150000/116538737177717635516/*/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA?format=csv&gid=0",
+        "http_status": 200,
+        "observed_identity": {
+          "title": null,
+          "returned_url": "https://doc-0o-48-sheets.googleusercontent.com/export/f3kk9gtum31ktuqh54kn7i1e14/n6e1qrelevc7pa5vuh3t44uj58/1792373150000/116538737177717635516/*/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA?format=csv&gid=0",
+          "expected_source": "CALENDAR"
+        },
+        "retrieved_at": "2026-10-19T01:25:50.904091Z",
+        "retrieval_status": "unverified",
+        "content_type": "text/csv; charset=utf-8",
+        "version_metadata": {
+          "etag": null,
+          "last_modified": null,
+          "document_version": null,
+          "effective_date": null,
+          "note": "HTTP validators are not verified document versions"
+        },
+        "content_hash": "sha256:cb3e2ba90e96733e5713102f0653dd02d0282be92058e60febe5af899926d8ab",
+        "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/calendar-02.response",
+        "identity_status": "unverified",
+        "review_date_suitability": "unverified",
+        "failure": null,
+        "used_for_conclusions": false,
+        "capture_locator": "response bytes 0..988",
+        "byte_count": 989,
+        "completed_at": "2026-10-19T01:25:51.266513Z",
+        "workbook_id": "1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+        "gid": "0",
+        "tab_name": "Compliance Calendar"
+      }
+    ],
+    "as_of": "2026-08-26T00:00:00Z",
+    "configuration": {
+      "path": "/home/maxg/regulatory-compliance/regulatory-change-impact-brief/references/source-config.json",
+      "sha256": "sha256:339f0adc85f4f047233215cb827e7af9028f665d2dcc769ba8e628aaa2534cab",
+      "interview_path": "interviews/project-b-regulatory-compliance-20261018-1952.md",
+      "interview_sha256": "sha256:ea35018646971a9c545bb76d9bc86a247a67ffd3d46a70bf6bcc80eefd1e2642"
+    },
+    "selected_verified_documents": {
+      "OJ": "source-oj-01",
+      "AMEND": "source-amend-01",
+      "CONSOLIDATED": "source-consolidated-01"
+    },
+    "manual_references": [
+      {
+        "id": "manual-policy-reference",
+        "summary": "User-disclosed manual POLICY reference; not a live Notion capture or independently authenticated export.",
+        "evidence_ids": [
+          "e-interview"
+        ],
+        "path": "references/manual/policy-manual-reference.md",
+        "sha256": "sha256:a66bccaad204ed570bd2bbd9370565bf236561f7f010642196ac48bc5fd89d91",
+        "provenance_type": "user-supplied-manual-reference",
+        "original_url": "https://private-pecorino-70e.notion.site/Project-2-Regulatory-Compliance-Current-Internal-Policies-3ba0b700541e81f09998d48f3b1c2856",
+        "recorded_at": "2026-10-19T01:25:37.991917Z",
+        "manual_retrieved_at": null,
+        "manual_retriever": null,
+        "provenance_verification": "unverified",
+        "live_retrieval": false,
+        "claimed_policy_version": "AI-POL-2026-08-15",
+        "claimed_context_revision": "RC-CONTEXT-2026-09-12-R1",
+        "used_for_conclusions": false
+      }
+    ],
+    "register_tables": [
+      {
+        "headers": [
+          "system_id",
+          "system_name",
+          "use_case",
+          "owner",
+          "provider_role",
+          "deployer_role",
+          "exposed_group",
+          "output_type",
+          "current_notice",
+          "human_review",
+          "evidence_status",
+          "evidence_updated_at",
+          "record_version"
+        ],
+        "records": [
+          {
+            "row_number": 2,
+            "values": {
+              "system_id": "AI-001",
+              "system_name": "Learner Support Chat",
+              "use_case": "Answers routine learner questions",
+              "owner": "Learner Operations",
+              "provider_role": "no",
+              "deployer_role": "yes",
+              "exposed_group": "learners",
+              "output_type": "direct_interaction",
+              "current_notice": "yes",
+              "human_review": "staff escalation",
+              "evidence_status": "complete",
+              "evidence_updated_at": "2026-08-20",
+              "record_version": "register-2026-08-26"
+            }
+          },
+          {
+            "row_number": 3,
+            "values": {
+              "system_id": "AI-002",
+              "system_name": "Admissions Draft Assistant",
+              "use_case": "Drafts applicant email replies",
+              "owner": "Admissions",
+              "provider_role": "no",
+              "deployer_role": "yes",
+              "exposed_group": "applicants",
+              "output_type": "text",
+              "current_notice": "unknown",
+              "human_review": "advisor approval",
+              "evidence_status": "partial",
+              "evidence_updated_at": "2026-07-01",
+              "record_version": "register-2026-08-26"
+            }
+          },
+          {
+            "row_number": 4,
+            "values": {
+              "system_id": "AI-003",
+              "system_name": "Campaign Image Studio",
+              "use_case": "Creates public campaign images",
+              "owner": "Communications",
+              "provider_role": "no",
+              "deployer_role": "yes",
+              "exposed_group": "public",
+              "output_type": "synthetic_image",
+              "current_notice": "visible_label",
+              "human_review": "communications approval",
+              "evidence_status": "complete",
+              "evidence_updated_at": "2026-08-22",
+              "record_version": "register-2026-08-26"
+            }
+          },
+          {
+            "row_number": 5,
+            "values": {
+              "system_id": "AI-004",
+              "system_name": "Pronunciation Coach",
+              "use_case": "Provides spoken practice feedback",
+              "owner": "Learning Experience",
+              "provider_role": "no",
+              "deployer_role": "yes",
+              "exposed_group": "learners",
+              "output_type": "direct_interaction",
+              "current_notice": "no",
+              "human_review": "instructor escalation",
+              "evidence_status": "complete",
+              "evidence_updated_at": "2026-08-18",
+              "record_version": "register-2026-08-26"
+            }
+          },
+          {
+            "row_number": 6,
+            "values": {
+              "system_id": "AI-005",
+              "system_name": "Remote Proctor Signal",
+              "use_case": "Flags assessment sessions for review",
+              "owner": "Assessment Operations",
+              "provider_role": "unknown",
+              "deployer_role": "yes",
+              "exposed_group": "learners",
+              "output_type": "classification",
+              "current_notice": "yes",
+              "human_review": "human adjudication",
+              "evidence_status": "stale",
+              "evidence_updated_at": "2026-04-15",
+              "record_version": "register-2026-08-26"
+            }
+          },
+          {
+            "row_number": 7,
+            "values": {
+              "system_id": "AI-006",
+              "system_name": "Staff Summary Assistant",
+              "use_case": "Summarizes internal meeting notes",
+              "owner": "People Operations",
+              "provider_role": "no",
+              "deployer_role": "yes",
+              "exposed_group": "staff",
+              "output_type": "text",
+              "current_notice": "not_applicable",
+              "human_review": "author review",
+              "evidence_status": "complete",
+              "evidence_updated_at": "2026-08-14",
+              "record_version": "register-2026-08-26"
+            }
+          },
+          {
+            "row_number": 8,
+            "values": {
+              "system_id": "AI-007",
+              "system_name": "Website Guide Avatar",
+              "use_case": "Answers public programme questions",
+              "owner": "Marketing",
+              "provider_role": "no",
+              "deployer_role": "yes",
+              "exposed_group": "public",
+              "output_type": "direct_interaction",
+              "current_notice": "no",
+              "human_review": "marketing escalation",
+              "evidence_status": "conflicting",
+              "evidence_updated_at": "2026-08-21",
+              "record_version": "register-2026-08-26"
+            }
+          },
+          {
+            "row_number": 9,
+            "values": {
+              "system_id": "AI-008",
+              "system_name": "Video Localisation Tool",
+              "use_case": "Generates dubbed public programme videos",
+              "owner": "Communications",
+              "provider_role": "no",
+              "deployer_role": "yes",
+              "exposed_group": "public",
+              "output_type": "synthetic_audio_video",
+              "current_notice": "visible_label",
+              "human_review": "communications approval",
+              "evidence_status": "partial",
+              "evidence_updated_at": "2026-08-19",
+              "record_version": "register-2026-08-26"
+            }
+          }
+        ],
+        "record_ids": [
+          "AI-001",
+          "AI-002",
+          "AI-003",
+          "AI-004",
+          "AI-005",
+          "AI-006",
+          "AI-007",
+          "AI-008"
+        ],
+        "record_count": 8,
+        "gid": "0",
+        "tab_name": "AI System Register",
+        "valid": true,
+        "errors": [],
+        "id": "table-source-systems-01-0",
+        "summary": "SYSTEMS source-reported register rows; no independent corroboration or approval.",
+        "evidence_ids": [
+          "source-systems-01"
+        ],
+        "source_name": "SYSTEMS",
+        "workbook_id": "10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
+        "original_url": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
+        "requested_url": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
+        "retrieval_url": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU/edit",
+        "retrieved_at": "2026-10-19T01:25:43.755520Z",
+        "raw_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/systems-01.response",
+        "raw_sha256": "sha256:43a8843b85d50287df6e7b6fb5c9d3eb19c61a72a8da90e8388774e191589a50",
+        "discovered_tabs": [
+          {
+            "gid": "0",
+            "name": "AI System Register"
+          }
+        ],
+        "tab_discovery_limitation": "Only exposed HTML grids/tab captions and explicitly configured gids are inspected; hidden/unexposed tabs and workbook completeness are not established.",
+        "independently_corroborated": false,
+        "approval_verified": false,
+        "format": "html-grid",
+        "extracted_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/table-source-systems-01-0.json",
+        "extracted_sha256": "sha256:1f09eaedf97547b2b1091c5ef6d133f6d9dec30a65bcd2d5c2a313ebee5d3bcf"
+      },
+      {
+        "headers": [
+          "system_id",
+          "system_name",
+          "use_case",
+          "owner",
+          "provider_role",
+          "deployer_role",
+          "exposed_group",
+          "output_type",
+          "current_notice",
+          "human_review",
+          "evidence_status",
+          "evidence_updated_at",
+          "record_version"
+        ],
+        "records": [
+          {
+            "row_number": 2,
+            "values": {
+              "system_id": "AI-001",
+              "system_name": "Learner Support Chat",
+              "use_case": "Answers routine learner questions",
+              "owner": "Learner Operations",
+              "provider_role": "no",
+              "deployer_role": "yes",
+              "exposed_group": "learners",
+              "output_type": "direct_interaction",
+              "current_notice": "yes",
+              "human_review": "staff escalation",
+              "evidence_status": "complete",
+              "evidence_updated_at": "2026-08-20",
+              "record_version": "register-2026-08-26"
+            }
+          },
+          {
+            "row_number": 3,
+            "values": {
+              "system_id": "AI-002",
+              "system_name": "Admissions Draft Assistant",
+              "use_case": "Drafts applicant email replies",
+              "owner": "Admissions",
+              "provider_role": "no",
+              "deployer_role": "yes",
+              "exposed_group": "applicants",
+              "output_type": "text",
+              "current_notice": "unknown",
+              "human_review": "advisor approval",
+              "evidence_status": "partial",
+              "evidence_updated_at": "2026-07-01",
+              "record_version": "register-2026-08-26"
+            }
+          },
+          {
+            "row_number": 4,
+            "values": {
+              "system_id": "AI-003",
+              "system_name": "Campaign Image Studio",
+              "use_case": "Creates public campaign images",
+              "owner": "Communications",
+              "provider_role": "no",
+              "deployer_role": "yes",
+              "exposed_group": "public",
+              "output_type": "synthetic_image",
+              "current_notice": "visible_label",
+              "human_review": "communications approval",
+              "evidence_status": "complete",
+              "evidence_updated_at": "2026-08-22",
+              "record_version": "register-2026-08-26"
+            }
+          },
+          {
+            "row_number": 5,
+            "values": {
+              "system_id": "AI-004",
+              "system_name": "Pronunciation Coach",
+              "use_case": "Provides spoken practice feedback",
+              "owner": "Learning Experience",
+              "provider_role": "no",
+              "deployer_role": "yes",
+              "exposed_group": "learners",
+              "output_type": "direct_interaction",
+              "current_notice": "no",
+              "human_review": "instructor escalation",
+              "evidence_status": "complete",
+              "evidence_updated_at": "2026-08-18",
+              "record_version": "register-2026-08-26"
+            }
+          },
+          {
+            "row_number": 6,
+            "values": {
+              "system_id": "AI-005",
+              "system_name": "Remote Proctor Signal",
+              "use_case": "Flags assessment sessions for review",
+              "owner": "Assessment Operations",
+              "provider_role": "unknown",
+              "deployer_role": "yes",
+              "exposed_group": "learners",
+              "output_type": "classification",
+              "current_notice": "yes",
+              "human_review": "human adjudication",
+              "evidence_status": "stale",
+              "evidence_updated_at": "2026-04-15",
+              "record_version": "register-2026-08-26"
+            }
+          },
+          {
+            "row_number": 7,
+            "values": {
+              "system_id": "AI-006",
+              "system_name": "Staff Summary Assistant",
+              "use_case": "Summarizes internal meeting notes",
+              "owner": "People Operations",
+              "provider_role": "no",
+              "deployer_role": "yes",
+              "exposed_group": "staff",
+              "output_type": "text",
+              "current_notice": "not_applicable",
+              "human_review": "author review",
+              "evidence_status": "complete",
+              "evidence_updated_at": "2026-08-14",
+              "record_version": "register-2026-08-26"
+            }
+          },
+          {
+            "row_number": 8,
+            "values": {
+              "system_id": "AI-007",
+              "system_name": "Website Guide Avatar",
+              "use_case": "Answers public programme questions",
+              "owner": "Marketing",
+              "provider_role": "no",
+              "deployer_role": "yes",
+              "exposed_group": "public",
+              "output_type": "direct_interaction",
+              "current_notice": "no",
+              "human_review": "marketing escalation",
+              "evidence_status": "conflicting",
+              "evidence_updated_at": "2026-08-21",
+              "record_version": "register-2026-08-26"
+            }
+          },
+          {
+            "row_number": 9,
+            "values": {
+              "system_id": "AI-008",
+              "system_name": "Video Localisation Tool",
+              "use_case": "Generates dubbed public programme videos",
+              "owner": "Communications",
+              "provider_role": "no",
+              "deployer_role": "yes",
+              "exposed_group": "public",
+              "output_type": "synthetic_audio_video",
+              "current_notice": "visible_label",
+              "human_review": "communications approval",
+              "evidence_status": "partial",
+              "evidence_updated_at": "2026-08-19",
+              "record_version": "register-2026-08-26"
+            }
+          }
+        ],
+        "record_ids": [
+          "AI-001",
+          "AI-002",
+          "AI-003",
+          "AI-004",
+          "AI-005",
+          "AI-006",
+          "AI-007",
+          "AI-008"
+        ],
+        "record_count": 8,
+        "gid": "0",
+        "tab_name": "AI System Register",
+        "valid": true,
+        "errors": [],
+        "id": "table-source-systems-02-0",
+        "summary": "SYSTEMS source-reported register rows; no independent corroboration or approval.",
+        "evidence_ids": [
+          "source-systems-02"
+        ],
+        "source_name": "SYSTEMS",
+        "workbook_id": "10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
+        "original_url": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
+        "requested_url": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU/export?format=csv&gid=0",
+        "retrieval_url": "https://doc-0k-48-sheets.googleusercontent.com/export/f3kk9gtum31ktuqh54kn7i1e14/6gi8vuci412l237valp1b3hl9o/1792373140000/116538737177717635516/*/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU?format=csv&gid=0",
+        "retrieved_at": "2026-10-19T01:25:44.987540Z",
+        "raw_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/systems-02.response",
+        "raw_sha256": "sha256:5ccd555dac9dc3af5a77d3206105fb093565865f7283abe43f5339dd46ed8a80",
+        "discovered_tabs": [],
+        "tab_discovery_limitation": "Only exposed HTML grids/tab captions and explicitly configured gids are inspected; hidden/unexposed tabs and workbook completeness are not established.",
+        "independently_corroborated": false,
+        "approval_verified": false,
+        "format": "csv",
+        "extracted_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/table-source-systems-02-0.json",
+        "extracted_sha256": "sha256:63f8591e818a1a510b28cea5a3c85e8435778fd67bcced7bd7eee7a168a18b96"
+      },
+      {
+        "headers": [
+          "record_id",
+          "system_id",
+          "record_type",
+          "reported_at",
+          "owner",
+          "status",
+          "evidence_ref",
+          "evidence_state",
+          "notes"
+        ],
+        "records": [
+          {
+            "row_number": 2,
+            "values": {
+              "record_id": "REC-001",
+              "system_id": "AI-001",
+              "record_type": "evidence",
+              "reported_at": "2026-08-20",
+              "owner": "Learner Operations",
+              "status": "closed",
+              "evidence_ref": "notice-screen-v3",
+              "evidence_state": "complete",
+              "notes": "Notice screenshot and release record agree"
+            }
+          },
+          {
+            "row_number": 3,
+            "values": {
+              "record_id": "REC-002",
+              "system_id": "AI-002",
+              "record_type": "evidence_gap",
+              "reported_at": "2026-08-23",
+              "owner": "Admissions",
+              "status": "open",
+              "evidence_ref": "applicant-email-sample",
+              "evidence_state": "missing",
+              "notes": "No evidence that recipients are told when generated text is used"
+            }
+          },
+          {
+            "row_number": 4,
+            "values": {
+              "record_id": "REC-003",
+              "system_id": "AI-003",
+              "record_type": "incident",
+              "reported_at": "2026-08-24",
+              "owner": "Communications",
+              "status": "open",
+              "evidence_ref": "social-post-884",
+              "evidence_state": "conflicting",
+              "notes": "Visible label exists but exported platform copy may have lost metadata"
+            }
+          },
+          {
+            "row_number": 5,
+            "values": {
+              "record_id": "REC-004",
+              "system_id": "AI-004",
+              "record_type": "incident",
+              "reported_at": "2026-08-18",
+              "owner": "Learning Experience",
+              "status": "open",
+              "evidence_ref": "coach-onboarding-v2",
+              "evidence_state": "complete",
+              "notes": "First interaction contains no AI notice"
+            }
+          },
+          {
+            "row_number": 6,
+            "values": {
+              "record_id": "REC-005",
+              "system_id": "AI-005",
+              "record_type": "evidence_gap",
+              "reported_at": "2026-08-25",
+              "owner": "Assessment Operations",
+              "status": "open",
+              "evidence_ref": "provider-role-questionnaire",
+              "evidence_state": "stale",
+              "notes": "Provider role questionnaire predates the current release"
+            }
+          },
+          {
+            "row_number": 7,
+            "values": {
+              "record_id": "REC-006",
+              "system_id": "AI-005",
+              "record_type": "evidence",
+              "reported_at": "2026-08-25",
+              "owner": "Assessment Operations",
+              "status": "open",
+              "evidence_ref": "human-review-sop-v4",
+              "evidence_state": "complete",
+              "notes": "Flag never makes the final assessment decision"
+            }
+          },
+          {
+            "row_number": 8,
+            "values": {
+              "record_id": "REC-007",
+              "system_id": "AI-006",
+              "record_type": "evidence",
+              "reported_at": "2026-08-14",
+              "owner": "People Operations",
+              "status": "closed",
+              "evidence_ref": "internal-use-review",
+              "evidence_state": "complete",
+              "notes": "Tool is restricted to staff workspace"
+            }
+          },
+          {
+            "row_number": 9,
+            "values": {
+              "record_id": "REC-008",
+              "system_id": "AI-007",
+              "record_type": "incident",
+              "reported_at": "2026-08-21",
+              "owner": "Marketing",
+              "status": "open",
+              "evidence_ref": "avatar-page-capture",
+              "evidence_state": "conflicting",
+              "notes": "Owner says a banner exists but the current capture shows none"
+            }
+          },
+          {
+            "row_number": 10,
+            "values": {
+              "record_id": "REC-009",
+              "system_id": "AI-008",
+              "record_type": "evidence",
+              "reported_at": "2026-08-19",
+              "owner": "Communications",
+              "status": "open",
+              "evidence_ref": "localisation-export-test",
+              "evidence_state": "partial",
+              "notes": "Visible label verified but machine-readable provenance not checked"
+            }
+          },
+          {
+            "row_number": 11,
+            "values": {
+              "record_id": "REC-010",
+              "system_id": "AI-008",
+              "record_type": "exception_request",
+              "reported_at": "2026-08-26",
+              "owner": "Communications",
+              "status": "draft",
+              "evidence_ref": "exception-draft-008",
+              "evidence_state": "missing",
+              "notes": "No Legal approval or expiry date recorded"
+            }
+          }
+        ],
+        "record_ids": [
+          "REC-001",
+          "REC-002",
+          "REC-003",
+          "REC-004",
+          "REC-005",
+          "REC-006",
+          "REC-007",
+          "REC-008",
+          "REC-009",
+          "REC-010"
+        ],
+        "record_count": 10,
+        "gid": "0",
+        "tab_name": "Incident Evidence Register",
+        "valid": true,
+        "errors": [],
+        "id": "table-source-evidence-01-0",
+        "summary": "EVIDENCE source-reported register rows; no independent corroboration or approval.",
+        "evidence_ids": [
+          "source-evidence-01"
+        ],
+        "source_name": "EVIDENCE",
+        "workbook_id": "19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+        "original_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+        "requested_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+        "retrieval_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk/edit",
+        "retrieved_at": "2026-10-19T01:25:45.406602Z",
+        "raw_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/evidence-01.response",
+        "raw_sha256": "sha256:16caf43c7a99f284909e357164515a0a681c73f576402226c4bf7c491a67e70c",
+        "discovered_tabs": [
+          {
+            "gid": "0",
+            "name": "Incident Evidence Register"
+          }
+        ],
+        "tab_discovery_limitation": "Only exposed HTML grids/tab captions and explicitly configured gids are inspected; hidden/unexposed tabs and workbook completeness are not established.",
+        "independently_corroborated": false,
+        "approval_verified": false,
+        "format": "html-grid",
+        "extracted_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/table-source-evidence-01-0.json",
+        "extracted_sha256": "sha256:7993eed7844fe9fa2990356989f33a0e0000f889bb1a4dce50727580edeab595"
+      },
+      {
+        "headers": [
+          "record_id",
+          "system_id",
+          "record_type",
+          "reported_at",
+          "owner",
+          "status",
+          "evidence_ref",
+          "evidence_state",
+          "notes"
+        ],
+        "records": [
+          {
+            "row_number": 2,
+            "values": {
+              "record_id": "REC-001",
+              "system_id": "AI-001",
+              "record_type": "evidence",
+              "reported_at": "2026-08-20",
+              "owner": "Learner Operations",
+              "status": "closed",
+              "evidence_ref": "notice-screen-v3",
+              "evidence_state": "complete",
+              "notes": "Notice screenshot and release record agree"
+            }
+          },
+          {
+            "row_number": 3,
+            "values": {
+              "record_id": "REC-002",
+              "system_id": "AI-002",
+              "record_type": "evidence_gap",
+              "reported_at": "2026-08-23",
+              "owner": "Admissions",
+              "status": "open",
+              "evidence_ref": "applicant-email-sample",
+              "evidence_state": "missing",
+              "notes": "No evidence that recipients are told when generated text is used"
+            }
+          },
+          {
+            "row_number": 4,
+            "values": {
+              "record_id": "REC-003",
+              "system_id": "AI-003",
+              "record_type": "incident",
+              "reported_at": "2026-08-24",
+              "owner": "Communications",
+              "status": "open",
+              "evidence_ref": "social-post-884",
+              "evidence_state": "conflicting",
+              "notes": "Visible label exists but exported platform copy may have lost metadata"
+            }
+          },
+          {
+            "row_number": 5,
+            "values": {
+              "record_id": "REC-004",
+              "system_id": "AI-004",
+              "record_type": "incident",
+              "reported_at": "2026-08-18",
+              "owner": "Learning Experience",
+              "status": "open",
+              "evidence_ref": "coach-onboarding-v2",
+              "evidence_state": "complete",
+              "notes": "First interaction contains no AI notice"
+            }
+          },
+          {
+            "row_number": 6,
+            "values": {
+              "record_id": "REC-005",
+              "system_id": "AI-005",
+              "record_type": "evidence_gap",
+              "reported_at": "2026-08-25",
+              "owner": "Assessment Operations",
+              "status": "open",
+              "evidence_ref": "provider-role-questionnaire",
+              "evidence_state": "stale",
+              "notes": "Provider role questionnaire predates the current release"
+            }
+          },
+          {
+            "row_number": 7,
+            "values": {
+              "record_id": "REC-006",
+              "system_id": "AI-005",
+              "record_type": "evidence",
+              "reported_at": "2026-08-25",
+              "owner": "Assessment Operations",
+              "status": "open",
+              "evidence_ref": "human-review-sop-v4",
+              "evidence_state": "complete",
+              "notes": "Flag never makes the final assessment decision"
+            }
+          },
+          {
+            "row_number": 8,
+            "values": {
+              "record_id": "REC-007",
+              "system_id": "AI-006",
+              "record_type": "evidence",
+              "reported_at": "2026-08-14",
+              "owner": "People Operations",
+              "status": "closed",
+              "evidence_ref": "internal-use-review",
+              "evidence_state": "complete",
+              "notes": "Tool is restricted to staff workspace"
+            }
+          },
+          {
+            "row_number": 9,
+            "values": {
+              "record_id": "REC-008",
+              "system_id": "AI-007",
+              "record_type": "incident",
+              "reported_at": "2026-08-21",
+              "owner": "Marketing",
+              "status": "open",
+              "evidence_ref": "avatar-page-capture",
+              "evidence_state": "conflicting",
+              "notes": "Owner says a banner exists but the current capture shows none"
+            }
+          },
+          {
+            "row_number": 10,
+            "values": {
+              "record_id": "REC-009",
+              "system_id": "AI-008",
+              "record_type": "evidence",
+              "reported_at": "2026-08-19",
+              "owner": "Communications",
+              "status": "open",
+              "evidence_ref": "localisation-export-test",
+              "evidence_state": "partial",
+              "notes": "Visible label verified but machine-readable provenance not checked"
+            }
+          },
+          {
+            "row_number": 11,
+            "values": {
+              "record_id": "REC-010",
+              "system_id": "AI-008",
+              "record_type": "exception_request",
+              "reported_at": "2026-08-26",
+              "owner": "Communications",
+              "status": "draft",
+              "evidence_ref": "exception-draft-008",
+              "evidence_state": "missing",
+              "notes": "No Legal approval or expiry date recorded"
+            }
+          }
+        ],
+        "record_ids": [
+          "REC-001",
+          "REC-002",
+          "REC-003",
+          "REC-004",
+          "REC-005",
+          "REC-006",
+          "REC-007",
+          "REC-008",
+          "REC-009",
+          "REC-010"
+        ],
+        "record_count": 10,
+        "gid": "0",
+        "tab_name": "Incident Evidence Register",
+        "valid": true,
+        "errors": [],
+        "id": "table-source-evidence-02-0",
+        "summary": "EVIDENCE source-reported register rows; no independent corroboration or approval.",
+        "evidence_ids": [
+          "source-evidence-02"
+        ],
+        "source_name": "EVIDENCE",
+        "workbook_id": "19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+        "original_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+        "requested_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk/export?format=csv&gid=0",
+        "retrieval_url": "https://doc-10-48-sheets.googleusercontent.com/export/f3kk9gtum31ktuqh54kn7i1e14/4g9mr4e81nsah9p838j9as6kpc/1792373145000/116538737177717635516/*/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk?format=csv&gid=0",
+        "retrieved_at": "2026-10-19T01:25:46.333250Z",
+        "raw_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/evidence-02.response",
+        "raw_sha256": "sha256:3dacdd595cbbdb17749bc879b01f197d2c5691ab5e2385aacef797ebdea7295b",
+        "discovered_tabs": [],
+        "tab_discovery_limitation": "Only exposed HTML grids/tab captions and explicitly configured gids are inspected; hidden/unexposed tabs and workbook completeness are not established.",
+        "independently_corroborated": false,
+        "approval_verified": false,
+        "format": "csv",
+        "extracted_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/table-source-evidence-02-0.json",
+        "extracted_sha256": "sha256:560a9c2e2c6c8109ee5c568022d829e9b65cb95ee15b2bbd1f1511c54e0d806f"
+      },
+      {
+        "headers": [
+          "action_id",
+          "system_id",
+          "action",
+          "owner",
+          "due_date",
+          "status",
+          "approval_required",
+          "source_version"
+        ],
+        "records": [
+          {
+            "row_number": 2,
+            "values": {
+              "action_id": "ACT-001",
+              "system_id": "AI-004",
+              "action": "Add and verify first-interaction AI notice",
+              "owner": "Learning Experience",
+              "due_date": "2026-09-04",
+              "status": "planned",
+              "approval_required": "operations",
+              "source_version": "calendar-2026-08-26"
+            }
+          },
+          {
+            "row_number": 3,
+            "values": {
+              "action_id": "ACT-002",
+              "system_id": "AI-007",
+              "action": "Resolve disclosure evidence conflict",
+              "owner": "Marketing",
+              "due_date": "2026-09-03",
+              "status": "open",
+              "approval_required": "operations",
+              "source_version": "calendar-2026-08-26"
+            }
+          },
+          {
+            "row_number": 4,
+            "values": {
+              "action_id": "ACT-003",
+              "system_id": "AI-002",
+              "action": "Confirm recipient disclosure practice",
+              "owner": "Admissions",
+              "due_date": "2026-09-08",
+              "status": "open",
+              "approval_required": "legal",
+              "source_version": "calendar-2026-08-26"
+            }
+          },
+          {
+            "row_number": 5,
+            "values": {
+              "action_id": "ACT-004",
+              "system_id": "AI-003",
+              "action": "Verify machine-readable provenance after publishing",
+              "owner": "Communications",
+              "due_date": "2026-09-10",
+              "status": "open",
+              "approval_required": "operations",
+              "source_version": "calendar-2026-08-26"
+            }
+          },
+          {
+            "row_number": 6,
+            "values": {
+              "action_id": "ACT-005",
+              "system_id": "AI-005",
+              "action": "Refresh provider-role and release evidence",
+              "owner": "Assessment Operations",
+              "due_date": "2026-09-12",
+              "status": "open",
+              "approval_required": "legal",
+              "source_version": "calendar-2026-08-26"
+            }
+          },
+          {
+            "row_number": 7,
+            "values": {
+              "action_id": "ACT-006",
+              "system_id": "AI-008",
+              "action": "Complete provenance test",
+              "owner": "Communications",
+              "due_date": "2026-09-09",
+              "status": "open",
+              "approval_required": "operations",
+              "source_version": "calendar-2026-08-26"
+            }
+          },
+          {
+            "row_number": 8,
+            "values": {
+              "action_id": "ACT-007",
+              "system_id": "AI-008",
+              "action": "Review exception request",
+              "owner": "Legal",
+              "due_date": "2026-09-15",
+              "status": "blocked",
+              "approval_required": "legal",
+              "source_version": "calendar-2026-08-26"
+            }
+          },
+          {
+            "row_number": 9,
+            "values": {
+              "action_id": "ACT-008",
+              "system_id": "ALL",
+              "action": "Quarterly AI register evidence review",
+              "owner": "Operations",
+              "due_date": "2026-10-02",
+              "status": "scheduled",
+              "approval_required": "operations",
+              "source_version": "calendar-2026-08-26"
+            }
+          }
+        ],
+        "record_ids": [
+          "ACT-001",
+          "ACT-002",
+          "ACT-003",
+          "ACT-004",
+          "ACT-005",
+          "ACT-006",
+          "ACT-007",
+          "ACT-008"
+        ],
+        "record_count": 8,
+        "gid": "0",
+        "tab_name": "Compliance Calendar",
+        "valid": true,
+        "errors": [],
+        "id": "table-source-calendar-01-0",
+        "summary": "CALENDAR source-reported register rows; no independent corroboration or approval.",
+        "evidence_ids": [
+          "source-calendar-01"
+        ],
+        "source_name": "CALENDAR",
+        "workbook_id": "1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+        "original_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+        "requested_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+        "retrieval_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA/edit",
+        "retrieved_at": "2026-10-19T01:25:46.700290Z",
+        "raw_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/calendar-01.response",
+        "raw_sha256": "sha256:47fda4a48ad1c2529913caae4be0da135b7f8883caa53d15effea8d9d7ea8544",
+        "discovered_tabs": [
+          {
+            "gid": "0",
+            "name": "Compliance Calendar"
+          }
+        ],
+        "tab_discovery_limitation": "Only exposed HTML grids/tab captions and explicitly configured gids are inspected; hidden/unexposed tabs and workbook completeness are not established.",
+        "independently_corroborated": false,
+        "approval_verified": false,
+        "format": "html-grid",
+        "extracted_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/table-source-calendar-01-0.json",
+        "extracted_sha256": "sha256:ed827f9d463ac86f1b805cf0f67222a3e9a7a1d47a4aa5f7f2edd2818d5b79f7"
+      },
+      {
+        "headers": [
+          "action_id",
+          "system_id",
+          "action",
+          "owner",
+          "due_date",
+          "status",
+          "approval_required",
+          "source_version"
+        ],
+        "records": [
+          {
+            "row_number": 2,
+            "values": {
+              "action_id": "ACT-001",
+              "system_id": "AI-004",
+              "action": "Add and verify first-interaction AI notice",
+              "owner": "Learning Experience",
+              "due_date": "2026-09-04",
+              "status": "planned",
+              "approval_required": "operations",
+              "source_version": "calendar-2026-08-26"
+            }
+          },
+          {
+            "row_number": 3,
+            "values": {
+              "action_id": "ACT-002",
+              "system_id": "AI-007",
+              "action": "Resolve disclosure evidence conflict",
+              "owner": "Marketing",
+              "due_date": "2026-09-03",
+              "status": "open",
+              "approval_required": "operations",
+              "source_version": "calendar-2026-08-26"
+            }
+          },
+          {
+            "row_number": 4,
+            "values": {
+              "action_id": "ACT-003",
+              "system_id": "AI-002",
+              "action": "Confirm recipient disclosure practice",
+              "owner": "Admissions",
+              "due_date": "2026-09-08",
+              "status": "open",
+              "approval_required": "legal",
+              "source_version": "calendar-2026-08-26"
+            }
+          },
+          {
+            "row_number": 5,
+            "values": {
+              "action_id": "ACT-004",
+              "system_id": "AI-003",
+              "action": "Verify machine-readable provenance after publishing",
+              "owner": "Communications",
+              "due_date": "2026-09-10",
+              "status": "open",
+              "approval_required": "operations",
+              "source_version": "calendar-2026-08-26"
+            }
+          },
+          {
+            "row_number": 6,
+            "values": {
+              "action_id": "ACT-005",
+              "system_id": "AI-005",
+              "action": "Refresh provider-role and release evidence",
+              "owner": "Assessment Operations",
+              "due_date": "2026-09-12",
+              "status": "open",
+              "approval_required": "legal",
+              "source_version": "calendar-2026-08-26"
+            }
+          },
+          {
+            "row_number": 7,
+            "values": {
+              "action_id": "ACT-006",
+              "system_id": "AI-008",
+              "action": "Complete provenance test",
+              "owner": "Communications",
+              "due_date": "2026-09-09",
+              "status": "open",
+              "approval_required": "operations",
+              "source_version": "calendar-2026-08-26"
+            }
+          },
+          {
+            "row_number": 8,
+            "values": {
+              "action_id": "ACT-007",
+              "system_id": "AI-008",
+              "action": "Review exception request",
+              "owner": "Legal",
+              "due_date": "2026-09-15",
+              "status": "blocked",
+              "approval_required": "legal",
+              "source_version": "calendar-2026-08-26"
+            }
+          },
+          {
+            "row_number": 9,
+            "values": {
+              "action_id": "ACT-008",
+              "system_id": "ALL",
+              "action": "Quarterly AI register evidence review",
+              "owner": "Operations",
+              "due_date": "2026-10-02",
+              "status": "scheduled",
+              "approval_required": "operations",
+              "source_version": "calendar-2026-08-26"
+            }
+          }
+        ],
+        "record_ids": [
+          "ACT-001",
+          "ACT-002",
+          "ACT-003",
+          "ACT-004",
+          "ACT-005",
+          "ACT-006",
+          "ACT-007",
+          "ACT-008"
+        ],
+        "record_count": 8,
+        "gid": "0",
+        "tab_name": "Compliance Calendar",
+        "valid": true,
+        "errors": [],
+        "id": "table-source-calendar-02-0",
+        "summary": "CALENDAR source-reported register rows; no independent corroboration or approval.",
+        "evidence_ids": [
+          "source-calendar-02"
+        ],
+        "source_name": "CALENDAR",
+        "workbook_id": "1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+        "original_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+        "requested_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA/export?format=csv&gid=0",
+        "retrieval_url": "https://doc-0o-48-sheets.googleusercontent.com/export/f3kk9gtum31ktuqh54kn7i1e14/n6e1qrelevc7pa5vuh3t44uj58/1792373150000/116538737177717635516/*/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA?format=csv&gid=0",
+        "retrieved_at": "2026-10-19T01:25:50.904091Z",
+        "raw_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/calendar-02.response",
+        "raw_sha256": "sha256:cb3e2ba90e96733e5713102f0653dd02d0282be92058e60febe5af899926d8ab",
+        "discovered_tabs": [],
+        "tab_discovery_limitation": "Only exposed HTML grids/tab captions and explicitly configured gids are inspected; hidden/unexposed tabs and workbook completeness are not established.",
+        "independently_corroborated": false,
+        "approval_verified": false,
+        "format": "csv",
+        "extracted_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/table-source-calendar-02-0.json",
+        "extracted_sha256": "sha256:3c1c86f3239917090a622004f726d567e99350dbc15c1d02841d90b7e2090837"
+      }
+    ],
+    "register_validation": {
+      "valid": true,
+      "errors": [],
+      "record_counts": {
+        "SYSTEMS": 8,
+        "EVIDENCE": 10,
+        "CALENDAR": 8
+      },
+      "system_ids": [
+        "AI-001",
+        "AI-002",
+        "AI-003",
+        "AI-004",
+        "AI-005",
+        "AI-006",
+        "AI-007",
+        "AI-008"
+      ],
+      "independently_corroborated": false,
+      "approval_verified": false,
+      "tab_discovery_limitation": "Only exposed HTML grids/tab captions and explicitly configured gids are inspected; hidden/unexposed tabs and workbook completeness are not established."
+    },
+    "legal_authority_status": "blocked",
+    "system_ids": [
+      "AI-001",
+      "AI-002",
+      "AI-003",
+      "AI-004",
+      "AI-005",
+      "AI-006",
+      "AI-007",
+      "AI-008"
+    ],
+    "system_ids_status": "source-reported-unverified"
+  },
+  "unresolved": [
+    {
+      "id": "u-system-inventory",
+      "summary": "Eight systems expected; actual IDs and facts await SYSTEMS verification.",
+      "evidence_ids": [
+        "e-interview"
+      ],
+      "owner": "System owners",
+      "resolution_need": "Read SYSTEMS through its disclosed route and verify identities and date-appropriate facts."
+    },
+    {
+      "id": "u-authority",
+      "summary": "Applicable legal versions and source suitability have not been verified.",
+      "evidence_ids": [
+        "e-assignment",
+        "e-interview"
+      ],
+      "owner": "Legal",
+      "resolution_need": "Retrieve and reconcile required official sources in later authorized stages."
+    },
+    {
+      "id": "u-approval",
+      "summary": "No version-bound human approval has been supplied or applied.",
+      "evidence_ids": [
+        "e-assignment",
+        "e-interview"
+      ],
+      "owner": "Legal and Operations",
+      "resolution_need": "Retain pending review until actual authorized, version-matched feedback exists."
+    },
+    {
+      "id": "u-export",
+      "summary": "Local interview export completeness has not been independently certified.",
+      "evidence_ids": [
+        "e-interview",
+        "e-readme"
+      ],
+      "owner": "Learner / facilitator",
+      "resolution_need": "Verify original export and assessed-work prerequisites with facilitator."
+    },
+    {
+      "id": "u-capture-authority",
+      "summary": "Document identity checks do not establish applicable legal authority or review-date suitability; dependent conclusions remain blocked.",
+      "evidence_ids": [
+        "source-law-01",
+        "source-oj-01",
+        "source-amend-01",
+        "source-consolidated-01",
+        "source-time-01",
+        "source-faq-01"
+      ],
+      "owner": "Legal / source access operator",
+      "resolution_need": "Verify captured documents and date-appropriate legal basis before dependent conclusions."
+    },
+    {
+      "id": "u-register-verification",
+      "summary": "Downloaded register values are source-reported, not independently corroborated or proof of approval; tab completeness remains unverified.",
+      "evidence_ids": [
+        "table-source-systems-01-0",
+        "table-source-systems-02-0",
+        "table-source-evidence-01-0",
+        "table-source-evidence-02-0",
+        "table-source-calendar-01-0",
+        "table-source-calendar-02-0"
+      ],
+      "owner": "System owners / Operations",
+      "resolution_need": "Review reported evidence gaps, tab inventory and any register validation errors; obtain underlying evidence separately.",
+      "validation_errors": []
+    },
+    {
+      "id": "u-access-policy",
+      "summary": "POLICY: live document access/identity remains unresolved; manual references do not resolve access.",
+      "evidence_ids": [
+        "source-policy-01"
+      ],
+      "owner": "Operations / source access operator",
+      "resolution_need": "Obtain and verify the live document through its legitimate route."
+    }
+  ],
+  "decisions": [
+    {
+      "id": "d-capture-status",
+      "summary": "Separate captured HTTP responses from verified legal and business evidence.",
+      "evidence_ids": [
+        "source-law-01",
+        "source-oj-01",
+        "source-amend-01",
+        "source-consolidated-01",
+        "source-time-01",
+        "source-faq-01",
+        "source-policy-01",
+        "source-systems-01",
+        "source-systems-02",
+        "source-evidence-01",
+        "source-evidence-02",
+        "source-calendar-01",
+        "source-calendar-02"
+      ],
+      "concern": "Avoid treating a successful HTTP request as document verification.",
+      "options": [
+        "Retain bytes with unverified identity/version",
+        "Assume HTTP success establishes suitability"
+      ],
+      "chosen_behavior": "Verify legal document identity/version independently; keep applicability blocked and retain every attempt and manual provenance separately.",
+      "rationale": "Capture alone cannot prove applicability or operational facts.",
+      "tradeoffs": [
+        "Conservative classification requires later document review even for useful responses."
+      ],
+      "downstream_effect": "No system facts, legal conclusions or approvals are generated."
+    }
+  ]
+}

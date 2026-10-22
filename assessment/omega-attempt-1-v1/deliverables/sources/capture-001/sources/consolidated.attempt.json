@@ -1,0 +1,42 @@
+{
+  "id": "source-consolidated",
+  "source_name": "CONSOLIDATED",
+  "summary": "Live attempt for CONSOLIDATED; document suitability remains unverified.",
+  "evidence_ids": [
+    "e-interview"
+  ],
+  "source_role": "binding-regulation",
+  "authority": "unknown",
+  "locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+  "retrieved_at": "2026-10-19T01:07:15.365620Z",
+  "retrieval_status": "invalid",
+  "content_type": "text/html; charset=UTF-8",
+  "version_metadata": {
+    "etag": null,
+    "last_modified": null,
+    "document_version": null,
+    "effective_date": null,
+    "note": "HTTP validators are not verified document versions"
+  },
+  "content_hash": "sha256:efbe360ea06476026b83218122466ed541ba8dbd658828299ad9127e452b4387",
+  "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-001/sources/consolidated.response",
+  "identity_status": "unverified",
+  "review_date_suitability": "unverified",
+  "failure": {
+    "type": "UnsuitableResponse",
+    "reason": "Login/access/challenge or landing page",
+    "next_owner": "Source access operator",
+    "recovery": "Obtain intended document through disclosed route"
+  },
+  "used_for_conclusions": false,
+  "http_status": 200,
+  "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+  "observed_identity": {
+    "title": "EUR-Lex - 02024R1689-20260727 - EN - EUR-LexLog inEnglish",
+    "returned_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727",
+    "expected_source": "CONSOLIDATED"
+  },
+  "capture_locator": "response bytes 0..1104656",
+  "byte_count": 1104657,
+  "completed_at": "2026-10-19T01:07:16.422875Z"
+}

@@ -1,0 +1,10 @@
+test_actual_relocated_bundle_verifies_offline_without_changes (test_portable.PortableTests.test_actual_relocated_bundle_verifies_offline_without_changes) ... ok
+test_invalid_mapping_and_package_are_rejected (test_portable.PortableTests.test_invalid_mapping_and_package_are_rejected) ... ok
+test_mapping_rejects_escape_symlink_and_writes (test_portable.PortableTests.test_mapping_rejects_escape_symlink_and_writes) ... ok
+test_missing_local_bytes_never_fall_back_to_original_workspace (test_portable.PortableTests.test_missing_local_bytes_never_fall_back_to_original_workspace) ... ok
+test_tampered_local_bytes_are_rejected (test_portable.PortableTests.test_tampered_local_bytes_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 5.814s
+
+OK

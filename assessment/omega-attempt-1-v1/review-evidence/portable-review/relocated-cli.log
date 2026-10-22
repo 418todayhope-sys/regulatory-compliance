@@ -1,0 +1,33 @@
+Traceback (most recent call last):
+  File "/tmp/project-b-cli-review-xkv_4wr2/relocated checkout/regulatory-change-impact-brief/scripts/portable.py", line 95, in <module>
+    main()
+  File "/tmp/project-b-cli-review-xkv_4wr2/relocated checkout/regulatory-change-impact-brief/scripts/portable.py", line 89, in main
+    result = verify(args.root, args.original_root, args.package)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/project-b-cli-review-xkv_4wr2/relocated checkout/regulatory-change-impact-brief/scripts/portable.py", line 78, in verify
+    result = workflow.verify_run(logical(original_root / package), logical(original_root))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/project-b-cli-review-xkv_4wr2/relocated checkout/regulatory-change-impact-brief/scripts/workflow.py", line 314, in verify_run
+    result = publication.verify_bundle(directory, root=root)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/project-b-cli-review-xkv_4wr2/relocated checkout/regulatory-change-impact-brief/scripts/publication.py", line 362, in verify_bundle
+    data = inputs(Path(snapshot['predecessor']['path']), root)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/project-b-cli-review-xkv_4wr2/relocated checkout/regulatory-change-impact-brief/scripts/publication.py", line 39, in inputs
+    five, four, chain, raw05 = actions.inputs(parent, root)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/project-b-cli-review-xkv_4wr2/relocated checkout/regulatory-change-impact-brief/scripts/actions.py", line 57, in inputs
+    expected = impact.analyze(four, chain[3])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/project-b-cli-review-xkv_4wr2/relocated checkout/regulatory-change-impact-brief/scripts/impact.py", line 210, in analyze
+    review = operating.assess(four)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/project-b-cli-review-xkv_4wr2/relocated checkout/regulatory-change-impact-brief/scripts/operating.py", line 31, in assess
+    profile_path = Path(config['path']) if config else Path(__file__).resolve().parents[1] / 'references/reviewed-case.json'
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/project-b-cli-review-xkv_4wr2/relocated checkout/regulatory-change-impact-brief/scripts/portable.py", line 56, in resolve
+    physical = self.physical().resolve(strict=strict)
+               ^^^^^^^^^^^^^^^
+  File "/tmp/project-b-cli-review-xkv_4wr2/relocated checkout/regulatory-change-impact-brief/scripts/portable.py", line 39, in physical
+    raise ValueError('Absolute reference outside declared original root: ' + str(plain)) from None
+ValueError: Absolute reference outside declared original root: /tmp/project-b-cli-review-xkv_4wr2/relocated checkout/regulatory-change-impact-brief/scripts/operating.py

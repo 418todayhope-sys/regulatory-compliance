@@ -1,0 +1,42 @@
+{
+  "id": "source-amend",
+  "source_name": "AMEND",
+  "summary": "Live attempt for AMEND; document suitability remains unverified.",
+  "evidence_ids": [
+    "e-interview"
+  ],
+  "source_role": "binding-regulation",
+  "authority": "unknown",
+  "locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+  "retrieved_at": "2026-10-19T01:07:14.310176Z",
+  "retrieval_status": "invalid",
+  "content_type": "text/html; charset=UTF-8",
+  "version_metadata": {
+    "etag": null,
+    "last_modified": null,
+    "document_version": null,
+    "effective_date": null,
+    "note": "HTTP validators are not verified document versions"
+  },
+  "content_hash": "sha256:d163c4a300ae30dda61f8ae82f069cfd91b2cb43dd9a750b54196b7dce14505e",
+  "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-001/sources/amend.response",
+  "identity_status": "unverified",
+  "review_date_suitability": "unverified",
+  "failure": {
+    "type": "UnsuitableResponse",
+    "reason": "Login/access/challenge or landing page",
+    "next_owner": "Source access operator",
+    "recovery": "Obtain intended document through disclosed route"
+  },
+  "used_for_conclusions": false,
+  "http_status": 200,
+  "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+  "observed_identity": {
+    "title": "Regulation - EU - 2026/1744 - EN - EUR-LexLog inEnglish",
+    "returned_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+    "expected_source": "AMEND"
+  },
+  "capture_locator": "response bytes 0..609293",
+  "byte_count": 609294,
+  "completed_at": "2026-10-19T01:07:15.365382Z"
+}

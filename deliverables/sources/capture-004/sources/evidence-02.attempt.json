@@ -1,0 +1,44 @@
+{
+  "id": "source-evidence-02",
+  "source_name": "EVIDENCE",
+  "summary": "Live attempt for EVIDENCE; document suitability remains unverified.",
+  "evidence_ids": [
+    "e-interview"
+  ],
+  "source_role": "operational-record",
+  "authority": "unknown",
+  "locator": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+  "original_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+  "requested_url": "https://docs.google.com/spreadsheets/d/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk/export?format=csv&gid=0",
+  "attempt_number": 2,
+  "route_type": "per-tab-csv-export",
+  "final_url": "https://doc-10-48-sheets.googleusercontent.com/export/f3kk9gtum31ktuqh54kn7i1e14/4g9mr4e81nsah9p838j9as6kpc/1792373145000/116538737177717635516/*/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk?format=csv&gid=0",
+  "http_status": 200,
+  "observed_identity": {
+    "title": null,
+    "returned_url": "https://doc-10-48-sheets.googleusercontent.com/export/f3kk9gtum31ktuqh54kn7i1e14/4g9mr4e81nsah9p838j9as6kpc/1792373145000/116538737177717635516/*/19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk?format=csv&gid=0",
+    "expected_source": "EVIDENCE"
+  },
+  "retrieved_at": "2026-10-19T01:25:46.333250Z",
+  "retrieval_status": "unverified",
+  "content_type": "text/csv",
+  "version_metadata": {
+    "etag": null,
+    "last_modified": null,
+    "document_version": null,
+    "effective_date": null,
+    "note": "HTTP validators are not verified document versions"
+  },
+  "content_hash": "sha256:3dacdd595cbbdb17749bc879b01f197d2c5691ab5e2385aacef797ebdea7295b",
+  "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/evidence-02.response",
+  "identity_status": "unverified",
+  "review_date_suitability": "unverified",
+  "failure": null,
+  "used_for_conclusions": false,
+  "capture_locator": "response bytes 0..1519",
+  "byte_count": 1520,
+  "completed_at": "2026-10-19T01:25:46.697018Z",
+  "workbook_id": "19BYZ68OSbsa1i9OfF6MzthrdC6q6mt6IWk6ucI8u7Rk",
+  "gid": "0",
+  "tab_name": "Incident Evidence Register"
+}

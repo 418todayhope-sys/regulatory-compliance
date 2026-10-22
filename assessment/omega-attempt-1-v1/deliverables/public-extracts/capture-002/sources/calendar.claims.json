@@ -1,0 +1,158 @@
+{
+  "format": "google-grid-claim-extract/1",
+  "source_id": "source-calendar",
+  "source_name": "CALENDAR",
+  "original_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+  "requested_url": null,
+  "retrieval_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA/edit",
+  "retrieved_at": "2026-10-19T01:08:53.827528Z",
+  "completed_at": "2026-10-19T01:08:54.544307Z",
+  "retrieval_status": "unverified",
+  "original_sha256": "sha256:90ed08a1ac85297f29bbb7040b28ecc693c35cf6caa2925b4441287060abc346",
+  "workbook_id": "1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+  "discovered_tabs": [
+    {
+      "gid": "0",
+      "name": "Compliance Calendar"
+    }
+  ],
+  "tables": [
+    {
+      "headers": [
+        "action_id",
+        "system_id",
+        "action",
+        "owner",
+        "due_date",
+        "status",
+        "approval_required",
+        "source_version"
+      ],
+      "records": [
+        {
+          "row_number": 2,
+          "values": {
+            "action_id": "ACT-001",
+            "system_id": "AI-004",
+            "action": "Add and verify first-interaction AI notice",
+            "owner": "Learning Experience",
+            "due_date": "2026-09-04",
+            "status": "planned",
+            "approval_required": "operations",
+            "source_version": "calendar-2026-08-26"
+          }
+        },
+        {
+          "row_number": 3,
+          "values": {
+            "action_id": "ACT-002",
+            "system_id": "AI-007",
+            "action": "Resolve disclosure evidence conflict",
+            "owner": "Marketing",
+            "due_date": "2026-09-03",
+            "status": "open",
+            "approval_required": "operations",
+            "source_version": "calendar-2026-08-26"
+          }
+        },
+        {
+          "row_number": 4,
+          "values": {
+            "action_id": "ACT-003",
+            "system_id": "AI-002",
+            "action": "Confirm recipient disclosure practice",
+            "owner": "Admissions",
+            "due_date": "2026-09-08",
+            "status": "open",
+            "approval_required": "legal",
+            "source_version": "calendar-2026-08-26"
+          }
+        },
+        {
+          "row_number": 5,
+          "values": {
+            "action_id": "ACT-004",
+            "system_id": "AI-003",
+            "action": "Verify machine-readable provenance after publishing",
+            "owner": "Communications",
+            "due_date": "2026-09-10",
+            "status": "open",
+            "approval_required": "operations",
+            "source_version": "calendar-2026-08-26"
+          }
+        },
+        {
+          "row_number": 6,
+          "values": {
+            "action_id": "ACT-005",
+            "system_id": "AI-005",
+            "action": "Refresh provider-role and release evidence",
+            "owner": "Assessment Operations",
+            "due_date": "2026-09-12",
+            "status": "open",
+            "approval_required": "legal",
+            "source_version": "calendar-2026-08-26"
+          }
+        },
+        {
+          "row_number": 7,
+          "values": {
+            "action_id": "ACT-006",
+            "system_id": "AI-008",
+            "action": "Complete provenance test",
+            "owner": "Communications",
+            "due_date": "2026-09-09",
+            "status": "open",
+            "approval_required": "operations",
+            "source_version": "calendar-2026-08-26"
+          }
+        },
+        {
+          "row_number": 8,
+          "values": {
+            "action_id": "ACT-007",
+            "system_id": "AI-008",
+            "action": "Review exception request",
+            "owner": "Legal",
+            "due_date": "2026-09-15",
+            "status": "blocked",
+            "approval_required": "legal",
+            "source_version": "calendar-2026-08-26"
+          }
+        },
+        {
+          "row_number": 9,
+          "values": {
+            "action_id": "ACT-008",
+            "system_id": "ALL",
+            "action": "Quarterly AI register evidence review",
+            "owner": "Operations",
+            "due_date": "2026-10-02",
+            "status": "scheduled",
+            "approval_required": "operations",
+            "source_version": "calendar-2026-08-26"
+          }
+        }
+      ],
+      "record_ids": [
+        "ACT-001",
+        "ACT-002",
+        "ACT-003",
+        "ACT-004",
+        "ACT-005",
+        "ACT-006",
+        "ACT-007",
+        "ACT-008"
+      ],
+      "record_count": 8,
+      "gid": "0",
+      "tab_name": "Compliance Calendar",
+      "valid": true,
+      "errors": []
+    }
+  ],
+  "limitations": "Original HTML bytes unavailable in this public view: their recorded hashes are provenance commitments, not recomputed verification. Retained extracts are source-reported claims, not independent corroboration or approval. Hidden tabs and original response completeness cannot be established from these extracts.",
+  "original_html_byte_verification": "unavailable",
+  "independently_corroborated": false,
+  "approval_verified": false
+}

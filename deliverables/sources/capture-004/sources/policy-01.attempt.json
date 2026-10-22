@@ -1,0 +1,46 @@
+{
+  "id": "source-policy-01",
+  "source_name": "POLICY",
+  "summary": "Live attempt for POLICY; document suitability remains unverified.",
+  "evidence_ids": [
+    "e-interview"
+  ],
+  "source_role": "internal-policy",
+  "authority": "unknown",
+  "locator": "https://private-pecorino-70e.notion.site/Project-2-Regulatory-Compliance-Current-Internal-Policies-3ba0b700541e81f09998d48f3b1c2856",
+  "original_url": "https://private-pecorino-70e.notion.site/Project-2-Regulatory-Compliance-Current-Internal-Policies-3ba0b700541e81f09998d48f3b1c2856",
+  "requested_url": "https://private-pecorino-70e.notion.site/Project-2-Regulatory-Compliance-Current-Internal-Policies-3ba0b700541e81f09998d48f3b1c2856",
+  "attempt_number": 1,
+  "route_type": "original",
+  "final_url": "https://private-pecorino-70e.notion.site/Project-2-Regulatory-Compliance-Current-Internal-Policies-3ba0b700541e81f09998d48f3b1c2856",
+  "http_status": 200,
+  "observed_identity": {
+    "title": "Notion",
+    "returned_url": "https://private-pecorino-70e.notion.site/Project-2-Regulatory-Compliance-Current-Internal-Policies-3ba0b700541e81f09998d48f3b1c2856",
+    "expected_source": "POLICY"
+  },
+  "retrieved_at": "2026-10-19T01:25:43.300591Z",
+  "retrieval_status": "invalid",
+  "content_type": "text/html; charset=utf-8",
+  "version_metadata": {
+    "etag": "W/\"38c6b48065b0657e7244c8013d253e95\"",
+    "last_modified": "Mon, 19 Oct 2026 00:14:17 GMT",
+    "document_version": null,
+    "effective_date": null,
+    "note": "HTTP validators are not verified document versions"
+  },
+  "content_hash": "sha256:b6cec499c853dc3f4faad5ee91525fca62351bb5fd17ce04358161035fd33f62",
+  "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/policy-01.response",
+  "identity_status": "unverified",
+  "review_date_suitability": "unverified",
+  "failure": {
+    "type": "UnsuitableResponse",
+    "reason": "Login/access/challenge or landing page",
+    "next_owner": "Source access operator",
+    "recovery": "Obtain intended document through disclosed route"
+  },
+  "used_for_conclusions": false,
+  "capture_locator": "response bytes 0..19923",
+  "byte_count": 19924,
+  "completed_at": "2026-10-19T01:25:43.755282Z"
+}

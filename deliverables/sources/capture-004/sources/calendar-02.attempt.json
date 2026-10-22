@@ -1,0 +1,44 @@
+{
+  "id": "source-calendar-02",
+  "source_name": "CALENDAR",
+  "summary": "Live attempt for CALENDAR; document suitability remains unverified.",
+  "evidence_ids": [
+    "e-interview"
+  ],
+  "source_role": "operational-record",
+  "authority": "unknown",
+  "locator": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+  "original_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+  "requested_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA/export?format=csv&gid=0",
+  "attempt_number": 2,
+  "route_type": "per-tab-csv-export",
+  "final_url": "https://doc-0o-48-sheets.googleusercontent.com/export/f3kk9gtum31ktuqh54kn7i1e14/n6e1qrelevc7pa5vuh3t44uj58/1792373150000/116538737177717635516/*/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA?format=csv&gid=0",
+  "http_status": 200,
+  "observed_identity": {
+    "title": null,
+    "returned_url": "https://doc-0o-48-sheets.googleusercontent.com/export/f3kk9gtum31ktuqh54kn7i1e14/n6e1qrelevc7pa5vuh3t44uj58/1792373150000/116538737177717635516/*/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA?format=csv&gid=0",
+    "expected_source": "CALENDAR"
+  },
+  "retrieved_at": "2026-10-19T01:25:50.904091Z",
+  "retrieval_status": "unverified",
+  "content_type": "text/csv; charset=utf-8",
+  "version_metadata": {
+    "etag": null,
+    "last_modified": null,
+    "document_version": null,
+    "effective_date": null,
+    "note": "HTTP validators are not verified document versions"
+  },
+  "content_hash": "sha256:cb3e2ba90e96733e5713102f0653dd02d0282be92058e60febe5af899926d8ab",
+  "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/calendar-02.response",
+  "identity_status": "unverified",
+  "review_date_suitability": "unverified",
+  "failure": null,
+  "used_for_conclusions": false,
+  "capture_locator": "response bytes 0..988",
+  "byte_count": 989,
+  "completed_at": "2026-10-19T01:25:51.266513Z",
+  "workbook_id": "1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+  "gid": "0",
+  "tab_name": "Compliance Calendar"
+}

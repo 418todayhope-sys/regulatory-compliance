@@ -1,0 +1,41 @@
+{
+  "id": "source-law-01",
+  "source_name": "LAW",
+  "summary": "Live attempt for LAW; document suitability remains unverified.",
+  "evidence_ids": [
+    "e-interview"
+  ],
+  "source_role": "official-guidance",
+  "authority": "unknown",
+  "locator": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+  "original_url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+  "requested_url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+  "attempt_number": 1,
+  "route_type": "original",
+  "final_url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+  "http_status": 200,
+  "observed_identity": {
+    "title": "Article 50: Transparency obligations for providers and deployers of certain AI systems | AI Act Service Desk",
+    "returned_url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+    "expected_source": "LAW"
+  },
+  "retrieved_at": "2026-10-19T01:25:37.992662Z",
+  "retrieval_status": "unverified",
+  "content_type": "text/html; charset=utf-8",
+  "version_metadata": {
+    "etag": "W/\"1791905737-gzip\"",
+    "last_modified": "Tue, 13 Oct 2026 15:35:37 GMT",
+    "document_version": null,
+    "effective_date": null,
+    "note": "HTTP validators are not verified document versions"
+  },
+  "content_hash": "sha256:32abb414364ebc82c830f6c23913668805ae572544146f74e95eb974aea36adf",
+  "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/law-01.response",
+  "identity_status": "unverified",
+  "review_date_suitability": "unverified",
+  "failure": null,
+  "used_for_conclusions": false,
+  "capture_locator": "response bytes 0..89451",
+  "byte_count": 89452,
+  "completed_at": "2026-10-19T01:25:38.929234Z"
+}

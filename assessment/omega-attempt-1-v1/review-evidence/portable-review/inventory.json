@@ -1,0 +1,750 @@
+{
+  "recorded_at": "2026-10-19T03:03:53.206152+00:00",
+  "protected_files_unchanged": 107,
+  "missing_required_files": [],
+  "broken_skill_markdown_links": [],
+  "proposed_review_files": [
+    {
+      "path": ".catalyte/challenge.json",
+      "size": 52,
+      "sha256": "sha256:984e4c9427ed56edb17c033babc9af9abec2b5c75f3e2e237c07c57543d7ab5e"
+    },
+    {
+      "path": "Project_B_Learner_Assignment_Codex.md",
+      "size": 10914,
+      "sha256": "sha256:23fc7f184e44eb2bcfb1630a9befda6d44e26e01fabfee6b6f701af854946014"
+    },
+    {
+      "path": "README.md",
+      "size": 2114,
+      "sha256": "sha256:1d72d3849dae49bdbbaeaebb1cc20c19f5a14e592094a0d8e4a506be425488b9"
+    },
+    {
+      "path": "deliverables/action-calendar.ics",
+      "size": 15181,
+      "sha256": "sha256:c3b058a285d554c6185e101527128fb750f4792fd87b0e5236120e43a77e7c99"
+    },
+    {
+      "path": "deliverables/compliance-brief.md",
+      "size": 141691,
+      "sha256": "sha256:6c6dac3ee064e5b6181eb5b7096d4e5036592707d45dff1c4821a090cbe3d1af"
+    },
+    {
+      "path": "deliverables/impact-register.csv",
+      "size": 50011,
+      "sha256": "sha256:008156ba44b2145457cbcff6ea530befb1d684fc75fa96f369c91d0a05a2d369"
+    },
+    {
+      "path": "deliverables/snapshots/01-scope.json",
+      "size": 5683,
+      "sha256": "sha256:2b7c968a24400a0ce00997c93aa01ff52950413b77662fdd967df1c25c64e3c1"
+    },
+    {
+      "path": "deliverables/snapshots/02-source-capture-attempt-002.json",
+      "size": 22060,
+      "sha256": "sha256:2aed6b2cb22c2cf58f12d11d60bedc1727561d025c4fb1e84720cd58d1a0d7be"
+    },
+    {
+      "path": "deliverables/snapshots/02-source-capture-attempt-003.json",
+      "size": 28470,
+      "sha256": "sha256:00a467273d26bc79767c91f4374a01190b637e164f6448bf6b2348afdcf73883"
+    },
+    {
+      "path": "deliverables/snapshots/02-source-capture-attempt-004.json",
+      "size": 79715,
+      "sha256": "sha256:b1eaee7b4ae53f82bd358838323968563cf2774d8c475b3fd32c93e4e10a1fbc"
+    },
+    {
+      "path": "deliverables/snapshots/02-source-capture.json",
+      "size": 23021,
+      "sha256": "sha256:ae1fa560e66aa7a61d02c52d86cf91042679cebe17b1452af60e37f661456cb9"
+    },
+    {
+      "path": "deliverables/snapshots/03-authority-and-timing.json",
+      "size": 60871,
+      "sha256": "sha256:4bcca203e7d5052de19cbcb8b3358a0309bf5cf68818f72f8b09fa28810e38a2"
+    },
+    {
+      "path": "deliverables/snapshots/04-evidence-reconciliation.json",
+      "size": 203534,
+      "sha256": "sha256:334ecf08d4c43e2e3bcf1a08f453448f553723e50487343f50284429248322cb"
+    },
+    {
+      "path": "deliverables/snapshots/05-impact-analysis.json",
+      "size": 215934,
+      "sha256": "sha256:5ad49dcfd828214e996697d7683ce912c9db07d2cd9f625473f3017e0b7350e2"
+    },
+    {
+      "path": "deliverables/snapshots/06-actions-and-approvals.json",
+      "size": 233053,
+      "sha256": "sha256:c431635f9ad9c9f59bc8422ff1a395a7b8e8294a3c2ecfe4dfd405f43fe02134"
+    },
+    {
+      "path": "deliverables/snapshots/07-publication-validation.json",
+      "size": 172505,
+      "sha256": "sha256:01ce2c0a5cc1a9373450e3fadf96ab8559a06e38c003357727f66b0817f18a23"
+    },
+    {
+      "path": "deliverables/sources/capture-001/sources/amend.attempt.json",
+      "size": 1645,
+      "sha256": "sha256:da9bb9dbac07507a364261af7f548fc33b80ab381282d67b777598d796aeaece"
+    },
+    {
+      "path": "deliverables/sources/capture-001/sources/amend.response",
+      "size": 609294,
+      "sha256": "sha256:d163c4a300ae30dda61f8ae82f069cfd91b2cb43dd9a750b54196b7dce14505e"
+    },
+    {
+      "path": "deliverables/sources/capture-001/sources/calendar.attempt.json",
+      "size": 1523,
+      "sha256": "sha256:87e0d142331f0a9b178ef94b786d8136c2bab4c94905a8f23e18fbc722351ee5"
+    },
+    {
+      "path": "deliverables/sources/capture-001/sources/calendar.response",
+      "size": 235909,
+      "sha256": "sha256:da2b82f2baab2d12fb042e008b51fa97ffc59b31ee3c7911ad6aae4c30a5c306"
+    },
+    {
+      "path": "deliverables/sources/capture-001/sources/consolidated.attempt.json",
+      "size": 1711,
+      "sha256": "sha256:cec4b2b6494f34415009d565d3ebcec815bdf36ec77ca1a3c604e4d49d77c58a"
+    },
+    {
+      "path": "deliverables/sources/capture-001/sources/consolidated.response",
+      "size": 1104657,
+      "sha256": "sha256:efbe360ea06476026b83218122466ed541ba8dbd658828299ad9127e452b4387"
+    },
+    {
+      "path": "deliverables/sources/capture-001/sources/evidence.attempt.json",
+      "size": 1534,
+      "sha256": "sha256:7acde59267ba218b74f32178530d517428fb0c430e235b2eff33a18721b399f0"
+    },
+    {
+      "path": "deliverables/sources/capture-001/sources/evidence.response",
+      "size": 233704,
+      "sha256": "sha256:04b468859215ff674f66667dd8a034838555cc985d528b2c8577eef41a21150d"
+    },
+    {
+      "path": "deliverables/sources/capture-001/sources/faq.attempt.json",
+      "size": 1596,
+      "sha256": "sha256:ff8b5047b476329e75197888cadb76596817c70481e7bc4c0de1913cc69a8f03"
+    },
+    {
+      "path": "deliverables/sources/capture-001/sources/faq.response",
+      "size": 76034,
+      "sha256": "sha256:1645486bab850cdee45e9068c5358a21dc9a8389257bb35628a9feabee5c993d"
+    },
+    {
+      "path": "deliverables/sources/capture-001/sources/law.attempt.json",
+      "size": 1511,
+      "sha256": "sha256:bf7aec38825c5dd2c058d1b245eab6d0df567664e1f4033f88a60105f7616cce"
+    },
+    {
+      "path": "deliverables/sources/capture-001/sources/law.response",
+      "size": 89452,
+      "sha256": "sha256:32abb414364ebc82c830f6c23913668805ae572544146f74e95eb974aea36adf"
+    },
+    {
+      "path": "deliverables/sources/capture-001/sources/oj.attempt.json",
+      "size": 1578,
+      "sha256": "sha256:6e8f8218c309208a2e145037a54efeaa3814bcdceb395d534ad91616f72579b6"
+    },
+    {
+      "path": "deliverables/sources/capture-001/sources/oj.response",
+      "size": 1535183,
+      "sha256": "sha256:2e59f912c73e9ac5a6d81b85899c780aa142d31e553483c989412cd5f9133dda"
+    },
+    {
+      "path": "deliverables/sources/capture-001/sources/policy.attempt.json",
+      "size": 1848,
+      "sha256": "sha256:ff49b5eb62ab7af6969236e897d14be7edb06698a65311b5f38d03ce92c640a0"
+    },
+    {
+      "path": "deliverables/sources/capture-001/sources/policy.response",
+      "size": 19924,
+      "sha256": "sha256:b6cec499c853dc3f4faad5ee91525fca62351bb5fd17ce04358161035fd33f62"
+    },
+    {
+      "path": "deliverables/sources/capture-001/sources/systems.attempt.json",
+      "size": 1517,
+      "sha256": "sha256:44f6619201fe6576d84c080244c3ac98b6e92f3044715530662096a20c8a1e98"
+    },
+    {
+      "path": "deliverables/sources/capture-001/sources/systems.response",
+      "size": 238969,
+      "sha256": "sha256:cb73e3b9495cdfbf90b5ca67280f49010f5c4beaa69d9ff58b51b40edd4b0ef0"
+    },
+    {
+      "path": "deliverables/sources/capture-001/sources/time.attempt.json",
+      "size": 1547,
+      "sha256": "sha256:0afdc07ccdcd9e957e162c821622ed5a9c4bef29f3d8f559da727e5aca13c9ba"
+    },
+    {
+      "path": "deliverables/sources/capture-001/sources/time.response",
+      "size": 36210,
+      "sha256": "sha256:51d70d77f227f4cc37d43d5eda9836c7b0d40cc5ca0db7758eab577f79ef98e8"
+    },
+    {
+      "path": "deliverables/sources/capture-002/sources/amend.attempt.json",
+      "size": 1350,
+      "sha256": "sha256:0d284b1db31e9220d9a50ecacc0944a571c193d555bf670bdc6103400330b5da"
+    },
+    {
+      "path": "deliverables/sources/capture-002/sources/calendar.attempt.json",
+      "size": 1513,
+      "sha256": "sha256:65d2b4269b0c71713d496bfbe4b0b6727e8e081eda9632984ad50590a7e2e3bf"
+    },
+    {
+      "path": "deliverables/sources/capture-002/sources/calendar.response",
+      "size": 236235,
+      "sha256": "sha256:90ed08a1ac85297f29bbb7040b28ecc693c35cf6caa2925b4441287060abc346"
+    },
+    {
+      "path": "deliverables/sources/capture-002/sources/consolidated.attempt.json",
+      "size": 1405,
+      "sha256": "sha256:0d28c8d6fc63fc69fa26201b422ca6d211d1d6efed220242780aa8599681e5ce"
+    },
+    {
+      "path": "deliverables/sources/capture-002/sources/evidence.attempt.json",
+      "size": 1524,
+      "sha256": "sha256:a8153b44c6a6e9772ef6ef8ab72e15a493162ff311c647bb80775b8d55f48247"
+    },
+    {
+      "path": "deliverables/sources/capture-002/sources/evidence.response",
+      "size": 232797,
+      "sha256": "sha256:991c3ad883263765ccaf4083805b4ef1a695f121c0b4c8ae6d781bb68b61afd7"
+    },
+    {
+      "path": "deliverables/sources/capture-002/sources/faq.attempt.json",
+      "size": 1596,
+      "sha256": "sha256:105709d27667e822353a1e2f2d711d4ae18a30217667b4dccf385b59f9a61a9e"
+    },
+    {
+      "path": "deliverables/sources/capture-002/sources/faq.response",
+      "size": 76034,
+      "sha256": "sha256:1645486bab850cdee45e9068c5358a21dc9a8389257bb35628a9feabee5c993d"
+    },
+    {
+      "path": "deliverables/sources/capture-002/sources/law.attempt.json",
+      "size": 1511,
+      "sha256": "sha256:0b06eb003caa1656600520564234856dcebaca3dd56135625af07faab4de3dde"
+    },
+    {
+      "path": "deliverables/sources/capture-002/sources/law.response",
+      "size": 89452,
+      "sha256": "sha256:32abb414364ebc82c830f6c23913668805ae572544146f74e95eb974aea36adf"
+    },
+    {
+      "path": "deliverables/sources/capture-002/sources/oj.attempt.json",
+      "size": 1284,
+      "sha256": "sha256:085531e071d36f504f3ef6ab3b5f8214f2c580e52840bce733a8dc66217cbbdb"
+    },
+    {
+      "path": "deliverables/sources/capture-002/sources/policy.attempt.json",
+      "size": 1848,
+      "sha256": "sha256:c55ccb6d02452ad3455ee4180782006508f9c85f1ad4b5a951677747b6cd9e2d"
+    },
+    {
+      "path": "deliverables/sources/capture-002/sources/policy.response",
+      "size": 19924,
+      "sha256": "sha256:b6cec499c853dc3f4faad5ee91525fca62351bb5fd17ce04358161035fd33f62"
+    },
+    {
+      "path": "deliverables/sources/capture-002/sources/systems.attempt.json",
+      "size": 1507,
+      "sha256": "sha256:8824d0d1f7c69c6fa41168fc37cf86584cec627bd127f9298fe76febac7cf7f3"
+    },
+    {
+      "path": "deliverables/sources/capture-002/sources/systems.response",
+      "size": 239111,
+      "sha256": "sha256:6a6a8c0c94e674f53c1c366ba474d5920b89384c49909996325420e42d3c0044"
+    },
+    {
+      "path": "deliverables/sources/capture-002/sources/time.attempt.json",
+      "size": 1547,
+      "sha256": "sha256:7d2d8e33a87fd7baf22e201b092d88c30a07724afa6549b28a442e8650e7de09"
+    },
+    {
+      "path": "deliverables/sources/capture-002/sources/time.response",
+      "size": 36210,
+      "sha256": "sha256:51d70d77f227f4cc37d43d5eda9836c7b0d40cc5ca0db7758eab577f79ef98e8"
+    },
+    {
+      "path": "deliverables/sources/capture-003/sources/amend-01.attempt.json",
+      "size": 2155,
+      "sha256": "sha256:0b5ac27f0dc49a78b4d34e7e0278c67ac9933d59aae7e700bb3f46a580c456b2"
+    },
+    {
+      "path": "deliverables/sources/capture-003/sources/amend-01.response",
+      "size": 609294,
+      "sha256": "sha256:a8bdb19d0e2e30e7d861b446030adcc44d8f6aef7f878a8292ab44e98b97f46c"
+    },
+    {
+      "path": "deliverables/sources/capture-003/sources/calendar-01.attempt.json",
+      "size": 1781,
+      "sha256": "sha256:bc2157ac3fe34d4cdc4c53b52a59851fed740e147baedb53743cfd042ab4e166"
+    },
+    {
+      "path": "deliverables/sources/capture-003/sources/calendar-01.response",
+      "size": 235963,
+      "sha256": "sha256:c37117ae50f37901bcaf7750ec4474eef0c84df742ad74f03b79d159b69c6b49"
+    },
+    {
+      "path": "deliverables/sources/capture-003/sources/consolidated-01.attempt.json",
+      "size": 2223,
+      "sha256": "sha256:e45618a60a5af5b0215bfaa5772a9bc7ea4deadba775140d38f9dfc3e6fde9d7"
+    },
+    {
+      "path": "deliverables/sources/capture-003/sources/consolidated-01.response",
+      "size": 1104656,
+      "sha256": "sha256:38c765df497e0f0d213989ea8944632fad7fa2f319eba990809ccb6b895e9956"
+    },
+    {
+      "path": "deliverables/sources/capture-003/sources/evidence-01.attempt.json",
+      "size": 1792,
+      "sha256": "sha256:a9fbaea3c6b533ecfadb3f038f11a06a84c5bd63691e22ebe8e410ba0c2add2f"
+    },
+    {
+      "path": "deliverables/sources/capture-003/sources/evidence-01.response",
+      "size": 233318,
+      "sha256": "sha256:4adb7e9a8d72ccdae71c761a14fcdf661e20c48f5d284a909fe2d7987fb7e360"
+    },
+    {
+      "path": "deliverables/sources/capture-003/sources/faq-01.attempt.json",
+      "size": 1886,
+      "sha256": "sha256:0f7278b2845013c552a73bd9888ab4c4eb841239d42ffdbb1a8c7e8cb4693ee2"
+    },
+    {
+      "path": "deliverables/sources/capture-003/sources/faq-01.response",
+      "size": 76034,
+      "sha256": "sha256:1645486bab850cdee45e9068c5358a21dc9a8389257bb35628a9feabee5c993d"
+    },
+    {
+      "path": "deliverables/sources/capture-003/sources/law-01.attempt.json",
+      "size": 1735,
+      "sha256": "sha256:93647cc3e807af3f78559ab68f2ca7eddb1ff861d338948179f0c41612e50fea"
+    },
+    {
+      "path": "deliverables/sources/capture-003/sources/law-01.response",
+      "size": 89452,
+      "sha256": "sha256:32abb414364ebc82c830f6c23913668805ae572544146f74e95eb974aea36adf"
+    },
+    {
+      "path": "deliverables/sources/capture-003/sources/oj-01.attempt.json",
+      "size": 2052,
+      "sha256": "sha256:d5f4e441a754a024cbb5cc2f8c1e6cda44456720d621e41c6ca4087b8deb6c87"
+    },
+    {
+      "path": "deliverables/sources/capture-003/sources/oj-01.response",
+      "size": 1535182,
+      "sha256": "sha256:c9d04527f9a91faa566957fff8868ba51664a57e7513ff8403bf9247792de7f5"
+    },
+    {
+      "path": "deliverables/sources/capture-003/sources/policy-01.attempt.json",
+      "size": 2212,
+      "sha256": "sha256:27f58c4dccfc131aea1f6061c86aec0dd88e45911a3a4d902a82bca8e2609374"
+    },
+    {
+      "path": "deliverables/sources/capture-003/sources/policy-01.response",
+      "size": 19924,
+      "sha256": "sha256:b6cec499c853dc3f4faad5ee91525fca62351bb5fd17ce04358161035fd33f62"
+    },
+    {
+      "path": "deliverables/sources/capture-003/sources/systems-01.attempt.json",
+      "size": 1775,
+      "sha256": "sha256:769a723ca356186f12db0a0d9ec46c690e5b384ab4e389cd2b5321b553a72dd8"
+    },
+    {
+      "path": "deliverables/sources/capture-003/sources/systems-01.response",
+      "size": 239152,
+      "sha256": "sha256:698bd5fcdccc865d5cfb0ca0a1a8727f1d0f2f1567ae64316f6fd84807810bed"
+    },
+    {
+      "path": "deliverables/sources/capture-003/sources/time-01.attempt.json",
+      "size": 1817,
+      "sha256": "sha256:d9c305fbe7b58fd23386dfa792e2bb4bd38910371525fc882d0554370d3835dd"
+    },
+    {
+      "path": "deliverables/sources/capture-003/sources/time-01.response",
+      "size": 36210,
+      "sha256": "sha256:51d70d77f227f4cc37d43d5eda9836c7b0d40cc5ca0db7758eab577f79ef98e8"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/amend-01.attempt.json",
+      "size": 2155,
+      "sha256": "sha256:0333f0b0f3b24f39c3cfe5c333e9709bcb95e6cc088734d81d505ddb3a8af5d4"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/amend-01.response",
+      "size": 609294,
+      "sha256": "sha256:9984204db53ec4649f5e5dc1c8db91a1a1515b030a0d4faa64cc37cadefdd6f6"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/calendar-01.attempt.json",
+      "size": 1781,
+      "sha256": "sha256:649d67e3822d5f0a327678fe8f4dec38b395788455f5b5994b6a66ffb0ac7c3f"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/calendar-01.response",
+      "size": 236375,
+      "sha256": "sha256:47fda4a48ad1c2529913caae4be0da135b7f8883caa53d15effea8d9d7ea8544"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/calendar-02.attempt.json",
+      "size": 2112,
+      "sha256": "sha256:621427a6e367eae72a6ec13afe52ab8abbb117f991c5c3f25e94df660a101cb5"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/calendar-02.response",
+      "size": 989,
+      "sha256": "sha256:cb3e2ba90e96733e5713102f0653dd02d0282be92058e60febe5af899926d8ab"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/consolidated-01.attempt.json",
+      "size": 2223,
+      "sha256": "sha256:d0e74baa488cfcea68d077c9c5a175d3be7498ec7df6c216a22b89cf143d22b1"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/consolidated-01.response",
+      "size": 1104656,
+      "sha256": "sha256:60f2abdb9bb170ad129f8247b3eadbf3aa7156e0a56383aa1b6188c24dc4c89a"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/evidence-01.attempt.json",
+      "size": 1792,
+      "sha256": "sha256:8d7a78535d05f94fefac0a16ae27d0d85ebabf5a92370d2d1cc3263dadb48d29"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/evidence-01.response",
+      "size": 232667,
+      "sha256": "sha256:16caf43c7a99f284909e357164515a0a681c73f576402226c4bf7c491a67e70c"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/evidence-02.attempt.json",
+      "size": 2106,
+      "sha256": "sha256:17a779d83079ec129d6f4a99811ecadce0ae9c9b44667994d62b2f5b546e88d1"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/evidence-02.response",
+      "size": 1520,
+      "sha256": "sha256:3dacdd595cbbdb17749bc879b01f197d2c5691ab5e2385aacef797ebdea7295b"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/faq-01.attempt.json",
+      "size": 1886,
+      "sha256": "sha256:1e76a072414f63ef6840dedecf4e7411140bd79a2a45585e1cc34aee6719c886"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/faq-01.response",
+      "size": 76034,
+      "sha256": "sha256:1645486bab850cdee45e9068c5358a21dc9a8389257bb35628a9feabee5c993d"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/law-01.attempt.json",
+      "size": 1735,
+      "sha256": "sha256:45b9689e294e7deef260181060322042ba455069fd20490c4b614fe5d8b56ceb"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/law-01.response",
+      "size": 89452,
+      "sha256": "sha256:32abb414364ebc82c830f6c23913668805ae572544146f74e95eb974aea36adf"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/oj-01.attempt.json",
+      "size": 2052,
+      "sha256": "sha256:3a769332fa0bd261ebb89cbc11b729063b27a13a5659117653456b694cf0d4ae"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/oj-01.response",
+      "size": 1535221,
+      "sha256": "sha256:459fca1abece1cd47dddf91cefed1136b5491261434f6e7dd69e7056188d891b"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/policy-01.attempt.json",
+      "size": 2212,
+      "sha256": "sha256:27c9fb01126582f86dcdfd67e35726ef29fc60b3ccb4f98df7eb9058a728e7b0"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/policy-01.response",
+      "size": 19924,
+      "sha256": "sha256:b6cec499c853dc3f4faad5ee91525fca62351bb5fd17ce04358161035fd33f62"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/systems-01.attempt.json",
+      "size": 1775,
+      "sha256": "sha256:b4b69e102412b89874b9b392cb261c1e48227a8bd71060f284610e6628c01f25"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/systems-01.response",
+      "size": 239005,
+      "sha256": "sha256:43a8843b85d50287df6e7b6fb5c9d3eb19c61a72a8da90e8388774e191589a50"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/systems-02.attempt.json",
+      "size": 2108,
+      "sha256": "sha256:a509c9631e8a9bfe335e2178a94791ec1bc6b1003ddd6fb2c7e71200fb5a17a0"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/systems-02.response",
+      "size": 1608,
+      "sha256": "sha256:5ccd555dac9dc3af5a77d3206105fb093565865f7283abe43f5339dd46ed8a80"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/table-source-calendar-01-0.json",
+      "size": 4598,
+      "sha256": "sha256:ed827f9d463ac86f1b805cf0f67222a3e9a7a1d47a4aa5f7f2edd2818d5b79f7"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/table-source-calendar-02-0.json",
+      "size": 4666,
+      "sha256": "sha256:3c1c86f3239917090a622004f726d567e99350dbc15c1d02841d90b7e2090837"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/table-source-evidence-01-0.json",
+      "size": 5921,
+      "sha256": "sha256:7993eed7844fe9fa2990356989f33a0e0000f889bb1a4dce50727580edeab595"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/table-source-evidence-02-0.json",
+      "size": 5982,
+      "sha256": "sha256:560a9c2e2c6c8109ee5c568022d829e9b65cb95ee15b2bbd1f1511c54e0d806f"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/table-source-systems-01-0.json",
+      "size": 6501,
+      "sha256": "sha256:1f09eaedf97547b2b1091c5ef6d133f6d9dec30a65bcd2d5c2a313ebee5d3bcf"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/table-source-systems-02-0.json",
+      "size": 6570,
+      "sha256": "sha256:63f8591e818a1a510b28cea5a3c85e8435778fd67bcced7bd7eee7a168a18b96"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/time-01.attempt.json",
+      "size": 1817,
+      "sha256": "sha256:4e6f4100986b49987e45b5bb6aa2fcc6c302f6ac199f0bbd7ea8726eb67de003"
+    },
+    {
+      "path": "deliverables/sources/capture-004/sources/time-01.response",
+      "size": 36210,
+      "sha256": "sha256:51d70d77f227f4cc37d43d5eda9836c7b0d40cc5ca0db7758eab577f79ef98e8"
+    },
+    {
+      "path": "interviews/project-b-regulatory-compliance-20261018-1952.md",
+      "size": 34039,
+      "sha256": "sha256:ea35018646971a9c545bb76d9bc86a247a67ffd3d46a70bf6bcc80eefd1e2642"
+    },
+    {
+      "path": "references/manual/policy-manual-reference.md",
+      "size": 7448,
+      "sha256": "sha256:a66bccaad204ed570bd2bbd9370565bf236561f7f010642196ac48bc5fd89d91"
+    },
+    {
+      "path": "regulatory-change-impact-brief/SKILL.md",
+      "size": 3805,
+      "sha256": "sha256:5882fd0c603f652a9f1086179ab155371433fccd5ab82482e4c4b841487d1f2d"
+    },
+    {
+      "path": "regulatory-change-impact-brief/references/actions.md",
+      "size": 4579,
+      "sha256": "sha256:0b7fd80cdc12dbb72b268f69294395ee06b78d7fdfe50865531a7f308714064f"
+    },
+    {
+      "path": "regulatory-change-impact-brief/references/adaptability.md",
+      "size": 4680,
+      "sha256": "sha256:2a39cf95c2972998113f1c017f80333c38813e3a8610a148975d1a89fd51ab24"
+    },
+    {
+      "path": "regulatory-change-impact-brief/references/authority.md",
+      "size": 3270,
+      "sha256": "sha256:83559373e74301e1b470f4d5c42b530fe1805e4292b47a8b19dc803200d8096f"
+    },
+    {
+      "path": "regulatory-change-impact-brief/references/capture-results.md",
+      "size": 4481,
+      "sha256": "sha256:8cfe0c618d2c0930d57c79918d9b0b986dc2f4c28b90ee8d44c498d8038bea2d"
+    },
+    {
+      "path": "regulatory-change-impact-brief/references/capture.md",
+      "size": 5434,
+      "sha256": "sha256:14ab0b6d08a5c9b95c93445edb5f72b5abab976169783479527b4584f1811ce8"
+    },
+    {
+      "path": "regulatory-change-impact-brief/references/impact.md",
+      "size": 5094,
+      "sha256": "sha256:47d6c296f7f5342d4ce08ab08dcee7aec56524284188fab699f08aa31919dd02"
+    },
+    {
+      "path": "regulatory-change-impact-brief/references/portable-review.md",
+      "size": 2639,
+      "sha256": "sha256:c3a610202a69aa869c0040bdf92848a9adecbb4212a3c056c3b5fdb208234f3b"
+    },
+    {
+      "path": "regulatory-change-impact-brief/references/publication.md",
+      "size": 3613,
+      "sha256": "sha256:048956cb4916f408374fd61dd5c0bcfa028d1a456e650d397a7bb1c0282cdca6"
+    },
+    {
+      "path": "regulatory-change-impact-brief/references/reconciliation.md",
+      "size": 3802,
+      "sha256": "sha256:8b6ee9ce00f3ed238a9e1c7ac82bbe859c242ffb3cf81b7060f151f19a90b892"
+    },
+    {
+      "path": "regulatory-change-impact-brief/references/registers.md",
+      "size": 4136,
+      "sha256": "sha256:6387cbe69f5ceaa522c12bcd8eb6f84eb6f575413e94c6a7ccfca6f8e50d83ef"
+    },
+    {
+      "path": "regulatory-change-impact-brief/references/reviewed-case.json",
+      "size": 13885,
+      "sha256": "sha256:0142224a7f843720262f4d4d24ac863301631c19fa77fffc4e1f52d5710145db"
+    },
+    {
+      "path": "regulatory-change-impact-brief/references/scope.md",
+      "size": 1457,
+      "sha256": "sha256:a1bc47693af2ec2717277cf18e88890901fdd648d417e4cff0094b2de0a128c9"
+    },
+    {
+      "path": "regulatory-change-impact-brief/references/source-config.json",
+      "size": 1062,
+      "sha256": "sha256:339f0adc85f4f047233215cb827e7af9028f665d2dcc769ba8e628aaa2534cab"
+    },
+    {
+      "path": "regulatory-change-impact-brief/references/workflow.md",
+      "size": 6618,
+      "sha256": "sha256:7a90933e4f86c9d3a0c825f493d955bd87aadbf041acf1012ac9d577510628a2"
+    },
+    {
+      "path": "regulatory-change-impact-brief/requirements.txt",
+      "size": 22,
+      "sha256": "sha256:8a2ecec3fc4dc0935c85d8b360a1dd12aa8083816bf4640d4e888d64862ee9dc"
+    },
+    {
+      "path": "regulatory-change-impact-brief/scripts/actions.py",
+      "size": 24697,
+      "sha256": "sha256:175ae946adbf67feeb1ae088ece62aee0496f868a4cfe71af84fc02845b0752d"
+    },
+    {
+      "path": "regulatory-change-impact-brief/scripts/authority.py",
+      "size": 22405,
+      "sha256": "sha256:28f23e391c9a056f9df301f7ed63b4a2cbb3da45ae89d10a504983f4b6ac70d0"
+    },
+    {
+      "path": "regulatory-change-impact-brief/scripts/capture.py",
+      "size": 21957,
+      "sha256": "sha256:69c65700af426312cbae1e769ea6ca5a07d532d957c15c7ae3df2819ad70a254"
+    },
+    {
+      "path": "regulatory-change-impact-brief/scripts/impact.py",
+      "size": 22990,
+      "sha256": "sha256:894d3f703bc8a63ff189930a5b70b6659908dc1f1336bc08d00b48692fc0ec23"
+    },
+    {
+      "path": "regulatory-change-impact-brief/scripts/operating.py",
+      "size": 11959,
+      "sha256": "sha256:a12b53d6d576aad30c231827b47edf6a0b23d411bcf6ce851b0bebef53d55d19"
+    },
+    {
+      "path": "regulatory-change-impact-brief/scripts/portable.py",
+      "size": 3911,
+      "sha256": "sha256:943e2db1a7aab592e4f8b0f6cb1d1cae7e810a3f2be6560806714cff3b966c7a"
+    },
+    {
+      "path": "regulatory-change-impact-brief/scripts/publication.py",
+      "size": 30611,
+      "sha256": "sha256:240fac02fb55f0a01d700ca5603d17fa3a89536c47b72aa47f753804a9eaa935"
+    },
+    {
+      "path": "regulatory-change-impact-brief/scripts/reconcile.py",
+      "size": 18276,
+      "sha256": "sha256:e34e14898dad4a82938564ad0cb11713a761e4b2d8fc26cc630f876aa4ff56ef"
+    },
+    {
+      "path": "regulatory-change-impact-brief/scripts/registers.py",
+      "size": 7351,
+      "sha256": "sha256:7bfe4d77b3496c7322f8aa87004ce8476c7f50290d772b353d62c759537185fb"
+    },
+    {
+      "path": "regulatory-change-impact-brief/scripts/scope.py",
+      "size": 6736,
+      "sha256": "sha256:badf00e284f0b1170e6b84640c1677ab0e32f78b67eb2e611909fd87940221d0"
+    },
+    {
+      "path": "regulatory-change-impact-brief/scripts/workflow.py",
+      "size": 24956,
+      "sha256": "sha256:8f8ba58ecf59afeb24ebc51f9707944e6551a24d2edd5ec147182d06610ac559"
+    },
+    {
+      "path": "regulatory-change-impact-brief/tests/test_actions.py",
+      "size": 10355,
+      "sha256": "sha256:a8e18b3b860fc979f36e78486bfb9f7cc2d506ab97e24f4b9508d6e807053f88"
+    },
+    {
+      "path": "regulatory-change-impact-brief/tests/test_adaptability.py",
+      "size": 15880,
+      "sha256": "sha256:a42909d0b1f7874536cfdad978f0cfd0c70ccb55585c17847030367707488725"
+    },
+    {
+      "path": "regulatory-change-impact-brief/tests/test_authority.py",
+      "size": 7767,
+      "sha256": "sha256:172aaad92b389e857a9787024105abc2e0d5288049b8d006507549019f49c6c0"
+    },
+    {
+      "path": "regulatory-change-impact-brief/tests/test_capture.py",
+      "size": 11636,
+      "sha256": "sha256:c72fb928aaadeb4eaf7526679c5c1532d6064f8b86d58a42a33bb4cbbf0bd662"
+    },
+    {
+      "path": "regulatory-change-impact-brief/tests/test_impact.py",
+      "size": 11321,
+      "sha256": "sha256:051b519a3b3ec05ce68f283128be6fe5142107c5cebd36103c6353d4f9b5773c"
+    },
+    {
+      "path": "regulatory-change-impact-brief/tests/test_portable.py",
+      "size": 3865,
+      "sha256": "sha256:e451282c12cd8a1bad16f1a31535fdd42e9973b0ae390901179de937600640ba"
+    },
+    {
+      "path": "regulatory-change-impact-brief/tests/test_publication.py",
+      "size": 11379,
+      "sha256": "sha256:b97403afc9ef2cd3769403bfa2bb098141bad9f33a2267a8dda2b2e1f985e7bf"
+    },
+    {
+      "path": "regulatory-change-impact-brief/tests/test_reconcile.py",
+      "size": 9695,
+      "sha256": "sha256:0eff82c034a0abd339f877160bd9360d91ede8ace66112e1d4c335f1ddb06b73"
+    },
+    {
+      "path": "regulatory-change-impact-brief/tests/test_registers.py",
+      "size": 7674,
+      "sha256": "sha256:26cba7f8b4e2b21f5376a8268728d617422e21dab6cafde0eacac2a58f0bfaa7"
+    },
+    {
+      "path": "regulatory-change-impact-brief/tests/test_scope.py",
+      "size": 3073,
+      "sha256": "sha256:caa86b2e33fbca5c81eed1162419ad5d6f128b03902987a6c6b7100c90785dfd"
+    },
+    {
+      "path": "regulatory-change-impact-brief/tests/test_workflow.py",
+      "size": 15955,
+      "sha256": "sha256:c5ae92925d9b5bf84c5031b80f95484003ca1e0b02c4aeb1f1d5a0d2a7703607"
+    },
+    {
+      "path": "snapshot.schema.json",
+      "size": 7936,
+      "sha256": "sha256:8de9874ded18fa97294e83012796e4c386aa60ccfd30f8eca89cabdf2a267ac3"
+    }
+  ],
+  "also_include": "review-evidence/portable-review/ (self excluded to avoid circular hashes)",
+  "untracked_status": [
+    "?? .codex/",
+    "?? .entire/",
+    "?? Project_B_Learner_Assignment_Codex.md",
+    "?? deliverables/",
+    "?? interviews/",
+    "?? references/",
+    "?? regulatory-change-impact-brief/",
+    "?? review-evidence/"
+  ],
+  "limits": "Inventory confirms local presence, not complete interview provenance, facilitator verification, approval or Git submission."
+}

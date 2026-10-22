@@ -1,0 +1,50 @@
+{
+  "id": "source-amend-01",
+  "source_name": "AMEND",
+  "summary": "AMEND document identity/version matched; legal applicability remains unverified.",
+  "evidence_ids": [
+    "e-interview"
+  ],
+  "source_role": "binding-regulation",
+  "authority": "unknown",
+  "locator": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+  "original_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+  "requested_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+  "attempt_number": 1,
+  "route_type": "original",
+  "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+  "http_status": 200,
+  "observed_identity": {
+    "title": "Regulation - EU - 2026/1744 - EN - EUR-Lex",
+    "returned_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AL_202601744",
+    "expected_source": "AMEND",
+    "document_id": "32026R1744",
+    "document_version": "original Official Journal publication",
+    "adoption_date": "2026-07-08",
+    "publication_date": "2026-07-24",
+    "effective_date": null
+  },
+  "retrieved_at": "2026-10-19T01:25:40.138003Z",
+  "retrieval_status": "retrieved",
+  "content_type": "text/html; charset=UTF-8",
+  "version_metadata": {
+    "etag": null,
+    "last_modified": null,
+    "document_version": "original Official Journal publication",
+    "effective_date": null,
+    "note": "HTTP validators are not verified document versions",
+    "document_id": "32026R1744",
+    "adoption_date": "2026-07-08",
+    "publication_date": "2026-07-24"
+  },
+  "content_hash": "sha256:9984204db53ec4649f5e5dc1c8db91a1a1515b030a0d4faa64cc37cadefdd6f6",
+  "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/amend-01.response",
+  "identity_status": "verified",
+  "review_date_suitability": "unverified",
+  "failure": null,
+  "used_for_conclusions": false,
+  "capture_locator": "response bytes 0..609293",
+  "byte_count": 609294,
+  "identity_verification": "Official hostname, visible regulation heading, Article 1 and expected publication/consolidation date",
+  "completed_at": "2026-10-19T01:25:41.139407Z"
+}

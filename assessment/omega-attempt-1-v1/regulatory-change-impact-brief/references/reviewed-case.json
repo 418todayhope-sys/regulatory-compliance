@@ -1,0 +1,208 @@
+{
+  "profile_version": "reviewed-case/1",
+  "purpose": "Configuration identifying the already reviewed interpretation basis. Never a replacement for current source retrieval or proof of approval.",
+  "basis": {
+    "snapshot_id": "snapshot-05fbb5cd-c5c1-421d-a2d6-15a5d0fc0549",
+    "snapshot_sha256": "sha256:334ecf08d4c43e2e3bcf1a08f453448f553723e50487343f50284429248322cb"
+  },
+  "system_fields": [
+    "use_case",
+    "provider_role",
+    "deployer_role",
+    "exposed_group",
+    "output_type",
+    "current_notice",
+    "human_review",
+    "evidence_status"
+  ],
+  "evidence_fields": [
+    "system_id",
+    "record_type",
+    "status",
+    "evidence_ref",
+    "evidence_state",
+    "notes"
+  ],
+  "systems": {
+    "AI-001": {
+      "use_case": "Answers routine learner questions",
+      "provider_role": "no",
+      "deployer_role": "yes",
+      "exposed_group": "learners",
+      "output_type": "direct_interaction",
+      "current_notice": "yes",
+      "human_review": "staff escalation",
+      "evidence_status": "complete"
+    },
+    "AI-002": {
+      "use_case": "Drafts applicant email replies",
+      "provider_role": "no",
+      "deployer_role": "yes",
+      "exposed_group": "applicants",
+      "output_type": "text",
+      "current_notice": "unknown",
+      "human_review": "advisor approval",
+      "evidence_status": "partial"
+    },
+    "AI-003": {
+      "use_case": "Creates public campaign images",
+      "provider_role": "no",
+      "deployer_role": "yes",
+      "exposed_group": "public",
+      "output_type": "synthetic_image",
+      "current_notice": "visible_label",
+      "human_review": "communications approval",
+      "evidence_status": "complete"
+    },
+    "AI-004": {
+      "use_case": "Provides spoken practice feedback",
+      "provider_role": "no",
+      "deployer_role": "yes",
+      "exposed_group": "learners",
+      "output_type": "direct_interaction",
+      "current_notice": "no",
+      "human_review": "instructor escalation",
+      "evidence_status": "complete"
+    },
+    "AI-005": {
+      "use_case": "Flags assessment sessions for review",
+      "provider_role": "unknown",
+      "deployer_role": "yes",
+      "exposed_group": "learners",
+      "output_type": "classification",
+      "current_notice": "yes",
+      "human_review": "human adjudication",
+      "evidence_status": "stale"
+    },
+    "AI-006": {
+      "use_case": "Summarizes internal meeting notes",
+      "provider_role": "no",
+      "deployer_role": "yes",
+      "exposed_group": "staff",
+      "output_type": "text",
+      "current_notice": "not_applicable",
+      "human_review": "author review",
+      "evidence_status": "complete"
+    },
+    "AI-007": {
+      "use_case": "Answers public programme questions",
+      "provider_role": "no",
+      "deployer_role": "yes",
+      "exposed_group": "public",
+      "output_type": "direct_interaction",
+      "current_notice": "no",
+      "human_review": "marketing escalation",
+      "evidence_status": "conflicting"
+    },
+    "AI-008": {
+      "use_case": "Generates dubbed public programme videos",
+      "provider_role": "no",
+      "deployer_role": "yes",
+      "exposed_group": "public",
+      "output_type": "synthetic_audio_video",
+      "current_notice": "visible_label",
+      "human_review": "communications approval",
+      "evidence_status": "partial"
+    }
+  },
+  "evidence": {
+    "REC-001": {
+      "system_id": "AI-001",
+      "record_type": "evidence",
+      "status": "closed",
+      "evidence_ref": "notice-screen-v3",
+      "evidence_state": "complete",
+      "notes": "Notice screenshot and release record agree"
+    },
+    "REC-002": {
+      "system_id": "AI-002",
+      "record_type": "evidence_gap",
+      "status": "open",
+      "evidence_ref": "applicant-email-sample",
+      "evidence_state": "missing",
+      "notes": "No evidence that recipients are told when generated text is used"
+    },
+    "REC-003": {
+      "system_id": "AI-003",
+      "record_type": "incident",
+      "status": "open",
+      "evidence_ref": "social-post-884",
+      "evidence_state": "conflicting",
+      "notes": "Visible label exists but exported platform copy may have lost metadata"
+    },
+    "REC-004": {
+      "system_id": "AI-004",
+      "record_type": "incident",
+      "status": "open",
+      "evidence_ref": "coach-onboarding-v2",
+      "evidence_state": "complete",
+      "notes": "First interaction contains no AI notice"
+    },
+    "REC-005": {
+      "system_id": "AI-005",
+      "record_type": "evidence_gap",
+      "status": "open",
+      "evidence_ref": "provider-role-questionnaire",
+      "evidence_state": "stale",
+      "notes": "Provider role questionnaire predates the current release"
+    },
+    "REC-006": {
+      "system_id": "AI-005",
+      "record_type": "evidence",
+      "status": "open",
+      "evidence_ref": "human-review-sop-v4",
+      "evidence_state": "complete",
+      "notes": "Flag never makes the final assessment decision"
+    },
+    "REC-007": {
+      "system_id": "AI-006",
+      "record_type": "evidence",
+      "status": "closed",
+      "evidence_ref": "internal-use-review",
+      "evidence_state": "complete",
+      "notes": "Tool is restricted to staff workspace"
+    },
+    "REC-008": {
+      "system_id": "AI-007",
+      "record_type": "incident",
+      "status": "open",
+      "evidence_ref": "avatar-page-capture",
+      "evidence_state": "conflicting",
+      "notes": "Owner says a banner exists but the current capture shows none"
+    },
+    "REC-009": {
+      "system_id": "AI-008",
+      "record_type": "evidence",
+      "status": "open",
+      "evidence_ref": "localisation-export-test",
+      "evidence_state": "partial",
+      "notes": "Visible label verified but machine-readable provenance not checked"
+    },
+    "REC-010": {
+      "system_id": "AI-008",
+      "record_type": "exception_request",
+      "status": "draft",
+      "evidence_ref": "exception-draft-008",
+      "evidence_state": "missing",
+      "notes": "No Legal approval or expiry date recorded"
+    }
+  },
+  "contexts": {
+    "Internal AI-use policy": "# Internal AI-use policy\n\nPolicy version: `AI-POL-2026-08-15`\n\n",
+    "Purpose": "## Purpose\n\nQuillhaven Academy uses AI only when the responsible owner can explain the use, preserve evidence, and route consequential decisions to an authorized human.\n\n",
+    "Learner and public transparency": "## Learner and public transparency\n\n- A person directly interacting with an AI system must receive a clear notice before or at the first interaction unless the AI nature is obvious from the context.\n- Public synthetic images, audio, or video must retain machine-readable provenance when the tool supports it. The Communications owner also requires a visible label unless Legal approves a documented exception.\n- Staff-only drafting tools are not automatically treated as public interactions. The owner must still record how generated material reaches learners or the public.\n\n",
+    "Evidence and exceptions": "## Evidence and exceptions\n\n- Each registered system must have a current owner, use description, exposed group, disclosure status, human-review path, and evidence reference.\n- `missing`, `stale`, `conflicting`, and `not-applicable` are different evidence states. Missing evidence must not be converted to compliance or non-compliance.\n- An exception requires a named owner, rationale, expiry date, and Legal approval. The automation may draft an exception request but may not approve it.\n\n",
+    "Approval boundary": "## Approval boundary\n\nLegal owns final interpretation of the EU AI Act. Operations owns policy activation and operational deadlines. System owners correct evidence. The automation may prepare a draft impact package and proposed actions; it may not give final legal advice, activate policy, change a production deadline, close an incident, or submit an official response.\n\n",
+    "Article 50 review — company operating facts": "# Article 50 review — company operating facts\n\nContext revision: `RC-CONTEXT-2026-09-12-R1`\n\nBusiness observation date: 26 August 2026. Authoring clarification date: 12 September 2026. These case dates are separate from the date a learner retrieves the sources.\n\nPrepared by Operations with the named system owners for the current review. These are authored facts for the fictional Quillhaven training case, not statements about a real company or a Legal decision. This context supplements the unchanged `AI-POL-2026-08-15` policy and the dated system, evidence and action registers. It does not revise their recorded notices, evidence states, proposed dates or approvals.\n\n",
+    "Operating scope": "## Operating scope\n\nThis review concerns Quillhaven Academy's EU programme team operating from Dublin, Ireland. That team administers all eight registered uses for its professional work; the learners, applicants and staff concerned include people in Ireland, and the public campaign and programme outputs are used there. None of these uses is personal, military, national-security or law-enforcement activity. The systems are operating services, not research-only prototypes.\n\nFor AI-001, AI-002, AI-003, AI-004, AI-006, AI-007 and AI-008, Quillhaven licenses and operates a third-party supplier's existing AI product. It did not develop or commission development of that product, distribute it as its own AI product, or place it into service under its own product name or trademark. The register's system names are internal inventory labels. Company content, ordinary settings and website placement do not describe a separately developed Quillhaven AI product. The current AI-005 release's development, commissioning and product-branding records are still awaiting the Assessment Operations owner refresh; the old questionnaire does not resolve them.\n\n",
+    "AI-001": "### AI-001\n\nLearners exchange questions and generated replies directly with the licensed support chat. It does not classify biometric data or infer emotions or intentions. The existing notice and evidence reports remain the source for disclosure practice.\n\n",
+    "AI-002": "### AI-002\n\nStaff use the drafting product privately. An admissions advisor reviews and edits a draft before personally sending an individual applicant email; applicants do not converse with the AI product. These are individual administrative replies, not material published to inform the public about matters of public interest.\n\n",
+    "AI-003": "### AI-003\n\nThe current campaign uses visibly illustrated fictional classroom scenes. They are not depictions of an existing person, campus, object or event presented as an authentic photograph or recording. The supplier's product generates images from prompts; this use is not limited to minor correction of supplied images. The published-copy metadata conflict in REC-003 remains unresolved.\n\n",
+    "AI-004": "### AI-004\n\nLearners interact directly with the licensed spoken-practice product and receive pronunciation feedback. It evaluates spoken pronunciation; it is not used to identify or infer emotions or intentions or to assign people to categories from biometric data. The missing first-interaction notice remains as reported.\n\n",
+    "AI-005": "### AI-005\n\nThe product flags assessment-session activity for a human reviewer and never makes the final assessment decision. Current-release documentation has not yet established whether the flagging uses biometric data to infer emotions, intentions or personal categories. Assessment Operations must supply those facts together with the current development and release records; a human-review step does not settle them.\n\n",
+    "AI-006": "### AI-006\n\nStaff generate internal meeting summaries within the restricted staff workspace. The summaries are not published or sent to applicants, learners or the general public. They do not involve generated or manipulated images, audio or video.\n\n",
+    "AI-007": "### AI-007\n\nVisitors converse directly with the licensed website guide. Its visible character is an obviously stylized fictional graphic, not a likeness or recording of an existing person. The graphic alone does not establish what visitors understand about the conversation. The owner/banner and current-capture conflict in REC-008 remains unresolved.\n\n",
+    "AI-008": "### AI-008\n\nCommunications uses the supplier's product to create translated speech and adjusted lip movements for recorded programme presenters. The presenters are real people; the altered recording makes them appear to speak words in a language they did not actually record, and a viewer could mistake it for an authentic recording without disclosure. The videos communicate programme information, not an evidently artistic, satirical or fictional performance. The visible-label report, untested provenance and unapproved exception request remain exactly as recorded.\n\n",
+    "Product timing and evidence limits": "## Product timing and evidence limits\n\nThe suppliers' product-release notices held by Operations report that the currently licensed image-generation product used for AI-003 and audio/video-generation product used for AI-008 were first offered commercially in the EU on 1 June 2026. These are product market-entry dates, not the dates Quillhaven exported or published individual images or videos. They do not identify Quillhaven as the supplier. Current release and market-entry evidence for AI-005 remains unavailable.\n\nThis document records owner-supplied operating facts. It does not replace missing screenshots, prove provenance metadata survived publication, refresh stale evidence, authorize an exception or settle statutory applicability. No Legal approval, expiry date, activated policy or new operational deadline is supplied. Legal reviews the learner's supported interpretation; system owners resolve the specifically identified factual gaps.\n"
+  }
+}

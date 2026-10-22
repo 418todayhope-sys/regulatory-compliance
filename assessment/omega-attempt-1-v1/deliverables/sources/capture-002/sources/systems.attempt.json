@@ -1,0 +1,37 @@
+{
+  "id": "source-systems",
+  "source_name": "SYSTEMS",
+  "summary": "Live attempt for SYSTEMS; document suitability remains unverified.",
+  "evidence_ids": [
+    "e-interview"
+  ],
+  "source_role": "operational-record",
+  "authority": "unknown",
+  "locator": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU",
+  "retrieved_at": "2026-10-19T01:08:52.191785Z",
+  "retrieval_status": "unverified",
+  "content_type": "text/html; charset=utf-8",
+  "version_metadata": {
+    "etag": null,
+    "last_modified": null,
+    "document_version": null,
+    "effective_date": null,
+    "note": "HTTP validators are not verified document versions"
+  },
+  "content_hash": "sha256:6a6a8c0c94e674f53c1c366ba474d5920b89384c49909996325420e42d3c0044",
+  "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-002/sources/systems.response",
+  "identity_status": "unverified",
+  "review_date_suitability": "unverified",
+  "failure": null,
+  "used_for_conclusions": false,
+  "http_status": 200,
+  "final_url": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU/edit",
+  "observed_identity": {
+    "title": "Project B \u2014 AI System Register - Google Sheets",
+    "returned_url": "https://docs.google.com/spreadsheets/d/10ky745H_1h9XbGCXPJsiRp5yfdeU08TZtmrsCMinGgU/edit",
+    "expected_source": "SYSTEMS"
+  },
+  "capture_locator": "response bytes 0..239110",
+  "byte_count": 239111,
+  "completed_at": "2026-10-19T01:08:52.962053Z"
+}

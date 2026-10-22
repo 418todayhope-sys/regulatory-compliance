@@ -1,0 +1,11 @@
+{
+  "recorded_at": "2026-10-19T03:05:15.636745+00:00",
+  "python": "3.12.3",
+  "platform": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "dependencies": {
+    "jsonschema": "4.10.3"
+  },
+  "base_git_revision": "a3e06d265cdcf3163c200f29000c8c15b3c483e3",
+  "working_tree": "Implementation and evidence are untracked; inventory.json binds reviewed code bytes, not a committed revision.",
+  "network": "No live captures; regression tests use controlled transports."
+}

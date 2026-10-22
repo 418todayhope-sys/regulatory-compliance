@@ -1,0 +1,41 @@
+{
+  "id": "source-faq-01",
+  "source_name": "FAQ",
+  "summary": "Live attempt for FAQ; document suitability remains unverified.",
+  "evidence_ids": [
+    "e-interview"
+  ],
+  "source_role": "official-guidance",
+  "authority": "unknown",
+  "locator": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+  "original_url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+  "requested_url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+  "attempt_number": 1,
+  "route_type": "original",
+  "final_url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+  "http_status": 200,
+  "observed_identity": {
+    "title": "Transparency obligations under Article 50 of the AI Act | Shaping Europe\u2019s digital future",
+    "returned_url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+    "expected_source": "FAQ"
+  },
+  "retrieved_at": "2026-10-19T01:25:42.839718Z",
+  "retrieval_status": "unverified",
+  "content_type": "text/html; charset=UTF-8",
+  "version_metadata": {
+    "etag": "W/\"1792371626-gzip\"",
+    "last_modified": "Mon, 19 Oct 2026 01:00:26 GMT",
+    "document_version": null,
+    "effective_date": null,
+    "note": "HTTP validators are not verified document versions"
+  },
+  "content_hash": "sha256:1645486bab850cdee45e9068c5358a21dc9a8389257bb35628a9feabee5c993d",
+  "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-004/sources/faq-01.response",
+  "identity_status": "unverified",
+  "review_date_suitability": "unverified",
+  "failure": null,
+  "used_for_conclusions": false,
+  "capture_locator": "response bytes 0..76033",
+  "byte_count": 76034,
+  "completed_at": "2026-10-19T01:25:43.300303Z"
+}

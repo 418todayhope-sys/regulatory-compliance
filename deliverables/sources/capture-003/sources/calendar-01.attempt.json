@@ -1,0 +1,41 @@
+{
+  "id": "source-calendar-01",
+  "source_name": "CALENDAR",
+  "summary": "Live attempt for CALENDAR; document suitability remains unverified.",
+  "evidence_ids": [
+    "e-interview"
+  ],
+  "source_role": "operational-record",
+  "authority": "unknown",
+  "locator": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+  "original_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+  "requested_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA",
+  "attempt_number": 1,
+  "route_type": "original",
+  "final_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA/edit",
+  "http_status": 200,
+  "observed_identity": {
+    "title": "Project B \u2014 Compliance Calendar - Google Sheets",
+    "returned_url": "https://docs.google.com/spreadsheets/d/1xtXl_P7Yb9LaECZjjgtlyI-idoAJTAhH-1gQ4vQaCGA/edit",
+    "expected_source": "CALENDAR"
+  },
+  "retrieved_at": "2026-10-19T01:18:33.481299Z",
+  "retrieval_status": "unverified",
+  "content_type": "text/html; charset=utf-8",
+  "version_metadata": {
+    "etag": null,
+    "last_modified": null,
+    "document_version": null,
+    "effective_date": null,
+    "note": "HTTP validators are not verified document versions"
+  },
+  "content_hash": "sha256:c37117ae50f37901bcaf7750ec4474eef0c84df742ad74f03b79d159b69c6b49",
+  "local_reference": "/home/maxg/regulatory-compliance/deliverables/sources/capture-003/sources/calendar-01.response",
+  "identity_status": "unverified",
+  "review_date_suitability": "unverified",
+  "failure": null,
+  "used_for_conclusions": false,
+  "capture_locator": "response bytes 0..235962",
+  "byte_count": 235963,
+  "completed_at": "2026-10-19T01:18:34.170054Z"
+}
