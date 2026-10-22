@@ -68,5 +68,5 @@ Exclude the twelve mapped original HTML paths, earlier assessment exports,
 root `review-evidence/`, `.codex/`, `.entire/`, Python caches and private backups
 from proposed staging. Keep all Entire refs private: the local Entire branch
 contains sensitive captures. No all-branch or mirror publication is appropriate.
-The Omega revision remains local and uncommitted until separately authorized;
+The Omega revision is committed locally; it has not been pushed or submitted.
 the grading branch/revision and facilitator access still need confirmation.
